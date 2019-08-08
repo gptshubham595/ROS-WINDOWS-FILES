@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: joint_state_publisher
+Description: Description of joint_state_publisher
+Version: 1.12.13
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

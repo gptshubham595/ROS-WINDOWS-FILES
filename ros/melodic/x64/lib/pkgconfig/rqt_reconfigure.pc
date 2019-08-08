@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: rqt_reconfigure
+Description: Description of rqt_reconfigure
+Version: 0.4.10
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

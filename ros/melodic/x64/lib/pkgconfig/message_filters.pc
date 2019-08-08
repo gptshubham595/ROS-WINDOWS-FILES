@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: message_filters
+Description: Description of message_filters
+Version: 1.14.3
+Cflags: -IC:/opt/ros/melodic/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lmessage_filters
+Requires: roscpp rosconsole

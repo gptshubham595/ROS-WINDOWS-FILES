@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: rotate_recovery
+Description: Description of rotate_recovery
+Version: 1.16.2
+Cflags: -IC:/opt/ros/melodic/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lrotate_recovery
+Requires: costmap_2d geometry_msgs nav_core pluginlib roscpp tf2 tf2_ros

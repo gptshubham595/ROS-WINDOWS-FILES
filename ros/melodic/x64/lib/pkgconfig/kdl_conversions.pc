@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: kdl_conversions
+Description: Description of kdl_conversions
+Version: 1.12.0
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include -IC:/opt/rosdeps/x64/include/eigen3
+Libs: -LC:/opt/ros/melodic/x64/lib -lkdl_conversions C:/opt/ros/melodic/x64/lib/orocos-kdl.lib
+Requires: geometry_msgs

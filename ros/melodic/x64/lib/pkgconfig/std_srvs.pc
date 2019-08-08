@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: std_srvs
+Description: Description of std_srvs
+Version: 1.11.2
+Cflags: -IC:/opt/ros/melodic/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: message_runtime

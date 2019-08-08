@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: tf2_geometry_msgs
+Description: Description of tf2_geometry_msgs
+Version: 0.6.5
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include -IC:/opt/rosdeps/x64/include/eigen3
+Libs: -LC:/opt/ros/melodic/x64/lib C:/opt/ros/melodic/x64/lib/orocos-kdl.lib
+Requires: geometry_msgs tf2_ros tf2

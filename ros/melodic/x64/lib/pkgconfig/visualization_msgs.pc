@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: visualization_msgs
+Description: Description of visualization_msgs
+Version: 1.12.7
+Cflags: -IC:/opt/ros/melodic/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: geometry_msgs message_runtime std_msgs

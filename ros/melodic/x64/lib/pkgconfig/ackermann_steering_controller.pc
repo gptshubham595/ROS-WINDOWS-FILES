@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: ackermann_steering_controller
+Description: Description of ackermann_steering_controller
+Version: 0.14.3
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/boost-1_66
+Libs: -LC:/opt/ros/melodic/x64/lib -lackermann_steering_controller C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib
+Requires: controller_interface diff_drive_controller hardware_interface nav_msgs realtime_tools roscpp tf

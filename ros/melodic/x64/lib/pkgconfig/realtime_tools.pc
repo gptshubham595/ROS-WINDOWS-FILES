@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: realtime_tools
+Description: Description of realtime_tools
+Version: 1.13.1
+Cflags: -IC:/opt/ros/melodic/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lrealtime_tools
+Requires: roscpp rospy

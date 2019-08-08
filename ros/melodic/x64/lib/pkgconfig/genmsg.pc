@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: genmsg
+Description: Description of genmsg
+Version: 0.5.12
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: genpy
+Description: Description of genpy
+Version: 0.6.8
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: genmsg

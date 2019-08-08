@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: gennodejs
+Description: Description of gennodejs
+Version: 2.0.1
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: genmsg

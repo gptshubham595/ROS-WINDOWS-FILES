@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: fake_localization
+Description: Description of fake_localization
+Version: 1.16.2
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: geometry_msgs nav_msgs roscpp rospy

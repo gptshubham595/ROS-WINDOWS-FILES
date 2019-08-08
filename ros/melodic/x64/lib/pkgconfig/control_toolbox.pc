@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: control_toolbox
+Description: Description of control_toolbox
+Version: 1.17.0
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lcontrol_toolbox C:/opt/rosdeps/x64/lib/tinyxml.lib
+Requires: control_msgs dynamic_reconfigure message_runtime realtime_tools roscpp std_msgs

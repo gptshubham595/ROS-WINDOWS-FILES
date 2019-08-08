@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: urdf_sim_tutorial
+Description: Description of urdf_sim_tutorial
+Version: 0.4.0
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

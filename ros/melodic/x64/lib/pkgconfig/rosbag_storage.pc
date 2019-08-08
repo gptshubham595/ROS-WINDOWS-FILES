@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: rosbag_storage
+Description: Description of rosbag_storage
+Version: 1.14.3
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include -IC:/opt/rosdeps/x64/include/boost-1_66
+Libs: -LC:/opt/ros/melodic/x64/lib -lrosbag_storage C:/opt/rosdeps/x64/lib/console_bridge.lib C:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_program_options-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_regex-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib
+Requires: pluginlib roslz4

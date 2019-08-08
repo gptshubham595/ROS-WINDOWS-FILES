@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: roslz4
+Description: Description of roslz4
+Version: 1.14.3
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lroslz4 C:/opt/rosdeps/x64/lib/lz4.lib
+Requires: 

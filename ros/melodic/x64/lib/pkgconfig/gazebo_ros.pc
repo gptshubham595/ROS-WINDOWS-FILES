@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: gazebo_ros
+Description: Description of gazebo_ros
+Version: 2.8.4
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lgazebo_ros_api_plugin -lgazebo_ros_paths_plugin C:/opt/rosdeps/x64/lib/tinyxml.lib
+Requires: roslib roscpp geometry_msgs std_srvs tf rosgraph_msgs dynamic_reconfigure std_msgs gazebo_msgs

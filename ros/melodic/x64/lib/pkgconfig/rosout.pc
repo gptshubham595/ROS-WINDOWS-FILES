@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: rosout
+Description: Description of rosout
+Version: 1.14.3
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

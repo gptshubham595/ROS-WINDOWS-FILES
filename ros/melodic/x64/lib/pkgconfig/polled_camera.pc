@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: polled_camera
+Description: Description of polled_camera
+Version: 1.11.13
+Cflags: -IC:/opt/ros/melodic/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lpolled_camera
+Requires: image_transport message_runtime roscpp sensor_msgs std_msgs

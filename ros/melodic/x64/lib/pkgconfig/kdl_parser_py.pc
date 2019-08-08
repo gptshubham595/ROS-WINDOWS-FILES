@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: kdl_parser_py
+Description: Description of kdl_parser_py
+Version: 1.13.1
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: urdfdom_py

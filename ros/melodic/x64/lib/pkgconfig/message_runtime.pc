@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: message_runtime
+Description: Description of message_runtime
+Version: 0.4.12
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: cpp_common roscpp_serialization roscpp_traits rostime

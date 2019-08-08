@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: voxel_grid
+Description: Description of voxel_grid
+Version: 1.16.2
+Cflags: -IC:/opt/ros/melodic/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lvoxel_grid
+Requires: roscpp

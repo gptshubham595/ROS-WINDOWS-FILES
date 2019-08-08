@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: gl_dependency
+Description: Description of gl_dependency
+Version: 1.1.0
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

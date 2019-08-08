@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: cpp_common
+Description: Description of cpp_common
+Version: 0.6.12
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/boost-1_66 -IC:/opt/rosdeps/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lcpp_common C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/console_bridge.lib
+Requires: 

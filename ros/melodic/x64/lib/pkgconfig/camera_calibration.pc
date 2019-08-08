@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: camera_calibration
+Description: Description of camera_calibration
+Version: 1.12.23
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

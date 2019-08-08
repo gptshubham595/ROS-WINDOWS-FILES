@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: pcl_conversions
+Description: Description of pcl_conversions
+Version: 1.6.2
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/eigen3 -IC:/opt/rosdeps/x64/include/pcl-1.8 -IC:/opt/rosdeps/x64/include/boost-1_66
+Libs: -LC:/opt/ros/melodic/x64/lib C:/opt/rosdeps/x64/lib/pcl_common_release.lib C:/opt/rosdeps/x64/lib/pcl_octree_release.lib C:/opt/rosdeps/x64/lib/pcl_io_release.lib C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_iostreams-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_serialization-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_regex-vc141-mt-x64-1_66.lib
+Requires: pcl_msgs roscpp sensor_msgs std_msgs

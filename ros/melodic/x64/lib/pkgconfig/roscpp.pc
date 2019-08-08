@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: roscpp
+Description: Description of roscpp
+Version: 1.14.3
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/boost-1_66
+Libs: -LC:/opt/ros/melodic/x64/lib -lroscpp C:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib
+Requires: cpp_common message_runtime rosconsole roscpp_serialization roscpp_traits rosgraph_msgs rostime std_msgs xmlrpcpp

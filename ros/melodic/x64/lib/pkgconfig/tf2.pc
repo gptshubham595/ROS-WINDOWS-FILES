@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: tf2
+Description: Description of tf2
+Version: 0.6.5
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -ltf2 C:/opt/rosdeps/x64/lib/console_bridge.lib
+Requires: geometry_msgs tf2_msgs rostime

@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: rosnode
+Description: Description of rosnode
+Version: 1.14.3
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: transmission_interface
+Description: Description of transmission_interface
+Version: 0.15.1
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -ltransmission_interface_parser -ltransmission_interface_loader -ltransmission_interface_loader_plugins C:/opt/rosdeps/x64/lib/tinyxml.lib
+Requires: pluginlib roscpp

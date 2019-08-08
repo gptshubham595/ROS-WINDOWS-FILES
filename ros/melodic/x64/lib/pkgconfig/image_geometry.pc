@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: image_geometry
+Description: Description of image_geometry
+Version: 1.12.8
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include -IC:/opt/rosdeps/x64/include/opencv
+Libs: -LC:/opt/ros/melodic/x64/lib -limage_geometry C:/opt/rosdeps/x64/lib/opencv_calib3d341.lib C:/opt/rosdeps/x64/lib/opencv_core341.lib C:/opt/rosdeps/x64/lib/opencv_dnn341.lib C:/opt/rosdeps/x64/lib/opencv_features2d341.lib C:/opt/rosdeps/x64/lib/opencv_flann341.lib C:/opt/rosdeps/x64/lib/opencv_highgui341.lib C:/opt/rosdeps/x64/lib/opencv_imgcodecs341.lib C:/opt/rosdeps/x64/lib/opencv_imgproc341.lib C:/opt/rosdeps/x64/lib/opencv_ml341.lib C:/opt/rosdeps/x64/lib/opencv_objdetect341.lib C:/opt/rosdeps/x64/lib/opencv_photo341.lib C:/opt/rosdeps/x64/lib/opencv_shape341.lib C:/opt/rosdeps/x64/lib/opencv_stitching341.lib C:/opt/rosdeps/x64/lib/opencv_superres341.lib C:/opt/rosdeps/x64/lib/opencv_video341.lib C:/opt/rosdeps/x64/lib/opencv_videoio341.lib C:/opt/rosdeps/x64/lib/opencv_videostab341.lib
+Requires: sensor_msgs

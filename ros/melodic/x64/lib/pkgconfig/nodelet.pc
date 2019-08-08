@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: nodelet
+Description: Description of nodelet
+Version: 1.9.16
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/boost-1_66
+Libs: -LC:/opt/ros/melodic/x64/lib -lnodeletlib
+Requires: bondcpp message_runtime pluginlib rosconsole roscpp std_msgs

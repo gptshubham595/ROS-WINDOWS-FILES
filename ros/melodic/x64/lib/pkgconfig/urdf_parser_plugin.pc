@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: urdf_parser_plugin
+Description: Description of urdf_parser_plugin
+Version: 1.13.1
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

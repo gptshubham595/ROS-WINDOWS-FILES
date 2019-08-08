@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: smach_ros
+Description: Description of smach_ros
+Version: 2.0.1
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: rospy rostopic std_msgs std_srvs actionlib actionlib_msgs smach smach_msgs

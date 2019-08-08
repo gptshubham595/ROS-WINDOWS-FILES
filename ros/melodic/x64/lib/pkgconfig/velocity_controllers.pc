@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: velocity_controllers
+Description: Description of velocity_controllers
+Version: 0.14.3
+Cflags: -IC:/opt/ros/melodic/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lvelocity_controllers
+Requires: angles control_msgs control_toolbox controller_interface forward_command_controller realtime_tools urdf

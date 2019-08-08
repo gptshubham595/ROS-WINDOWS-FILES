@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: joint_limits_interface
+Description: Description of joint_limits_interface
+Version: 0.15.1
+Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib C:/opt/rosdeps/x64/lib/urdfdom_sensor.lib C:/opt/rosdeps/x64/lib/urdfdom_model_state.lib C:/opt/rosdeps/x64/lib/urdfdom_model.lib C:/opt/rosdeps/x64/lib/urdfdom_world.lib C:/opt/rosdeps/x64/lib/console_bridge.lib
+Requires: hardware_interface roscpp urdf

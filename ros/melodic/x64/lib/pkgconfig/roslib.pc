@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: roslib
+Description: Description of roslib
+Version: 1.14.6
+Cflags: -IC:/opt/ros/melodic/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lroslib
+Requires: rospack

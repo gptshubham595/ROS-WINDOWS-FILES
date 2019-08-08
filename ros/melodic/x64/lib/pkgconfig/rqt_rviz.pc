@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: rqt_rviz
+Description: Description of rqt_rviz
+Version: 0.6.0
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib -lrqt_rviz
+Requires: rqt_gui rqt_gui_cpp rviz

@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: rqt_runtime_monitor
+Description: Description of rqt_runtime_monitor
+Version: 0.5.7
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

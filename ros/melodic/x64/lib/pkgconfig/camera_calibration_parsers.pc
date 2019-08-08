@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: camera_calibration_parsers
+Description: Description of camera_calibration_parsers
+Version: 1.11.13
+Cflags: -IC:/opt/ros/melodic/x64/include
+Libs: -LC:/opt/ros/melodic/x64/lib -lcamera_calibration_parsers
+Requires: sensor_msgs

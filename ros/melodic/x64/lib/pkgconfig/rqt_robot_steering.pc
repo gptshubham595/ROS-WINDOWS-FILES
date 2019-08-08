@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: rqt_robot_steering
+Description: Description of rqt_robot_steering
+Version: 0.5.9
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

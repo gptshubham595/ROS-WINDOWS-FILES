@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: qwt_dependency
+Description: Description of qwt_dependency
+Version: 1.1.0
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 
