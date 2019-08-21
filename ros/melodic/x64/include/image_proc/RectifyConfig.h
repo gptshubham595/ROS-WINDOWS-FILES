@@ -69,7 +69,7 @@ namespace image_proc
         field(a_f)
       {}
 
-      T (RectifyConfig::* field);
+      T RectifyConfig::* field;
 
       virtual void clamp(RectifyConfig &config, const RectifyConfig &max, const RectifyConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace image_proc
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<RectifyConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 
@@ -397,9 +397,9 @@ RectifyConfig::GroupDescription<RectifyConfig::DEFAULT, RectifyConfig> Default("
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       __default__.interpolation = 1;
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(RectifyConfig::AbstractParamDescriptionConstPtr(new RectifyConfig::ParamDescription<int>("interpolation", "int", 0, "Interpolation algorithm between source image pixels", "{'enum_description': 'interpolation type', 'enum': [{'srcline': 9, 'description': 'Nearest neighbor', 'srcfile': 'D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'NN'}, {'srcline': 10, 'description': 'Linear', 'srcfile': 'D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Linear'}, {'srcline': 11, 'description': 'Cubic', 'srcfile': 'D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Cubic'}, {'srcline': 12, 'description': 'Lanczos4', 'srcfile': 'D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 4, 'ctype': 'int', 'type': 'int', 'name': 'Lanczos4'}]}", &RectifyConfig::interpolation)));
+      Default.abstract_parameters.push_back(RectifyConfig::AbstractParamDescriptionConstPtr(new RectifyConfig::ParamDescription<int>("interpolation", "int", 0, "Interpolation algorithm between source image pixels", "{'enum_description': 'interpolation type', 'enum': [{'srcline': 9, 'description': 'Nearest neighbor', 'srcfile': 'C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'NN'}, {'srcline': 10, 'description': 'Linear', 'srcfile': 'C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Linear'}, {'srcline': 11, 'description': 'Cubic', 'srcfile': 'C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Cubic'}, {'srcline': 12, 'description': 'Lanczos4', 'srcfile': 'C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 4, 'ctype': 'int', 'type': 'int', 'name': 'Lanczos4'}]}", &RectifyConfig::interpolation)));
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
-      __param_descriptions__.push_back(RectifyConfig::AbstractParamDescriptionConstPtr(new RectifyConfig::ParamDescription<int>("interpolation", "int", 0, "Interpolation algorithm between source image pixels", "{'enum_description': 'interpolation type', 'enum': [{'srcline': 9, 'description': 'Nearest neighbor', 'srcfile': 'D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'NN'}, {'srcline': 10, 'description': 'Linear', 'srcfile': 'D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Linear'}, {'srcline': 11, 'description': 'Cubic', 'srcfile': 'D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Cubic'}, {'srcline': 12, 'description': 'Lanczos4', 'srcfile': 'D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 4, 'ctype': 'int', 'type': 'int', 'name': 'Lanczos4'}]}", &RectifyConfig::interpolation)));
+      __param_descriptions__.push_back(RectifyConfig::AbstractParamDescriptionConstPtr(new RectifyConfig::ParamDescription<int>("interpolation", "int", 0, "Interpolation algorithm between source image pixels", "{'enum_description': 'interpolation type', 'enum': [{'srcline': 9, 'description': 'Nearest neighbor', 'srcfile': 'C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'NN'}, {'srcline': 10, 'description': 'Linear', 'srcfile': 'C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Linear'}, {'srcline': 11, 'description': 'Cubic', 'srcfile': 'C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 2, 'ctype': 'int', 'type': 'int', 'name': 'Cubic'}, {'srcline': 12, 'description': 'Lanczos4', 'srcfile': 'C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg', 'cconsttype': 'const int', 'value': 4, 'ctype': 'int', 'type': 'int', 'name': 'Lanczos4'}]}", &RectifyConfig::interpolation)));
 //#line 246 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       Default.convertParams();
 //#line 246 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
@@ -479,13 +479,13 @@ RectifyConfig::GroupDescription<RectifyConfig::DEFAULT, RectifyConfig> Default("
     return statics;
   }
 
-//#line 9 "D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg"
+//#line 9 "C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg"
       const int Rectify_NN = 0;
-//#line 10 "D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg"
+//#line 10 "C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg"
       const int Rectify_Linear = 1;
-//#line 11 "D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg"
+//#line 11 "C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg"
       const int Rectify_Cubic = 2;
-//#line 12 "D:/a/1/a/_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg"
+//#line 12 "C:/catkin_ws/src/image_pipeline/image_proc/cfg/Rectify.cfg"
       const int Rectify_Lanczos4 = 4;
 }
 

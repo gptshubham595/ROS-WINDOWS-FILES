@@ -24,7 +24,7 @@
     (:DEFAULT_HEARTBEAT_TIMEOUT . 4.0)
     (:DEFAULT_DISCONNECT_TIMEOUT . 2.0)
     (:DEFAULT_HEARTBEAT_PERIOD . 1.0)
-    (:DISABLE_HEARTBEAT_TIMEOUT_PARAM . /bond_disable_heartbeat_timeout))
+    (:DISABLE_HEARTBEAT_TIMEOUT_PARAM . "/bond_disable_heartbeat_timeout"))
 )
 (cl:defmethod roslisp-msg-protocol:symbol-codes ((msg-type (cl:eql 'Constants)))
     "Constants for message type 'Constants"
@@ -33,7 +33,7 @@
     (:DEFAULT_HEARTBEAT_TIMEOUT . 4.0)
     (:DEFAULT_DISCONNECT_TIMEOUT . 2.0)
     (:DEFAULT_HEARTBEAT_PERIOD . 1.0)
-    (:DISABLE_HEARTBEAT_TIMEOUT_PARAM . /bond_disable_heartbeat_timeout))
+    (:DISABLE_HEARTBEAT_TIMEOUT_PARAM . "/bond_disable_heartbeat_timeout"))
 )
 (cl:defmethod roslisp-msg-protocol:serialize ((msg <Constants>) ostream)
   "Serializes a message object of type '<Constants>"

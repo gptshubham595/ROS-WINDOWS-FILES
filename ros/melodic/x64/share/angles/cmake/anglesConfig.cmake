@@ -67,8 +67,8 @@ set(angles_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(angles_SOURCE_PREFIX D:/a/1/a/_ws/src/angles/angles)
-  set(angles_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/angles)
+  set(angles_SOURCE_PREFIX C:/catkin_ws/src/angles/angles)
+  set(angles_DEVEL_PREFIX C:/catkin_ws/devel_isolated/angles)
   set(angles_INSTALL_PREFIX "")
   set(angles_PREFIX ${angles_DEVEL_PREFIX})
 else()

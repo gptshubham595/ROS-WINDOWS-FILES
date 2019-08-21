@@ -67,8 +67,8 @@ set(bondpy_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(bondpy_SOURCE_PREFIX D:/a/1/a/_ws/src/bond_core/bondpy)
-  set(bondpy_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/bondpy)
+  set(bondpy_SOURCE_PREFIX C:/catkin_ws/src/bond_core/bondpy)
+  set(bondpy_DEVEL_PREFIX C:/catkin_ws/devel_isolated/bondpy)
   set(bondpy_INSTALL_PREFIX "")
   set(bondpy_PREFIX ${bondpy_DEVEL_PREFIX})
 else()

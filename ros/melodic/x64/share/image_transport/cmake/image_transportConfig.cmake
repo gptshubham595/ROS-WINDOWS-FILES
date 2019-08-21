@@ -67,8 +67,8 @@ set(image_transport_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(image_transport_SOURCE_PREFIX D:/a/1/a/_ws/src/image_common/image_transport)
-  set(image_transport_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/image_transport)
+  set(image_transport_SOURCE_PREFIX C:/catkin_ws/src/image_common/image_transport)
+  set(image_transport_DEVEL_PREFIX C:/catkin_ws/devel_isolated/image_transport)
   set(image_transport_INSTALL_PREFIX "")
   set(image_transport_PREFIX ${image_transport_DEVEL_PREFIX})
 else()

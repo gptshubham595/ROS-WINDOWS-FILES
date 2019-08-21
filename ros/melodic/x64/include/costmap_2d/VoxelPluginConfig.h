@@ -69,7 +69,7 @@ namespace costmap_2d
         field(a_f)
       {}
 
-      T (VoxelPluginConfig::* field);
+      T VoxelPluginConfig::* field;
 
       virtual void clamp(VoxelPluginConfig &config, const VoxelPluginConfig &max, const VoxelPluginConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace costmap_2d
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<VoxelPluginConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 
@@ -509,9 +509,9 @@ VoxelPluginConfig::GroupDescription<VoxelPluginConfig::DEFAULT, VoxelPluginConfi
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       __default__.combination_method = 1;
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(VoxelPluginConfig::AbstractParamDescriptionConstPtr(new VoxelPluginConfig::ParamDescription<int>("combination_method", "int", 0, "Method for combining two layers", "{'enum_description': 'Method for combining layers enum', 'enum': [{'srcline': 16, 'description': 'Overwrite values', 'srcfile': 'D:/a/1/a/_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Overwrite'}, {'srcline': 17, 'description': 'Take the maximum of the values', 'srcfile': 'D:/a/1/a/_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Maximum'}, {'srcline': 18, 'description': 'Do nothing', 'srcfile': 'D:/a/1/a/_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 99, 'ctype': 'int', 'type': 'int', 'name': 'Nothing'}]}", &VoxelPluginConfig::combination_method)));
+      Default.abstract_parameters.push_back(VoxelPluginConfig::AbstractParamDescriptionConstPtr(new VoxelPluginConfig::ParamDescription<int>("combination_method", "int", 0, "Method for combining two layers", "{'enum_description': 'Method for combining layers enum', 'enum': [{'srcline': 16, 'description': 'Overwrite values', 'srcfile': 'C:/catkin_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Overwrite'}, {'srcline': 17, 'description': 'Take the maximum of the values', 'srcfile': 'C:/catkin_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Maximum'}, {'srcline': 18, 'description': 'Do nothing', 'srcfile': 'C:/catkin_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 99, 'ctype': 'int', 'type': 'int', 'name': 'Nothing'}]}", &VoxelPluginConfig::combination_method)));
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
-      __param_descriptions__.push_back(VoxelPluginConfig::AbstractParamDescriptionConstPtr(new VoxelPluginConfig::ParamDescription<int>("combination_method", "int", 0, "Method for combining two layers", "{'enum_description': 'Method for combining layers enum', 'enum': [{'srcline': 16, 'description': 'Overwrite values', 'srcfile': 'D:/a/1/a/_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Overwrite'}, {'srcline': 17, 'description': 'Take the maximum of the values', 'srcfile': 'D:/a/1/a/_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Maximum'}, {'srcline': 18, 'description': 'Do nothing', 'srcfile': 'D:/a/1/a/_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 99, 'ctype': 'int', 'type': 'int', 'name': 'Nothing'}]}", &VoxelPluginConfig::combination_method)));
+      __param_descriptions__.push_back(VoxelPluginConfig::AbstractParamDescriptionConstPtr(new VoxelPluginConfig::ParamDescription<int>("combination_method", "int", 0, "Method for combining two layers", "{'enum_description': 'Method for combining layers enum', 'enum': [{'srcline': 16, 'description': 'Overwrite values', 'srcfile': 'C:/catkin_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Overwrite'}, {'srcline': 17, 'description': 'Take the maximum of the values', 'srcfile': 'C:/catkin_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Maximum'}, {'srcline': 18, 'description': 'Do nothing', 'srcfile': 'C:/catkin_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg', 'cconsttype': 'const int', 'value': 99, 'ctype': 'int', 'type': 'int', 'name': 'Nothing'}]}", &VoxelPluginConfig::combination_method)));
 //#line 246 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       Default.convertParams();
 //#line 246 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
@@ -591,11 +591,11 @@ VoxelPluginConfig::GroupDescription<VoxelPluginConfig::DEFAULT, VoxelPluginConfi
     return statics;
   }
 
-//#line 16 "D:/a/1/a/_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg"
+//#line 16 "C:/catkin_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg"
       const int VoxelPlugin_Overwrite = 0;
-//#line 17 "D:/a/1/a/_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg"
+//#line 17 "C:/catkin_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg"
       const int VoxelPlugin_Maximum = 1;
-//#line 18 "D:/a/1/a/_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg"
+//#line 18 "C:/catkin_ws/src/navigation/costmap_2d/cfg/VoxelPlugin.cfg"
       const int VoxelPlugin_Nothing = 99;
 }
 

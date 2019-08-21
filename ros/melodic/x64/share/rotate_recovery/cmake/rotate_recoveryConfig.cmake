@@ -67,8 +67,8 @@ set(rotate_recovery_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rotate_recovery_SOURCE_PREFIX D:/a/1/a/_ws/src/navigation/rotate_recovery)
-  set(rotate_recovery_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rotate_recovery)
+  set(rotate_recovery_SOURCE_PREFIX C:/catkin_ws/src/navigation/rotate_recovery)
+  set(rotate_recovery_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rotate_recovery)
   set(rotate_recovery_INSTALL_PREFIX "")
   set(rotate_recovery_PREFIX ${rotate_recovery_DEVEL_PREFIX})
 else()

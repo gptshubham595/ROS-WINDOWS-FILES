@@ -69,7 +69,7 @@ namespace costmap_2d
         field(a_f)
       {}
 
-      T (GenericPluginConfig::* field);
+      T GenericPluginConfig::* field;
 
       virtual void clamp(GenericPluginConfig &config, const GenericPluginConfig &max, const GenericPluginConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace costmap_2d
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<GenericPluginConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

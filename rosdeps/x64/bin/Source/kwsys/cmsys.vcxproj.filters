@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\ProcessWin32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\Base64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\EncodingC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\MD5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\Terminal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\System.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\String.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\Directory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\DynamicLoader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\EncodingCXX.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\Glob.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\RegularExpression.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\SystemTools.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\CommandLineArguments.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\IOStream.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\FStream.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\kwsys\SystemInformation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\Configure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\SharedForward.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\Process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\Base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\Encoding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\MD5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\Terminal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\Directory.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\DynamicLoader.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\Encoding.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\Glob.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\RegularExpression.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\SystemTools.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\CommandLineArguments.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\IOStream.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\FStream.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\SystemInformation.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\ConsoleBuf.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\Configure.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\opt\rosdeps\x64\bin\Source\cmsys\String.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Download\cmake-3.15.2\Source\kwsys\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58F3C70-0840-3861-B5B2-7B2CE354943B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DBFAA463-4871-3D25-9963-4797A38FDEC9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

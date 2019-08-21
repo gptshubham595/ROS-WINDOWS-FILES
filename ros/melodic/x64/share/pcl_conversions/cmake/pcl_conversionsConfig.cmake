@@ -67,8 +67,8 @@ set(pcl_conversions_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(pcl_conversions_SOURCE_PREFIX D:/a/1/a/_ws/src/perception_pcl/pcl_conversions)
-  set(pcl_conversions_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/pcl_conversions)
+  set(pcl_conversions_SOURCE_PREFIX C:/catkin_ws/src/perception_pcl/pcl_conversions)
+  set(pcl_conversions_DEVEL_PREFIX C:/catkin_ws/devel_isolated/pcl_conversions)
   set(pcl_conversions_INSTALL_PREFIX "")
   set(pcl_conversions_PREFIX ${pcl_conversions_DEVEL_PREFIX})
 else()

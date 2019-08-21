@@ -67,8 +67,8 @@ set(gazebo_dev_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gazebo_dev_SOURCE_PREFIX D:/a/1/a/_ws/src/gazebo_ros_pkgs/gazebo_dev)
-  set(gazebo_dev_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/gazebo_dev)
+  set(gazebo_dev_SOURCE_PREFIX C:/catkin_ws/src/gazebo_ros_pkgs/gazebo_dev)
+  set(gazebo_dev_DEVEL_PREFIX C:/catkin_ws/devel_isolated/gazebo_dev)
   set(gazebo_dev_INSTALL_PREFIX "")
   set(gazebo_dev_PREFIX ${gazebo_dev_DEVEL_PREFIX})
 else()

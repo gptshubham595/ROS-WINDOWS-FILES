@@ -67,8 +67,8 @@ set(joy_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(joy_SOURCE_PREFIX D:/a/1/a/_ws/src/joystick_drivers/joy)
-  set(joy_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/joy)
+  set(joy_SOURCE_PREFIX C:/catkin_ws/src/joystick_drivers/joy)
+  set(joy_DEVEL_PREFIX C:/catkin_ws/devel_isolated/joy)
   set(joy_INSTALL_PREFIX "")
   set(joy_PREFIX ${joy_DEVEL_PREFIX})
 else()

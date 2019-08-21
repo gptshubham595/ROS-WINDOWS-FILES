@@ -1,0 +1,36 @@
+# CMake generated Testfile for 
+# Source directory: D:/Download/cmake-3.15.2/Tests/FindThreads
+# Build directory: C:/opt/rosdeps/x64/bin/Tests/FindThreads
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(FindThreads.C-only "C:/opt/rosdeps/x64/bin/bin/ctest" "--build-and-test" "D:/Download/cmake-3.15.2/Tests/FindThreads/C-only" "C:/opt/rosdeps/x64/bin/Tests/FindThreads/C-only" "--build-generator" "Visual Studio 16 2019" "--build-project" "FindThreads_C-only" "--build-options" "--test-command" "C:/opt/rosdeps/x64/bin/bin/ctest" "-V")
+  set_tests_properties(FindThreads.C-only PROPERTIES  _BACKTRACE_TRIPLES "D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(FindThreads.C-only "C:/opt/rosdeps/x64/bin/bin/ctest" "--build-and-test" "D:/Download/cmake-3.15.2/Tests/FindThreads/C-only" "C:/opt/rosdeps/x64/bin/Tests/FindThreads/C-only" "--build-generator" "Visual Studio 16 2019" "--build-project" "FindThreads_C-only" "--build-options" "--test-command" "C:/opt/rosdeps/x64/bin/bin/ctest" "-V")
+  set_tests_properties(FindThreads.C-only PROPERTIES  _BACKTRACE_TRIPLES "D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(FindThreads.C-only "C:/opt/rosdeps/x64/bin/bin/ctest" "--build-and-test" "D:/Download/cmake-3.15.2/Tests/FindThreads/C-only" "C:/opt/rosdeps/x64/bin/Tests/FindThreads/C-only" "--build-generator" "Visual Studio 16 2019" "--build-project" "FindThreads_C-only" "--build-options" "--test-command" "C:/opt/rosdeps/x64/bin/bin/ctest" "-V")
+  set_tests_properties(FindThreads.C-only PROPERTIES  _BACKTRACE_TRIPLES "D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(FindThreads.C-only "C:/opt/rosdeps/x64/bin/bin/ctest" "--build-and-test" "D:/Download/cmake-3.15.2/Tests/FindThreads/C-only" "C:/opt/rosdeps/x64/bin/Tests/FindThreads/C-only" "--build-generator" "Visual Studio 16 2019" "--build-project" "FindThreads_C-only" "--build-options" "--test-command" "C:/opt/rosdeps/x64/bin/bin/ctest" "-V")
+  set_tests_properties(FindThreads.C-only PROPERTIES  _BACKTRACE_TRIPLES "D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;0;")
+else()
+  add_test(FindThreads.C-only NOT_AVAILABLE)
+endif()
+if("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+  add_test(FindThreads.CXX-only "C:/opt/rosdeps/x64/bin/bin/ctest" "--build-and-test" "D:/Download/cmake-3.15.2/Tests/FindThreads/CXX-only" "C:/opt/rosdeps/x64/bin/Tests/FindThreads/CXX-only" "--build-generator" "Visual Studio 16 2019" "--build-project" "FindThreads_CXX-only" "--build-options" "--test-command" "C:/opt/rosdeps/x64/bin/bin/ctest" "-V")
+  set_tests_properties(FindThreads.CXX-only PROPERTIES  _BACKTRACE_TRIPLES "D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+  add_test(FindThreads.CXX-only "C:/opt/rosdeps/x64/bin/bin/ctest" "--build-and-test" "D:/Download/cmake-3.15.2/Tests/FindThreads/CXX-only" "C:/opt/rosdeps/x64/bin/Tests/FindThreads/CXX-only" "--build-generator" "Visual Studio 16 2019" "--build-project" "FindThreads_CXX-only" "--build-options" "--test-command" "C:/opt/rosdeps/x64/bin/bin/ctest" "-V")
+  set_tests_properties(FindThreads.CXX-only PROPERTIES  _BACKTRACE_TRIPLES "D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
+  add_test(FindThreads.CXX-only "C:/opt/rosdeps/x64/bin/bin/ctest" "--build-and-test" "D:/Download/cmake-3.15.2/Tests/FindThreads/CXX-only" "C:/opt/rosdeps/x64/bin/Tests/FindThreads/CXX-only" "--build-generator" "Visual Studio 16 2019" "--build-project" "FindThreads_CXX-only" "--build-options" "--test-command" "C:/opt/rosdeps/x64/bin/bin/ctest" "-V")
+  set_tests_properties(FindThreads.CXX-only PROPERTIES  _BACKTRACE_TRIPLES "D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;0;")
+elseif("${CTEST_CONFIGURATION_TYPE}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
+  add_test(FindThreads.CXX-only "C:/opt/rosdeps/x64/bin/bin/ctest" "--build-and-test" "D:/Download/cmake-3.15.2/Tests/FindThreads/CXX-only" "C:/opt/rosdeps/x64/bin/Tests/FindThreads/CXX-only" "--build-generator" "Visual Studio 16 2019" "--build-project" "FindThreads_CXX-only" "--build-options" "--test-command" "C:/opt/rosdeps/x64/bin/bin/ctest" "-V")
+  set_tests_properties(FindThreads.CXX-only PROPERTIES  _BACKTRACE_TRIPLES "D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;2;add_test;D:/Download/cmake-3.15.2/Tests/FindThreads/CMakeLists.txt;0;")
+else()
+  add_test(FindThreads.CXX-only NOT_AVAILABLE)
+endif()

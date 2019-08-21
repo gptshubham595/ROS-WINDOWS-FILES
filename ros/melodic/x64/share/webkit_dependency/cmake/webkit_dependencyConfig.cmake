@@ -67,8 +67,8 @@ set(webkit_dependency_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(webkit_dependency_SOURCE_PREFIX D:/a/1/a/_ws/src/webkit_dependency)
-  set(webkit_dependency_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/webkit_dependency)
+  set(webkit_dependency_SOURCE_PREFIX C:/catkin_ws/src/webkit_dependency)
+  set(webkit_dependency_DEVEL_PREFIX C:/catkin_ws/devel_isolated/webkit_dependency)
   set(webkit_dependency_INSTALL_PREFIX "")
   set(webkit_dependency_PREFIX ${webkit_dependency_DEVEL_PREFIX})
 else()

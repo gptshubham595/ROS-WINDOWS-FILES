@@ -67,8 +67,8 @@ set(geneus_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(geneus_SOURCE_PREFIX D:/a/1/a/_ws/src/geneus)
-  set(geneus_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/geneus)
+  set(geneus_SOURCE_PREFIX C:/catkin_ws/src/geneus)
+  set(geneus_DEVEL_PREFIX C:/catkin_ws/devel_isolated/geneus)
   set(geneus_INSTALL_PREFIX "")
   set(geneus_PREFIX ${geneus_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(rosmaster_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosmaster_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/tools/rosmaster)
-  set(rosmaster_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosmaster)
+  set(rosmaster_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/tools/rosmaster)
+  set(rosmaster_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosmaster)
   set(rosmaster_INSTALL_PREFIX "")
   set(rosmaster_PREFIX ${rosmaster_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(resource_retriever_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(resource_retriever_SOURCE_PREFIX D:/a/1/a/_ws/src/resource_retriever)
-  set(resource_retriever_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/resource_retriever)
+  set(resource_retriever_SOURCE_PREFIX C:/catkin_ws/src/resource_retriever)
+  set(resource_retriever_DEVEL_PREFIX C:/catkin_ws/devel_isolated/resource_retriever)
   set(resource_retriever_INSTALL_PREFIX "")
   set(resource_retriever_PREFIX ${resource_retriever_DEVEL_PREFIX})
 else()

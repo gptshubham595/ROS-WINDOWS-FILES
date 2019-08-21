@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/Download/cmake-3.15.2/Utilities/cmzlib/.NoDartCoverage
+D:/Download/cmake-3.15.2/Utilities/cmzlib/CMakeLists.txt
+D:/Download/cmake-3.15.2/Utilities/cmzlib/cm_zlib_mangle.h
+D:/Download/cmake-3.15.2/Utilities/cmzlib/zconf.h
+D:/Download/cmake-3.15.2/Utilities/cmzlib/zlib.h
+D:/Download/cmake-3.15.2/Utilities/cmzlib/zlibDllConfig.h.in

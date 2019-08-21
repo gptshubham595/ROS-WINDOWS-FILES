@@ -67,8 +67,8 @@ set(rosunit_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosunit_SOURCE_PREFIX D:/a/1/a/_ws/src/ros/tools/rosunit)
-  set(rosunit_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosunit)
+  set(rosunit_SOURCE_PREFIX C:/catkin_ws/src/ros/tools/rosunit)
+  set(rosunit_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosunit)
   set(rosunit_INSTALL_PREFIX "")
   set(rosunit_PREFIX ${rosunit_DEVEL_PREFIX})
 else()

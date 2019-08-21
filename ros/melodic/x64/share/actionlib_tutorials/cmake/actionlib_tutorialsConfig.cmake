@@ -67,8 +67,8 @@ set(actionlib_tutorials_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(actionlib_tutorials_SOURCE_PREFIX D:/a/1/a/_ws/src/common_tutorials/actionlib_tutorials)
-  set(actionlib_tutorials_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/actionlib_tutorials)
+  set(actionlib_tutorials_SOURCE_PREFIX C:/catkin_ws/src/common_tutorials/actionlib_tutorials)
+  set(actionlib_tutorials_DEVEL_PREFIX C:/catkin_ws/devel_isolated/actionlib_tutorials)
   set(actionlib_tutorials_INSTALL_PREFIX "")
   set(actionlib_tutorials_PREFIX ${actionlib_tutorials_DEVEL_PREFIX})
 else()

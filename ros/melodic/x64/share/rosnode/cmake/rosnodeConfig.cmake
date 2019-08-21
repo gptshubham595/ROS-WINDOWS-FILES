@@ -67,8 +67,8 @@ set(rosnode_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosnode_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/tools/rosnode)
-  set(rosnode_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosnode)
+  set(rosnode_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/tools/rosnode)
+  set(rosnode_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosnode)
   set(rosnode_INSTALL_PREFIX "")
   set(rosnode_PREFIX ${rosnode_DEVEL_PREFIX})
 else()

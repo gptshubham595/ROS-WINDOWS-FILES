@@ -67,8 +67,8 @@ set(rqt_plot_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_plot_SOURCE_PREFIX D:/a/1/a/_ws/src/rqt_plot)
-  set(rqt_plot_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_plot)
+  set(rqt_plot_SOURCE_PREFIX C:/catkin_ws/src/rqt_plot)
+  set(rqt_plot_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_plot)
   set(rqt_plot_INSTALL_PREFIX "")
   set(rqt_plot_PREFIX ${rqt_plot_DEVEL_PREFIX})
 else()

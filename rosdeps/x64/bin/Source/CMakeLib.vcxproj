@@ -1,0 +1,1009 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E3990380-8658-3E7B-97A2-03DC0FC67D17}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CMakeLib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\rosdeps\x64\bin\Source\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeLib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMakeLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\rosdeps\x64\bin\Source\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeLib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMakeLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\rosdeps\x64\bin\Source\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeLib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMakeLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\rosdeps\x64\bin\Source\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeLib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMakeLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Download\cmake-3.15.2\Source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Download\cmake-3.15.2\Source\CMakeSourceDir.txt.in;D:\Download\cmake-3.15.2\Source\CMakeVersion.rc.in;D:\Download\cmake-3.15.2\Source\CPack\cmCPackConfigure.h.in;D:\Download\cmake-3.15.2\Source\cmConfigure.cmake.h.in;D:\Download\cmake-3.15.2\Source\cmVersionConfig.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\rosdeps\x64\bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Download\cmake-3.15.2\Source\CMakeSourceDir.txt.in;D:\Download\cmake-3.15.2\Source\CMakeVersion.rc.in;D:\Download\cmake-3.15.2\Source\CPack\cmCPackConfigure.h.in;D:\Download\cmake-3.15.2\Source\cmConfigure.cmake.h.in;D:\Download\cmake-3.15.2\Source\cmVersionConfig.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\rosdeps\x64\bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Download\cmake-3.15.2\Source\CMakeSourceDir.txt.in;D:\Download\cmake-3.15.2\Source\CMakeVersion.rc.in;D:\Download\cmake-3.15.2\Source\CPack\cmCPackConfigure.h.in;D:\Download\cmake-3.15.2\Source\cmConfigure.cmake.h.in;D:\Download\cmake-3.15.2\Source\cmVersionConfig.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\rosdeps\x64\bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Download\cmake-3.15.2\Source\CMakeSourceDir.txt.in;D:\Download\cmake-3.15.2\Source\CMakeVersion.rc.in;D:\Download\cmake-3.15.2\Source\CPack\cmCPackConfigure.h.in;D:\Download\cmake-3.15.2\Source\cmConfigure.cmake.h.in;D:\Download\cmake-3.15.2\Source\cmVersionConfig.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\rosdeps\x64\bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentLexer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentLexer.h" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentLexer.in.l" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentParser.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentParserTokens.h" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentParser.y" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaLexer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaLexer.h" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaLexer.in.l" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaParser.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaParserTokens.h" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaParser.y" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprLexer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprLexer.h" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprLexer.in.l" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprParser.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprParserTokens.h" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprParser.y" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranLexer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranLexer.h" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranLexer.in.l" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranParser.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranParserTokens.h" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranParser.y" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmListFileLexer.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmListFileLexer.in.l" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAffinity.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAffinity.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmArchiveWrite.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmArgumentParser.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmArgumentParser.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmBase32.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCacheManager.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCacheManager.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCLocaleEnvironmentScope.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCLocaleEnvironmentScope.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCommandArgumentParserHelper.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCommonTargetGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCommonTargetGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmComputeComponentGraph.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmComputeComponentGraph.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmComputeLinkDepends.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmComputeLinkDepends.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmComputeLinkInformation.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmComputeLinkInformation.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmComputeTargetDepends.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmComputeTargetDepends.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCPackPropertiesGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCPackPropertiesGenerator.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCryptoHash.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCryptoHash.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCurl.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCurl.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCustomCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCustomCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCustomCommandGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCustomCommandGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDefinitions.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDefinitions.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDepends.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDepends.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDependsC.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDependsC.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDependsFortran.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDependsFortran.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDependsJava.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDependsJava.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDependsJavaParserHelper.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDependsJavaParserHelper.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDocumentation.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDocumentationFormatter.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDocumentationSection.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDynamicLoader.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDynamicLoader.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExprParserHelper.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportBuildAndroidMKGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportBuildAndroidMKGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportBuildFileGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportBuildFileGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportFileGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportFileGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportInstallAndroidMKGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportInstallAndroidMKGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportInstallFileGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportInstallFileGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportTryCompileFileGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportTryCompileFileGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportSet.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportSet.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportSetMap.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportSetMap.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExternalMakefileProjectGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExternalMakefileProjectGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExtraCodeBlocksGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExtraCodeBlocksGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExtraCodeLiteGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExtraCodeLiteGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExtraEclipseCDT4Generator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExtraEclipseCDT4Generator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExtraKateGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExtraKateGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExtraSublimeTextGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExtraSublimeTextGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileAPI.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileAPI.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileAPICache.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileAPICache.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileAPICodemodel.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileAPICodemodel.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileAPICMakeFiles.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileAPICMakeFiles.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileCopier.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileCopier.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileInstaller.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileInstaller.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileLock.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileLock.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileLockPool.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileLockPool.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileLockResult.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileLockResult.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFilePathChecksum.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFilePathChecksum.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileTime.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMake_STAT_HAS_ST_MTIM=0;CMake_STAT_HAS_ST_MTIMESPEC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMake_STAT_HAS_ST_MTIM=0;CMake_STAT_HAS_ST_MTIMESPEC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMake_STAT_HAS_ST_MTIM=0;CMake_STAT_HAS_ST_MTIMESPEC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMake_STAT_HAS_ST_MTIM=0;CMake_STAT_HAS_ST_MTIMESPEC=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileTime.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileTimeCache.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileTimeCache.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileTimes.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileTimes.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFortranParserImpl.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFSPermissions.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFSPermissions.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratedFileStream.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionContext.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionContext.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionDAGChecker.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionDAGChecker.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionEvaluationFile.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionEvaluationFile.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionEvaluator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionEvaluator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionLexer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionLexer.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionNode.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionNode.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionParser.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionParser.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpression.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpression.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorTarget.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorTarget.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetPipes.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetPipes.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalCommonGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalCommonGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalGenerator.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalGeneratorFactory.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalUnixMakefileGenerator3.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalUnixMakefileGenerator3.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobVerificationManager.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobVerificationManager.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGraphAdjacencyList.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGraphVizWriter.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGraphVizWriter.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallGenerator.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallExportGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstalledFile.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstalledFile.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallFilesGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallFilesGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallScriptGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallScriptGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallSubdirectoryGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallSubdirectoryGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallTargetGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallTargetGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallDirectoryGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallDirectoryGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkedTree.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLinkItem.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkItem.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLinkLineComputer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkLineComputer.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLinkLineDeviceComputer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkLineDeviceComputer.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmListFileCache.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmListFileCache.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalCommonGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalCommonGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmRulePlaceholderExpander.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmRulePlaceholderExpander.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalUnixMakefileGenerator3.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocale.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakefile.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMakefile.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakefileTargetGenerator.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakefileExecutableTargetGenerator.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakefileLibraryTargetGenerator.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakefileUtilityTargetGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMessageType.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMessenger.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMessenger.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMSVC60LinkLineComputer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMSVC60LinkLineComputer.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmOSXBundleGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmOSXBundleGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmOutputConverter.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmOutputConverter.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNewLineStyle.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNewLineStyle.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmOrderDirectories.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmOrderDirectories.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmPolicies.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmPolicies.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmProcessOutput.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KWSYS_ENCODING_DEFAULT_CODEPAGE=CP_UTF8;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmProcessOutput.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmProcessTools.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmProcessTools.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmProperty.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmProperty.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmPropertyDefinition.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmPropertyDefinition.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmPropertyDefinitionMap.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmPropertyDefinitionMap.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmPropertyMap.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmPropertyMap.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGen.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGen.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenGlobalInitializer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenGlobalInitializer.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenInitializer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenInitializer.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoMocUic.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoMocUic.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoRcc.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoRcc.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmRST.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmRST.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmScriptGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmScriptGenerator.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSourceFile.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSourceFile.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSourceFileLocation.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSourceFileLocation.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSourceFileLocationKind.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSourceGroup.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSourceGroup.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmState.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmState.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmStateDirectory.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmStateDirectory.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmStateSnapshot.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmStateSnapshot.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmStateTypes.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSystemTools.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSystemTools.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTarget.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTarget.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetPropertyComputer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetPropertyComputer.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetExport.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTest.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTest.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTestGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTestGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUuid.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUVHandlePtr.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUVHandlePtr.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUVProcessChain.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUVProcessChain.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUVStreambuf.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUVSignalHackRAII.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVariableWatch.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVariableWatch.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVersion.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVersion.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmWorkerPool.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmWorkerPool.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmWorkingDirectory.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmWorkingDirectory.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmXMLParser.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmXMLParser.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmXMLSafe.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmXMLSafe.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmXMLWriter.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmXMLWriter.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmake.cxx">
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CMAKE_USE_WMAKE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CMAKE_USE_WMAKE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CMAKE_USE_WMAKE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CMAKE_USE_WMAKE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmake.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cm_string_view.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_string_view.hxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_static_string_view.hxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCommands.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCommands.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddCompileDefinitionsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddCompileDefinitionsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddCompileOptionsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddCompileOptionsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddLinkOptionsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddLinkOptionsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddCustomCommandCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddCustomCommandCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddCustomTargetCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddCustomTargetCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddDefinitionsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddDefinitionsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddDependenciesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddDependenciesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddExecutableCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddExecutableCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddLibraryCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddLibraryCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddSubDirectoryCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddSubDirectoryCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddTestCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddTestCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAuxSourceDirectoryCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAuxSourceDirectoryCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmBreakCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmBreakCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmBuildCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmBuildCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmBuildNameCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmBuildNameCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCMakeHostSystemInformationCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCMakeHostSystemInformationCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCMakeMinimumRequired.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCMakeMinimumRequired.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCMakePolicyCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCMakePolicyCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmConditionEvaluator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmConditionEvaluator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmConfigureFileCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmConfigureFileCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmContinueCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmContinueCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCoreTryCompile.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCoreTryCompile.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCreateTestSourceList.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCreateTestSourceList.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDefinePropertyCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDefinePropertyCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDisallowedCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDisallowedCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmEnableLanguageCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmEnableLanguageCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmEnableTestingCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmEnableTestingCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExecProgramCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExecProgramCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExecuteProcessCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExecuteProcessCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExpandedCommandArgument.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExpandedCommandArgument.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportLibraryDependenciesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportLibraryDependenciesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFLTKWrapUICommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFLTKWrapUICommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindBase.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindBase.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindCommon.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindCommon.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindFileCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindFileCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindLibraryCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindLibraryCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindPackageCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindPackageCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindPathCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindPathCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindProgramCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindProgramCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmForEachCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmForEachCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFunctionCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFunctionCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetCMakePropertyCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetCMakePropertyCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetDirectoryPropertyCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetDirectoryPropertyCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetFilenameComponentCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetFilenameComponentCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetPropertyCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetPropertyCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetSourceFilePropertyCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetSourceFilePropertyCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetTargetPropertyCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetTargetPropertyCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetTestPropertyCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetTestPropertyCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmHexFileConverter.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmHexFileConverter.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIfCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIfCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIncludeCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIncludeCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIncludeDirectoryCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIncludeDirectoryCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIncludeExternalMSProjectCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIncludeExternalMSProjectCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIncludeGuardCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIncludeGuardCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIncludeRegularExpressionCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIncludeRegularExpressionCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallCommandArguments.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallCommandArguments.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallFilesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallFilesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallProgramsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallProgramsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallTargetsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallTargetsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLinkDirectoriesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkDirectoriesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLinkLibrariesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkLibrariesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmListCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmListCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLoadCacheCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLoadCacheCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLoadCommandCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLoadCommandCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMacroCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMacroCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakeDirectoryCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMakeDirectoryCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMarkAsAdvancedCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMarkAsAdvancedCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMathCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMathCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMessageCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMessageCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmOptionCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmOptionCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmOutputRequiredFilesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmOutputRequiredFilesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmParseArgumentsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmParseArgumentsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmPathLabel.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmPathLabel.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmProjectCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmProjectCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQTWrapCPPCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQTWrapCPPCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQTWrapUICommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQTWrapUICommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmRemoveCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmRemoveCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmRemoveDefinitionsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmRemoveDefinitionsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmReturnCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmReturnCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSearchPath.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSearchPath.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSeparateArgumentsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSeparateArgumentsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetDirectoryPropertiesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetDirectoryPropertiesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetPropertyCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetPropertyCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetSourceFilesPropertiesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetSourceFilesPropertiesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetTargetPropertiesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetTargetPropertiesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetTestsPropertiesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetTestsPropertiesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSiteNameCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSiteNameCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSourceGroupCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSourceGroupCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmString.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmString.hxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmStringReplaceHelper.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmStringCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmStringCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSubdirCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSubdirCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSubdirDependsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSubdirDependsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileDefinitionsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileDefinitionsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileFeaturesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileFeaturesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileOptionsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileOptionsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetIncludeDirectoriesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetIncludeDirectoriesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkOptionsCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkOptionsCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkDirectoriesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkDirectoriesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkLibrariesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkLibrariesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetPropCommandBase.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetPropCommandBase.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetSourcesCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetSourcesCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTimestamp.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTimestamp.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTryCompileCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTryCompileCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTryRunCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTryRunCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUnexpectedCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUnexpectedCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUnsetCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUnsetCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUseMangledMesaCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUseMangledMesaCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUtilitySourceCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUtilitySourceCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVariableRequiresCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVariableRequiresCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVariableWatchCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVariableWatchCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmWhileCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmWhileCommand.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmWriteFileCommand.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmWriteFileCommand.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_get_date.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cm_get_date.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_utf8.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cm_utf8.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_codecvt.hxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cm_codecvt.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_thread.hxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDuration.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDuration.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCallVisualStudioMacro.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCallVisualStudioMacro.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\bindexplib.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalBorlandMakefileGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalBorlandMakefileGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalMSYSMakefileGenerator.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalMinGWMakefileGenerator.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalNMakeMakefileGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalNMakeMakefileGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalJOMMakefileGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalJOMMakefileGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio71Generator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio71Generator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio7Generator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio7Generator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio8Generator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio8Generator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio9Generator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio9Generator.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioGeneratorOptions.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioGeneratorOptions.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudio10TargetGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudio10TargetGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudio10ToolsetOptions.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudio10ToolsetOptions.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudio10Generator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudio10Generator.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio10Generator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio10Generator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio11Generator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio11Generator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio12Generator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio12Generator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio14Generator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio14Generator.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudioGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudioGenerator.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudioVersionedGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudioVersionedGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIDEFlagTable.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIDEOptions.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIDEOptions.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudio7Generator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudio7Generator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudioGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudioGenerator.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioSlnData.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioSlnData.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioSlnParser.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioSlnParser.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioWCEPlatformParser.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioWCEPlatformParser.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVSSetupHelper.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVSSetupHelper.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalWatcomWMakeGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalWatcomWMakeGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalGhsMultiGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalGhsMultiGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalGhsMultiGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalGhsMultiGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGhsMultiTargetGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGhsMultiTargetGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGhsMultiGpj.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGhsMultiGpj.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalNinjaGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalNinjaGenerator.h" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaTypes.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalNinjaGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalNinjaGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNinjaTargetGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaTargetGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNinjaNormalTargetGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaNormalTargetGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNinjaUtilityTargetGenerator.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaUtilityTargetGenerator.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNinjaLinkLineComputer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaLinkLineComputer.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNinjaLinkLineDeviceComputer.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaLinkLineDeviceComputer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\ZERO_CHECK.vcxproj">
+      <Project>{A7AD871A-68E9-33CE-8FFD-5A99778320D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmbzip2\cmbzip2.vcxproj">
+      <Project>{2DE395E1-0DE9-3AC6-80B0-30AC722CFB9D}</Project>
+      <Name>cmbzip2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmcurl\lib\cmcurl.vcxproj">
+      <Project>{44BD8580-2880-37B7-AEA9-BBAA5F15BBF7}</Project>
+      <Name>cmcurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmexpat\cmexpat.vcxproj">
+      <Project>{395E8946-24B8-3CEF-A520-8411F92358CE}</Project>
+      <Name>cmexpat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmjsoncpp\cmjsoncpp.vcxproj">
+      <Project>{4AE387E3-2CE3-3FC5-888B-325DE548A9FC}</Project>
+      <Name>cmjsoncpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmlibarchive\libarchive\cmlibarchive.vcxproj">
+      <Project>{584DB4D6-C182-349E-A275-E029562D6C66}</Project>
+      <Name>cmlibarchive</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmliblzma\cmliblzma.vcxproj">
+      <Project>{51E4EBA4-09BA-3271-A784-9DFA66E47E66}</Project>
+      <Name>cmliblzma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmlibrhash\cmlibrhash.vcxproj">
+      <Project>{E80FAADE-4D99-33E1-B377-F47ED3489C0E}</Project>
+      <Name>cmlibrhash</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmlibuv\cmlibuv.vcxproj">
+      <Project>{36C01794-D983-37CE-A981-E200BAADC24B}</Project>
+      <Name>cmlibuv</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsys.vcxproj">
+      <Project>{9EFA7CEA-2D09-31D7-866F-9B8086F1C907}</Project>
+      <Name>cmsys</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmzlib\cmzlib.vcxproj">
+      <Project>{8B0AF198-ED19-39E0-9DB6-2758EFFEB549}</Project>
+      <Name>cmzlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmzstd\cmzstd.vcxproj">
+      <Project>{7F55F82B-D2CF-3910-94FA-1F724710B45B}</Project>
+      <Name>cmzstd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

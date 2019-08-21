@@ -67,8 +67,8 @@ set(nav_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(nav_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/common_msgs/nav_msgs)
-  set(nav_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/nav_msgs)
+  set(nav_msgs_SOURCE_PREFIX C:/catkin_ws/src/common_msgs/nav_msgs)
+  set(nav_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/nav_msgs)
   set(nav_msgs_INSTALL_PREFIX "")
   set(nav_msgs_PREFIX ${nav_msgs_DEVEL_PREFIX})
 else()

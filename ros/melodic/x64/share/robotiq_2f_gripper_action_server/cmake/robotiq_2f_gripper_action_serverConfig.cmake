@@ -67,8 +67,8 @@ set(robotiq_2f_gripper_action_server_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robotiq_2f_gripper_action_server_SOURCE_PREFIX D:/a/1/a/_ws/src/robotiq/robotiq_2f_gripper_action_server)
-  set(robotiq_2f_gripper_action_server_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/robotiq_2f_gripper_action_server)
+  set(robotiq_2f_gripper_action_server_SOURCE_PREFIX C:/catkin_ws/src/robotiq/robotiq_2f_gripper_action_server)
+  set(robotiq_2f_gripper_action_server_DEVEL_PREFIX C:/catkin_ws/devel_isolated/robotiq_2f_gripper_action_server)
   set(robotiq_2f_gripper_action_server_INSTALL_PREFIX "")
   set(robotiq_2f_gripper_action_server_PREFIX ${robotiq_2f_gripper_action_server_DEVEL_PREFIX})
 else()

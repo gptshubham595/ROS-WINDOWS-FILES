@@ -67,8 +67,8 @@ set(ackermann_steering_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(ackermann_steering_controller_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_controllers/ackermann_steering_controller)
-  set(ackermann_steering_controller_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/ackermann_steering_controller)
+  set(ackermann_steering_controller_SOURCE_PREFIX C:/catkin_ws/src/ros_controllers/ackermann_steering_controller)
+  set(ackermann_steering_controller_DEVEL_PREFIX C:/catkin_ws/devel_isolated/ackermann_steering_controller)
   set(ackermann_steering_controller_INSTALL_PREFIX "")
   set(ackermann_steering_controller_PREFIX ${ackermann_steering_controller_DEVEL_PREFIX})
 else()

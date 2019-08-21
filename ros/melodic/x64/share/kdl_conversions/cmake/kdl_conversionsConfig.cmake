@@ -67,8 +67,8 @@ set(kdl_conversions_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kdl_conversions_SOURCE_PREFIX D:/a/1/a/_ws/src/geometry/kdl_conversions)
-  set(kdl_conversions_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/kdl_conversions)
+  set(kdl_conversions_SOURCE_PREFIX C:/catkin_ws/src/geometry/kdl_conversions)
+  set(kdl_conversions_DEVEL_PREFIX C:/catkin_ws/devel_isolated/kdl_conversions)
   set(kdl_conversions_INSTALL_PREFIX "")
   set(kdl_conversions_PREFIX ${kdl_conversions_DEVEL_PREFIX})
 else()

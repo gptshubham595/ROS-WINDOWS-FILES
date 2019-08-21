@@ -67,8 +67,8 @@ set(laser_geometry_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(laser_geometry_SOURCE_PREFIX D:/a/1/a/_ws/src/laser_geometry)
-  set(laser_geometry_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/laser_geometry)
+  set(laser_geometry_SOURCE_PREFIX C:/catkin_ws/src/laser_geometry)
+  set(laser_geometry_DEVEL_PREFIX C:/catkin_ws/devel_isolated/laser_geometry)
   set(laser_geometry_INSTALL_PREFIX "")
   set(laser_geometry_PREFIX ${laser_geometry_DEVEL_PREFIX})
 else()

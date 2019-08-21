@@ -69,7 +69,7 @@ namespace theora_image_transport
         field(a_f)
       {}
 
-      T (TheoraPublisherConfig::* field);
+      T TheoraPublisherConfig::* field;
 
       virtual void clamp(TheoraPublisherConfig &config, const TheoraPublisherConfig &max, const TheoraPublisherConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace theora_image_transport
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<TheoraPublisherConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 
@@ -409,9 +409,9 @@ TheoraPublisherConfig::GroupDescription<TheoraPublisherConfig::DEFAULT, TheoraPu
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       __default__.optimize_for = 1;
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(TheoraPublisherConfig::AbstractParamDescriptionConstPtr(new TheoraPublisherConfig::ParamDescription<int>("optimize_for", "int", 0, "Try to achieve either 'target_bitrate' or 'quality'", "{'enum_description': 'Enum to control whether optimizing for bitrate or quality', 'enum': [{'srcline': 9, 'description': 'Aim for requested bitrate', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Bitrate'}, {'srcline': 10, 'description': 'Aim for requested quality', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Quality'}]}", &TheoraPublisherConfig::optimize_for)));
+      Default.abstract_parameters.push_back(TheoraPublisherConfig::AbstractParamDescriptionConstPtr(new TheoraPublisherConfig::ParamDescription<int>("optimize_for", "int", 0, "Try to achieve either 'target_bitrate' or 'quality'", "{'enum_description': 'Enum to control whether optimizing for bitrate or quality', 'enum': [{'srcline': 9, 'description': 'Aim for requested bitrate', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Bitrate'}, {'srcline': 10, 'description': 'Aim for requested quality', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Quality'}]}", &TheoraPublisherConfig::optimize_for)));
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
-      __param_descriptions__.push_back(TheoraPublisherConfig::AbstractParamDescriptionConstPtr(new TheoraPublisherConfig::ParamDescription<int>("optimize_for", "int", 0, "Try to achieve either 'target_bitrate' or 'quality'", "{'enum_description': 'Enum to control whether optimizing for bitrate or quality', 'enum': [{'srcline': 9, 'description': 'Aim for requested bitrate', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Bitrate'}, {'srcline': 10, 'description': 'Aim for requested quality', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Quality'}]}", &TheoraPublisherConfig::optimize_for)));
+      __param_descriptions__.push_back(TheoraPublisherConfig::AbstractParamDescriptionConstPtr(new TheoraPublisherConfig::ParamDescription<int>("optimize_for", "int", 0, "Try to achieve either 'target_bitrate' or 'quality'", "{'enum_description': 'Enum to control whether optimizing for bitrate or quality', 'enum': [{'srcline': 9, 'description': 'Aim for requested bitrate', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg', 'cconsttype': 'const int', 'value': 0, 'ctype': 'int', 'type': 'int', 'name': 'Bitrate'}, {'srcline': 10, 'description': 'Aim for requested quality', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg', 'cconsttype': 'const int', 'value': 1, 'ctype': 'int', 'type': 'int', 'name': 'Quality'}]}", &TheoraPublisherConfig::optimize_for)));
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       __min__.target_bitrate = 0;
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
@@ -521,9 +521,9 @@ TheoraPublisherConfig::GroupDescription<TheoraPublisherConfig::DEFAULT, TheoraPu
     return statics;
   }
 
-//#line 9 "D:/a/1/a/_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg"
+//#line 9 "C:/catkin_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg"
       const int TheoraPublisher_Bitrate = 0;
-//#line 10 "D:/a/1/a/_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg"
+//#line 10 "C:/catkin_ws/src/image_transport_plugins/theora_image_transport/cfg/TheoraPublisher.cfg"
       const int TheoraPublisher_Quality = 1;
 }
 

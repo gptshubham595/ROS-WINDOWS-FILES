@@ -67,8 +67,8 @@ set(genmsg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(genmsg_SOURCE_PREFIX D:/a/1/a/_ws/src/genmsg)
-  set(genmsg_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/genmsg)
+  set(genmsg_SOURCE_PREFIX C:/catkin_ws/src/genmsg)
+  set(genmsg_DEVEL_PREFIX C:/catkin_ws/devel_isolated/genmsg)
   set(genmsg_INSTALL_PREFIX "")
   set(genmsg_PREFIX ${genmsg_DEVEL_PREFIX})
 else()

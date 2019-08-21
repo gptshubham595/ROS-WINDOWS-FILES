@@ -69,7 +69,7 @@ namespace dwa_local_planner
         field(a_f)
       {}
 
-      T (DWAPlannerConfig::* field);
+      T DWAPlannerConfig::* field;
 
       virtual void clamp(DWAPlannerConfig &config, const DWAPlannerConfig &max, const DWAPlannerConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace dwa_local_planner
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<DWAPlannerConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

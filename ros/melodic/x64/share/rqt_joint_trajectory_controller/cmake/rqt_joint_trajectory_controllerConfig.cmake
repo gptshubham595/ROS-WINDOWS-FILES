@@ -67,8 +67,8 @@ set(rqt_joint_trajectory_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_joint_trajectory_controller_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_controllers/rqt_joint_trajectory_controller)
-  set(rqt_joint_trajectory_controller_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_joint_trajectory_controller)
+  set(rqt_joint_trajectory_controller_SOURCE_PREFIX C:/catkin_ws/src/ros_controllers/rqt_joint_trajectory_controller)
+  set(rqt_joint_trajectory_controller_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_joint_trajectory_controller)
   set(rqt_joint_trajectory_controller_INSTALL_PREFIX "")
   set(rqt_joint_trajectory_controller_PREFIX ${rqt_joint_trajectory_controller_DEVEL_PREFIX})
 else()

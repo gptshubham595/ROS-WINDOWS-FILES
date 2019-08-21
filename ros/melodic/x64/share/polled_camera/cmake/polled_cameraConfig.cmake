@@ -67,8 +67,8 @@ set(polled_camera_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(polled_camera_SOURCE_PREFIX D:/a/1/a/_ws/src/image_common/polled_camera)
-  set(polled_camera_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/polled_camera)
+  set(polled_camera_SOURCE_PREFIX C:/catkin_ws/src/image_common/polled_camera)
+  set(polled_camera_DEVEL_PREFIX C:/catkin_ws/devel_isolated/polled_camera)
   set(polled_camera_INSTALL_PREFIX "")
   set(polled_camera_PREFIX ${polled_camera_DEVEL_PREFIX})
 else()

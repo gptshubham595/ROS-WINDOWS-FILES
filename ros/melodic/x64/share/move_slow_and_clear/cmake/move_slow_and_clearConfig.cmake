@@ -67,8 +67,8 @@ set(move_slow_and_clear_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(move_slow_and_clear_SOURCE_PREFIX D:/a/1/a/_ws/src/navigation/move_slow_and_clear)
-  set(move_slow_and_clear_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/move_slow_and_clear)
+  set(move_slow_and_clear_SOURCE_PREFIX C:/catkin_ws/src/navigation/move_slow_and_clear)
+  set(move_slow_and_clear_DEVEL_PREFIX C:/catkin_ws/devel_isolated/move_slow_and_clear)
   set(move_slow_and_clear_INSTALL_PREFIX "")
   set(move_slow_and_clear_PREFIX ${move_slow_and_clear_DEVEL_PREFIX})
 else()

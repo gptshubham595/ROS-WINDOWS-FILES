@@ -67,8 +67,8 @@ set(rviz_plugin_tutorials_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_plugin_tutorials_SOURCE_PREFIX D:/a/1/a/_ws/src/visualization_tutorials/rviz_plugin_tutorials)
-  set(rviz_plugin_tutorials_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rviz_plugin_tutorials)
+  set(rviz_plugin_tutorials_SOURCE_PREFIX C:/catkin_ws/src/visualization_tutorials/rviz_plugin_tutorials)
+  set(rviz_plugin_tutorials_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rviz_plugin_tutorials)
   set(rviz_plugin_tutorials_INSTALL_PREFIX "")
   set(rviz_plugin_tutorials_PREFIX ${rviz_plugin_tutorials_DEVEL_PREFIX})
 else()

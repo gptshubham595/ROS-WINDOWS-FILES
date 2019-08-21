@@ -67,8 +67,8 @@ set(self_test_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(self_test_SOURCE_PREFIX D:/a/1/a/_ws/src/diagnostics/self_test)
-  set(self_test_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/self_test)
+  set(self_test_SOURCE_PREFIX C:/catkin_ws/src/diagnostics/self_test)
+  set(self_test_DEVEL_PREFIX C:/catkin_ws/devel_isolated/self_test)
   set(self_test_INSTALL_PREFIX "")
   set(self_test_PREFIX ${self_test_DEVEL_PREFIX})
 else()

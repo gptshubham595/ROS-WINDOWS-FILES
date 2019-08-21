@@ -67,8 +67,8 @@ set(rviz_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_SOURCE_PREFIX D:/a/1/a/_ws/src/rviz)
-  set(rviz_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rviz)
+  set(rviz_SOURCE_PREFIX C:/catkin_ws/src/rviz)
+  set(rviz_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rviz)
   set(rviz_INSTALL_PREFIX "")
   set(rviz_PREFIX ${rviz_DEVEL_PREFIX})
 else()

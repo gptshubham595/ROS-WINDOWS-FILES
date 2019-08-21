@@ -67,8 +67,8 @@ set(rqt_moveit_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_moveit_SOURCE_PREFIX D:/a/1/a/_ws/src/rqt_moveit)
-  set(rqt_moveit_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_moveit)
+  set(rqt_moveit_SOURCE_PREFIX C:/catkin_ws/src/rqt_moveit)
+  set(rqt_moveit_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_moveit)
   set(rqt_moveit_INSTALL_PREFIX "")
   set(rqt_moveit_PREFIX ${rqt_moveit_DEVEL_PREFIX})
 else()

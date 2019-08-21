@@ -67,8 +67,8 @@ set(forward_command_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(forward_command_controller_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_controllers/forward_command_controller)
-  set(forward_command_controller_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/forward_command_controller)
+  set(forward_command_controller_SOURCE_PREFIX C:/catkin_ws/src/ros_controllers/forward_command_controller)
+  set(forward_command_controller_DEVEL_PREFIX C:/catkin_ws/devel_isolated/forward_command_controller)
   set(forward_command_controller_INSTALL_PREFIX "")
   set(forward_command_controller_PREFIX ${forward_command_controller_DEVEL_PREFIX})
 else()

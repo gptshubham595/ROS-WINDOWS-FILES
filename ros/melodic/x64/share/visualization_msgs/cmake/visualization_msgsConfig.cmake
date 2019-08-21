@@ -67,8 +67,8 @@ set(visualization_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(visualization_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/common_msgs/visualization_msgs)
-  set(visualization_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/visualization_msgs)
+  set(visualization_msgs_SOURCE_PREFIX C:/catkin_ws/src/common_msgs/visualization_msgs)
+  set(visualization_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/visualization_msgs)
   set(visualization_msgs_INSTALL_PREFIX "")
   set(visualization_msgs_PREFIX ${visualization_msgs_DEVEL_PREFIX})
 else()

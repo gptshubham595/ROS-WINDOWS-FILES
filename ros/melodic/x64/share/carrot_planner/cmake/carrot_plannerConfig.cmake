@@ -67,8 +67,8 @@ set(carrot_planner_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(carrot_planner_SOURCE_PREFIX D:/a/1/a/_ws/src/navigation/carrot_planner)
-  set(carrot_planner_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/carrot_planner)
+  set(carrot_planner_SOURCE_PREFIX C:/catkin_ws/src/navigation/carrot_planner)
+  set(carrot_planner_DEVEL_PREFIX C:/catkin_ws/devel_isolated/carrot_planner)
   set(carrot_planner_INSTALL_PREFIX "")
   set(carrot_planner_PREFIX ${carrot_planner_DEVEL_PREFIX})
 else()

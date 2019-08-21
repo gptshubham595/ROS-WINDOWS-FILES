@@ -67,8 +67,8 @@ set(urdf_parser_plugin_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(urdf_parser_plugin_SOURCE_PREFIX D:/a/1/a/_ws/src/urdf/urdf_parser_plugin)
-  set(urdf_parser_plugin_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/urdf_parser_plugin)
+  set(urdf_parser_plugin_SOURCE_PREFIX C:/catkin_ws/src/urdf/urdf_parser_plugin)
+  set(urdf_parser_plugin_DEVEL_PREFIX C:/catkin_ws/devel_isolated/urdf_parser_plugin)
   set(urdf_parser_plugin_INSTALL_PREFIX "")
   set(urdf_parser_plugin_PREFIX ${urdf_parser_plugin_DEVEL_PREFIX})
 else()

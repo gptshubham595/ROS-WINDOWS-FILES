@@ -69,7 +69,7 @@ namespace compressed_depth_image_transport
         field(a_f)
       {}
 
-      T (CompressedDepthPublisherConfig::* field);
+      T CompressedDepthPublisherConfig::* field;
 
       virtual void clamp(CompressedDepthPublisherConfig &config, const CompressedDepthPublisherConfig &max, const CompressedDepthPublisherConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace compressed_depth_image_transport
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<CompressedDepthPublisherConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

@@ -67,8 +67,8 @@ set(cpp_common_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(cpp_common_SOURCE_PREFIX D:/a/1/a/_ws/src/roscpp_core/cpp_common)
-  set(cpp_common_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/cpp_common)
+  set(cpp_common_SOURCE_PREFIX C:/catkin_ws/src/roscpp_core/cpp_common)
+  set(cpp_common_DEVEL_PREFIX C:/catkin_ws/devel_isolated/cpp_common)
   set(cpp_common_INSTALL_PREFIX "")
   set(cpp_common_PREFIX ${cpp_common_DEVEL_PREFIX})
 else()

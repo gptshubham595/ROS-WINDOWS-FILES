@@ -1,7 +1,7 @@
-# Software License Agreement (BSD License)
-#
 # Copyright (c) 2012, Willow Garage, Inc.
 # All rights reserved.
+#
+# Software License Agreement (BSD License 2.0)
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -39,8 +39,8 @@ try:
     from python_qt_binding.QtCore import QSortFilterProxyModel  # Qt 5
 except ImportError:
     from python_qt_binding.QtGui import QSortFilterProxyModel  # Qt 4
-import rospy
 
+from rqt_reconfigure import logging
 from rqt_reconfigure.treenode_qstditem import TreenodeQstdItem
 
 
@@ -81,7 +81,7 @@ class FilterChildrenModel(QSortFilterProxyModel):
         :type src_row: int
         :type src_parent_qmindex: QModelIndex
         """
-        rospy.logdebug('filerAcceptRow 1')
+        logging.debug('filerAcceptRow 1')
         return self._filter_row_recur(src_row, src_parent_qmindex)
 
     def _filter_row_recur(self, src_row, src_parent_qmindex):
@@ -97,7 +97,7 @@ class FilterChildrenModel(QSortFilterProxyModel):
             # If selectable ROS Node, get GRN name
             nodename_fullpath = curr_qitem.get_raw_param_name()
             text_filter_target = nodename_fullpath
-            rospy.logdebug('   Nodename full={} '.format(nodename_fullpath))
+            logging.debug('   Nodename full={} '.format(nodename_fullpath))
         else:
             # If ReadonlyItem, this means items are the parameters, not a part
             # of node name. So, get param name.
@@ -106,24 +106,22 @@ class FilterChildrenModel(QSortFilterProxyModel):
         regex = self.filterRegExp()
         pos_hit = regex.indexIn(text_filter_target)
         if pos_hit >= 0:  # Query hit.
-            rospy.logdebug('curr data={} row={} col={}'.format(
-                                                        curr_qmindex.data(),
-                                                        curr_qmindex.row(),
-                                                        curr_qmindex.column()))
+            logging.debug('curr data={} row={} col={}'.format(
+                curr_qmindex.data(), curr_qmindex.row(), curr_qmindex.column()
+            ))
 
             # Set all subsequent treenodes True
-            rospy.logdebug(' FCModel.filterAcceptsRow src_row={}'.format(
-                            src_row) +
-                           ' parent row={} data={}'.format(
-                              src_parent_qmindex.row(),
-                              src_parent_qmindex.data()) +
-                           ' filterRegExp={}'.format(regex))
+            logging.debug(
+                ' FCModel.filterAcceptsRow'
+                ' src_row={} parent row={} data={} filterRegExp={}'.format(
+                    src_row, src_parent_qmindex.row(),
+                    src_parent_qmindex.data(), regex))
 
             # If the index is the terminal treenode, parameters that hit
             # the query are displayed at the root tree.
             _child_index = curr_qmindex.child(0, 0)
             if ((not _child_index.isValid()) and
-                (isinstance(curr_qitem, TreenodeQstdItem))):
+                    (isinstance(curr_qitem, TreenodeQstdItem))):
                 self._show_params_view(src_row, curr_qitem)
 
             # Once we find a treenode that hits the query, no need to further
@@ -152,9 +150,9 @@ class FilterChildrenModel(QSortFilterProxyModel):
         """
         :type curr_qitem: QStandardItem
         """
-
-        rospy.logdebug('_show_params_view data={}'.format(
-                                  curr_qitem.data(Qt.DisplayRole)))
+        logging.debug('_show_params_view data={}'.format(
+            curr_qitem.data(Qt.DisplayRole)
+        ))
         curr_qitem.enable_param_items()
 
     def _get_toplevel_parent_recur(self, qmindex):
@@ -172,9 +170,10 @@ class FilterChildrenModel(QSortFilterProxyModel):
         :type source_column: int
         :type source_parent: QModelIndex
         """
-        rospy.logdebug('FCModel.filterAcceptsCol source_col={} '.format(
+        logging.debug('FCModel.filterAcceptsCol source_col={} '.format(
             source_column) + 'parent col={} row={} data={}'.format(
-            source_parent.column(), source_parent.row(), source_parent.data()))
+                source_parent.column(), source_parent.row(),
+                source_parent.data()))
         return True
 
     def set_filter(self, filter_):
@@ -184,7 +183,7 @@ class FilterChildrenModel(QSortFilterProxyModel):
         # filtering, in the hope of making filtering process faster.
         if filter_.get_text == '':
             self.invalidate()
-            rospy.loginfo('filter invalidated.')
+            logging.info('filter invalidated.')
 
         # By calling setFilterRegExp, filterAccepts* methods get kicked.
         self.setFilterRegExp(self._filter.get_regexp())

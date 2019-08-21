@@ -67,8 +67,8 @@ set(velocity_controllers_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(velocity_controllers_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_controllers/velocity_controllers)
-  set(velocity_controllers_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/velocity_controllers)
+  set(velocity_controllers_SOURCE_PREFIX C:/catkin_ws/src/ros_controllers/velocity_controllers)
+  set(velocity_controllers_DEVEL_PREFIX C:/catkin_ws/devel_isolated/velocity_controllers)
   set(velocity_controllers_INSTALL_PREFIX "")
   set(velocity_controllers_PREFIX ${velocity_controllers_DEVEL_PREFIX})
 else()

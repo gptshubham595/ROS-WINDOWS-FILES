@@ -69,7 +69,7 @@ namespace gazebo_plugins
         field(a_f)
       {}
 
-      T (GazeboRosCameraConfig::* field);
+      T GazeboRosCameraConfig::* field;
 
       virtual void clamp(GazeboRosCameraConfig &config, const GazeboRosCameraConfig &max, const GazeboRosCameraConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace gazebo_plugins
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<GazeboRosCameraConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

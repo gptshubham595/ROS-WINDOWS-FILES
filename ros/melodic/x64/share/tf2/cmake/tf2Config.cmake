@@ -67,8 +67,8 @@ set(tf2_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf2_SOURCE_PREFIX D:/a/1/a/_ws/src/geometry2/tf2)
-  set(tf2_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/tf2)
+  set(tf2_SOURCE_PREFIX C:/catkin_ws/src/geometry2/tf2)
+  set(tf2_DEVEL_PREFIX C:/catkin_ws/devel_isolated/tf2)
   set(tf2_INSTALL_PREFIX "")
   set(tf2_PREFIX ${tf2_DEVEL_PREFIX})
 else()

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\CMakeLibTests.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testArgumentParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testGeneratedFileStream.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testRST.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testRange.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testString.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testSystemTools.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testUTF8.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testXMLParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testXMLSafe.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testFindPackageCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testUVProcessChain.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testUVRAII.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testUVStreambuf.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\testVisualStudioSlnParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Download\cmake-3.15.2\Tests\CMakeLib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DBFAA463-4871-3D25-9963-4797A38FDEC9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

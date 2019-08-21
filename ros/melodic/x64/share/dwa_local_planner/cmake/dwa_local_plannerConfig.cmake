@@ -67,8 +67,8 @@ set(dwa_local_planner_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(dwa_local_planner_SOURCE_PREFIX D:/a/1/a/_ws/src/navigation/dwa_local_planner)
-  set(dwa_local_planner_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/dwa_local_planner)
+  set(dwa_local_planner_SOURCE_PREFIX C:/catkin_ws/src/navigation/dwa_local_planner)
+  set(dwa_local_planner_DEVEL_PREFIX C:/catkin_ws/devel_isolated/dwa_local_planner)
   set(dwa_local_planner_INSTALL_PREFIX "")
   set(dwa_local_planner_PREFIX ${dwa_local_planner_DEVEL_PREFIX})
 else()

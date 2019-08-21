@@ -67,8 +67,8 @@ set(rqt_bag_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_bag_SOURCE_PREFIX D:/a/1/a/_ws/src/rqt_bag/rqt_bag)
-  set(rqt_bag_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_bag)
+  set(rqt_bag_SOURCE_PREFIX C:/catkin_ws/src/rqt_bag/rqt_bag)
+  set(rqt_bag_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_bag)
   set(rqt_bag_INSTALL_PREFIX "")
   set(rqt_bag_PREFIX ${rqt_bag_DEVEL_PREFIX})
 else()

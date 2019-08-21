@@ -67,8 +67,8 @@ set(rosgraph_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosgraph_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/tools/rosgraph)
-  set(rosgraph_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosgraph)
+  set(rosgraph_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/tools/rosgraph)
+  set(rosgraph_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosgraph)
   set(rosgraph_INSTALL_PREFIX "")
   set(rosgraph_PREFIX ${rosgraph_DEVEL_PREFIX})
 else()

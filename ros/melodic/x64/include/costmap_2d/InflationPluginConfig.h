@@ -69,7 +69,7 @@ namespace costmap_2d
         field(a_f)
       {}
 
-      T (InflationPluginConfig::* field);
+      T InflationPluginConfig::* field;
 
       virtual void clamp(InflationPluginConfig &config, const InflationPluginConfig &max, const InflationPluginConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace costmap_2d
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<InflationPluginConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

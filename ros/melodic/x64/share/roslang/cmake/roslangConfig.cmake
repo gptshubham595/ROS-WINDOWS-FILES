@@ -67,8 +67,8 @@ set(roslang_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(roslang_SOURCE_PREFIX D:/a/1/a/_ws/src/ros/core/roslang)
-  set(roslang_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/roslang)
+  set(roslang_SOURCE_PREFIX C:/catkin_ws/src/ros/core/roslang)
+  set(roslang_DEVEL_PREFIX C:/catkin_ws/devel_isolated/roslang)
   set(roslang_INSTALL_PREFIX "")
   set(roslang_PREFIX ${roslang_DEVEL_PREFIX})
 else()

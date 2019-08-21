@@ -67,8 +67,8 @@ set(robotiq_ethercat_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robotiq_ethercat_SOURCE_PREFIX D:/a/1/a/_ws/src/robotiq/robotiq_ethercat)
-  set(robotiq_ethercat_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/robotiq_ethercat)
+  set(robotiq_ethercat_SOURCE_PREFIX C:/catkin_ws/src/robotiq/robotiq_ethercat)
+  set(robotiq_ethercat_DEVEL_PREFIX C:/catkin_ws/devel_isolated/robotiq_ethercat)
   set(robotiq_ethercat_INSTALL_PREFIX "")
   set(robotiq_ethercat_PREFIX ${robotiq_ethercat_DEVEL_PREFIX})
 else()

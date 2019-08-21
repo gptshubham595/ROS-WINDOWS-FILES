@@ -67,8 +67,8 @@ set(roscreate_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(roscreate_SOURCE_PREFIX D:/a/1/a/_ws/src/ros/tools/roscreate)
-  set(roscreate_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/roscreate)
+  set(roscreate_SOURCE_PREFIX C:/catkin_ws/src/ros/tools/roscreate)
+  set(roscreate_DEVEL_PREFIX C:/catkin_ws/devel_isolated/roscreate)
   set(roscreate_INSTALL_PREFIX "")
   set(roscreate_PREFIX ${roscreate_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(theora_image_transport_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(theora_image_transport_SOURCE_PREFIX D:/a/1/a/_ws/src/image_transport_plugins/theora_image_transport)
-  set(theora_image_transport_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/theora_image_transport)
+  set(theora_image_transport_SOURCE_PREFIX C:/catkin_ws/src/image_transport_plugins/theora_image_transport)
+  set(theora_image_transport_DEVEL_PREFIX C:/catkin_ws/devel_isolated/theora_image_transport)
   set(theora_image_transport_INSTALL_PREFIX "")
   set(theora_image_transport_PREFIX ${theora_image_transport_DEVEL_PREFIX})
 else()

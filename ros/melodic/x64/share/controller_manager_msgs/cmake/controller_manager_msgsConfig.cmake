@@ -67,8 +67,8 @@ set(controller_manager_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(controller_manager_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_control/controller_manager_msgs)
-  set(controller_manager_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/controller_manager_msgs)
+  set(controller_manager_msgs_SOURCE_PREFIX C:/catkin_ws/src/ros_control/controller_manager_msgs)
+  set(controller_manager_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/controller_manager_msgs)
   set(controller_manager_msgs_INSTALL_PREFIX "")
   set(controller_manager_msgs_PREFIX ${controller_manager_msgs_DEVEL_PREFIX})
 else()

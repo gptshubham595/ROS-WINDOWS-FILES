@@ -67,8 +67,8 @@ set(pcl_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(pcl_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/pcl_msgs)
-  set(pcl_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/pcl_msgs)
+  set(pcl_msgs_SOURCE_PREFIX C:/catkin_ws/src/pcl_msgs)
+  set(pcl_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/pcl_msgs)
   set(pcl_msgs_INSTALL_PREFIX "")
   set(pcl_msgs_PREFIX ${pcl_msgs_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(rostime_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rostime_SOURCE_PREFIX D:/a/1/a/_ws/src/roscpp_core/rostime)
-  set(rostime_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rostime)
+  set(rostime_SOURCE_PREFIX C:/catkin_ws/src/roscpp_core/rostime)
+  set(rostime_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rostime)
   set(rostime_INSTALL_PREFIX "")
   set(rostime_PREFIX ${rostime_DEVEL_PREFIX})
 else()

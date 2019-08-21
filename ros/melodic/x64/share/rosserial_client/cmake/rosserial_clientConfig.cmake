@@ -67,8 +67,8 @@ set(rosserial_client_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosserial_client_SOURCE_PREFIX D:/a/1/a/_ws/src/rosserial/rosserial_client)
-  set(rosserial_client_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosserial_client)
+  set(rosserial_client_SOURCE_PREFIX C:/catkin_ws/src/rosserial/rosserial_client)
+  set(rosserial_client_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosserial_client)
   set(rosserial_client_INSTALL_PREFIX "")
   set(rosserial_client_PREFIX ${rosserial_client_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(tf_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf_SOURCE_PREFIX D:/a/1/a/_ws/src/geometry/tf)
-  set(tf_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/tf)
+  set(tf_SOURCE_PREFIX C:/catkin_ws/src/geometry/tf)
+  set(tf_DEVEL_PREFIX C:/catkin_ws/devel_isolated/tf)
   set(tf_INSTALL_PREFIX "")
   set(tf_PREFIX ${tf_DEVEL_PREFIX})
 else()

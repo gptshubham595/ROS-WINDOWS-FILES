@@ -67,8 +67,8 @@ set(realtime_tools_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(realtime_tools_SOURCE_PREFIX D:/a/1/a/_ws/src/realtime_tools)
-  set(realtime_tools_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/realtime_tools)
+  set(realtime_tools_SOURCE_PREFIX C:/catkin_ws/src/realtime_tools)
+  set(realtime_tools_DEVEL_PREFIX C:/catkin_ws/devel_isolated/realtime_tools)
   set(realtime_tools_INSTALL_PREFIX "")
   set(realtime_tools_PREFIX ${realtime_tools_DEVEL_PREFIX})
 else()
@@ -162,7 +162,7 @@ foreach(t ${realtime_tools_EXPORTED_TARGETS})
   endif()
 endforeach()
 
-set(depends "roscpp;rospy")
+set(depends "roscpp")
 foreach(depend ${depends})
   string(REPLACE " " ";" depend_list ${depend})
   # the package name of the dependency must be kept in a unique variable so that it is not overwritten in recursive calls

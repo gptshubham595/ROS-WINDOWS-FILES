@@ -67,8 +67,8 @@ set(costmap_2d_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(costmap_2d_SOURCE_PREFIX D:/a/1/a/_ws/src/navigation/costmap_2d)
-  set(costmap_2d_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/costmap_2d)
+  set(costmap_2d_SOURCE_PREFIX C:/catkin_ws/src/navigation/costmap_2d)
+  set(costmap_2d_DEVEL_PREFIX C:/catkin_ws/devel_isolated/costmap_2d)
   set(costmap_2d_INSTALL_PREFIX "")
   set(costmap_2d_PREFIX ${costmap_2d_DEVEL_PREFIX})
 else()

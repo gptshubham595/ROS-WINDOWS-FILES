@@ -67,8 +67,8 @@ set(bondcpp_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(bondcpp_SOURCE_PREFIX D:/a/1/a/_ws/src/bond_core/bondcpp)
-  set(bondcpp_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/bondcpp)
+  set(bondcpp_SOURCE_PREFIX C:/catkin_ws/src/bond_core/bondcpp)
+  set(bondcpp_DEVEL_PREFIX C:/catkin_ws/devel_isolated/bondcpp)
   set(bondcpp_INSTALL_PREFIX "")
   set(bondcpp_PREFIX ${bondcpp_DEVEL_PREFIX})
 else()

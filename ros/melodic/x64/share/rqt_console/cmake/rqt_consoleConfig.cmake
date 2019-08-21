@@ -67,8 +67,8 @@ set(rqt_console_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_console_SOURCE_PREFIX D:/a/1/a/_ws/src/rqt_console)
-  set(rqt_console_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_console)
+  set(rqt_console_SOURCE_PREFIX C:/catkin_ws/src/rqt_console)
+  set(rqt_console_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_console)
   set(rqt_console_INSTALL_PREFIX "")
   set(rqt_console_PREFIX ${rqt_console_DEVEL_PREFIX})
 else()

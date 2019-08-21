@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2EB9B30A-E418-3C58-9C74-0F62397D2DDC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Download\cmake-3.15.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Download/cmake-3.15.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeCCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeSystem.cmake;D:\Download\cmake-3.15.2\.clang-tidy;D:\Download\cmake-3.15.2\CMakeCPack.cmake;D:\Download\cmake-3.15.2\CMakeCPackOptions.cmake.in;D:\Download\cmake-3.15.2\CTestConfig.cmake;D:\Download\cmake-3.15.2\CTestCustom.cmake.in;D:\Download\cmake-3.15.2\CompileFlags.cmake;D:\Download\cmake-3.15.2\DartConfig.cmake;D:\Download\cmake-3.15.2\Modules\CPackIFWConfigureFile.cmake;D:\Download\cmake-3.15.2\Source\CMakeInstallDestinations.cmake;D:\Download\cmake-3.15.2\Source\CMakeVersion.cmake;D:\Download\cmake-3.15.2\Source\CMakeVersionCompute.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_c11_thread_local.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_cxx17_check.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_cxx_features.cmake;D:\Download\cmake-3.15.2\Source\Modules\OverrideC.cmake;D:\Download\cmake-3.15.2\Source\Modules\OverrideCXX.cmake;D:\Download\cmake-3.15.2\Templates\CTestScript.cmake.in;D:\Download\cmake-3.15.2\Tests\.NoDartCoverage;D:\Download\cmake-3.15.2\Tests\CMakeInstall.cmake;D:\Download\cmake-3.15.2\Utilities\cmThirdParty.h.in;D:\Download\cmake-3.15.2\cmake_uninstall.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Dart.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.15\Modules\FindDart.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Download/cmake-3.15.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeCCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeSystem.cmake;D:\Download\cmake-3.15.2\.clang-tidy;D:\Download\cmake-3.15.2\CMakeCPack.cmake;D:\Download\cmake-3.15.2\CMakeCPackOptions.cmake.in;D:\Download\cmake-3.15.2\CTestConfig.cmake;D:\Download\cmake-3.15.2\CTestCustom.cmake.in;D:\Download\cmake-3.15.2\CompileFlags.cmake;D:\Download\cmake-3.15.2\DartConfig.cmake;D:\Download\cmake-3.15.2\Modules\CPackIFWConfigureFile.cmake;D:\Download\cmake-3.15.2\Source\CMakeInstallDestinations.cmake;D:\Download\cmake-3.15.2\Source\CMakeVersion.cmake;D:\Download\cmake-3.15.2\Source\CMakeVersionCompute.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_c11_thread_local.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_cxx17_check.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_cxx_features.cmake;D:\Download\cmake-3.15.2\Source\Modules\OverrideC.cmake;D:\Download\cmake-3.15.2\Source\Modules\OverrideCXX.cmake;D:\Download\cmake-3.15.2\Templates\CTestScript.cmake.in;D:\Download\cmake-3.15.2\Tests\.NoDartCoverage;D:\Download\cmake-3.15.2\Tests\CMakeInstall.cmake;D:\Download\cmake-3.15.2\Utilities\cmThirdParty.h.in;D:\Download\cmake-3.15.2\cmake_uninstall.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Dart.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.15\Modules\FindDart.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Download/cmake-3.15.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeCCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeSystem.cmake;D:\Download\cmake-3.15.2\.clang-tidy;D:\Download\cmake-3.15.2\CMakeCPack.cmake;D:\Download\cmake-3.15.2\CMakeCPackOptions.cmake.in;D:\Download\cmake-3.15.2\CTestConfig.cmake;D:\Download\cmake-3.15.2\CTestCustom.cmake.in;D:\Download\cmake-3.15.2\CompileFlags.cmake;D:\Download\cmake-3.15.2\DartConfig.cmake;D:\Download\cmake-3.15.2\Modules\CPackIFWConfigureFile.cmake;D:\Download\cmake-3.15.2\Source\CMakeInstallDestinations.cmake;D:\Download\cmake-3.15.2\Source\CMakeVersion.cmake;D:\Download\cmake-3.15.2\Source\CMakeVersionCompute.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_c11_thread_local.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_cxx17_check.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_cxx_features.cmake;D:\Download\cmake-3.15.2\Source\Modules\OverrideC.cmake;D:\Download\cmake-3.15.2\Source\Modules\OverrideCXX.cmake;D:\Download\cmake-3.15.2\Templates\CTestScript.cmake.in;D:\Download\cmake-3.15.2\Tests\.NoDartCoverage;D:\Download\cmake-3.15.2\Tests\CMakeInstall.cmake;D:\Download\cmake-3.15.2\Utilities\cmThirdParty.h.in;D:\Download\cmake-3.15.2\cmake_uninstall.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Dart.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.15\Modules\FindDart.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Download/cmake-3.15.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeCCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeCXXCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeRCCompiler.cmake;C:\opt\rosdeps\x64\bin\CMakeFiles\3.15.2\CMakeSystem.cmake;D:\Download\cmake-3.15.2\.clang-tidy;D:\Download\cmake-3.15.2\CMakeCPack.cmake;D:\Download\cmake-3.15.2\CMakeCPackOptions.cmake.in;D:\Download\cmake-3.15.2\CTestConfig.cmake;D:\Download\cmake-3.15.2\CTestCustom.cmake.in;D:\Download\cmake-3.15.2\CompileFlags.cmake;D:\Download\cmake-3.15.2\DartConfig.cmake;D:\Download\cmake-3.15.2\Modules\CPackIFWConfigureFile.cmake;D:\Download\cmake-3.15.2\Source\CMakeInstallDestinations.cmake;D:\Download\cmake-3.15.2\Source\CMakeVersion.cmake;D:\Download\cmake-3.15.2\Source\CMakeVersionCompute.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_c11_thread_local.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_cxx17_check.cmake;D:\Download\cmake-3.15.2\Source\Checks\cm_cxx_features.cmake;D:\Download\cmake-3.15.2\Source\Modules\OverrideC.cmake;D:\Download\cmake-3.15.2\Source\Modules\OverrideCXX.cmake;D:\Download\cmake-3.15.2\Templates\CTestScript.cmake.in;D:\Download\cmake-3.15.2\Tests\.NoDartCoverage;D:\Download\cmake-3.15.2\Tests\CMakeInstall.cmake;D:\Download\cmake-3.15.2\Utilities\cmThirdParty.h.in;D:\Download\cmake-3.15.2\cmake_uninstall.cmake.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTest.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestTargets.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CTestUseLaunchers.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Dart.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\DartConfiguration.tcl.in;D:\Program Files\CMake\share\cmake-3.15\Modules\FindDart.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\ZERO_CHECK.vcxproj">
+      <Project>{A7AD871A-68E9-33CE-8FFD-5A99778320D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\CMakeLib.vcxproj">
+      <Project>{E3990380-8658-3E7B-97A2-03DC0FC67D17}</Project>
+      <Name>CMakeLib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\CMakeLibTests.vcxproj">
+      <Project>{AFBD1677-0C4F-324D-9F88-AB06DAD0A36C}</Project>
+      <Name>CMakeLibTests</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\CMakeServerLib.vcxproj">
+      <Project>{5D6A505B-80F0-324C-9529-5175D6D45243}</Project>
+      <Name>CMakeServerLib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeServerLib\CMakeServerLibTests.vcxproj">
+      <Project>{36B8007E-2ED0-3F37-8CAF-9F37E4B051A9}</Project>
+      <Name>CMakeServerLibTests</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\CMakeVersion.vcxproj">
+      <Project>{EB121976-A9BA-39DD-83B0-566DB17C1E0C}</Project>
+      <Name>CMakeVersion</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\CPackLib.vcxproj">
+      <Project>{847E84C0-0A6D-3AD1-BCD3-138BF93B27FA}</Project>
+      <Name>CPackLib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\CTestLib.vcxproj">
+      <Project>{E932F98C-4B9E-3B8A-A1E9-6299837E6A86}</Project>
+      <Name>CTestLib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\cmake.vcxproj">
+      <Project>{22314B2F-E2AB-32A1-9940-5863AED2E93B}</Project>
+      <Name>cmake</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmbzip2\cmbzip2.vcxproj">
+      <Project>{2DE395E1-0DE9-3AC6-80B0-30AC722CFB9D}</Project>
+      <Name>cmbzip2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\cmcldeps.vcxproj">
+      <Project>{A35FDF45-0A29-3F11-A6F2-F35716340CBA}</Project>
+      <Name>cmcldeps</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmcurl\lib\cmcurl.vcxproj">
+      <Project>{44BD8580-2880-37B7-AEA9-BBAA5F15BBF7}</Project>
+      <Name>cmcurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmexpat\cmexpat.vcxproj">
+      <Project>{395E8946-24B8-3CEF-A520-8411F92358CE}</Project>
+      <Name>cmexpat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmjsoncpp\cmjsoncpp.vcxproj">
+      <Project>{4AE387E3-2CE3-3FC5-888B-325DE548A9FC}</Project>
+      <Name>cmjsoncpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmlibarchive\libarchive\cmlibarchive.vcxproj">
+      <Project>{584DB4D6-C182-349E-A275-E029562D6C66}</Project>
+      <Name>cmlibarchive</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmliblzma\cmliblzma.vcxproj">
+      <Project>{51E4EBA4-09BA-3271-A784-9DFA66E47E66}</Project>
+      <Name>cmliblzma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmlibrhash\cmlibrhash.vcxproj">
+      <Project>{E80FAADE-4D99-33E1-B377-F47ED3489C0E}</Project>
+      <Name>cmlibrhash</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmlibuv\cmlibuv.vcxproj">
+      <Project>{36C01794-D983-37CE-A981-E200BAADC24B}</Project>
+      <Name>cmlibuv</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsys.vcxproj">
+      <Project>{9EFA7CEA-2D09-31D7-866F-9B8086F1C907}</Project>
+      <Name>cmsys</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestDynload.vcxproj">
+      <Project>{BD600920-9C27-364B-A3A7-FA596535AD74}</Project>
+      <Name>cmsysTestDynload</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestDynloadImpl.vcxproj">
+      <Project>{E4D9AE51-44E7-369D-8C79-1F3E38E973CD}</Project>
+      <Name>cmsysTestDynloadImpl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestDynloadUse.vcxproj">
+      <Project>{FFE622CA-729E-366F-A5E6-1B058957144D}</Project>
+      <Name>cmsysTestDynloadUse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestProcess.vcxproj">
+      <Project>{75E5102F-991F-352B-B44D-C10D24BDF1E1}</Project>
+      <Name>cmsysTestProcess</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestSharedForward.vcxproj">
+      <Project>{106D5B7C-B507-3D08-A42A-CCFEF07A7FDF}</Project>
+      <Name>cmsysTestSharedForward</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestsC.vcxproj">
+      <Project>{1F619B88-3E3A-3B14-B343-39ED096AE7C3}</Project>
+      <Name>cmsysTestsC</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestsCxx.vcxproj">
+      <Project>{F793EC4B-CCE4-3692-A7D0-B70A452AF0B5}</Project>
+      <Name>cmsysTestsCxx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsys_c.vcxproj">
+      <Project>{DB12D3BF-9A75-3661-99C0-546410B27E5B}</Project>
+      <Name>cmsys_c</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmzlib\cmzlib.vcxproj">
+      <Project>{8B0AF198-ED19-39E0-9DB6-2758EFFEB549}</Project>
+      <Name>cmzlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmzstd\cmzstd.vcxproj">
+      <Project>{7F55F82B-D2CF-3910-94FA-1F724710B45B}</Project>
+      <Name>cmzstd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\cpack.vcxproj">
+      <Project>{36B22B9E-7DBD-36FA-AB17-794CE9E9DDDD}</Project>
+      <Name>cpack</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\ctest.vcxproj">
+      <Project>{05C046FD-5BE3-32A8-A83A-8F826C50896B}</Project>
+      <Name>ctest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmcurl\curltest.vcxproj">
+      <Project>{033E1501-D7C0-37DB-A9A8-B3883E349C1B}</Project>
+      <Name>curltest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\RunCMake\exit_code.vcxproj">
+      <Project>{5C81AD01-DD36-3944-9209-EF6B802DC996}</Project>
+      <Name>exit_code</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\KWIML\test\kwiml_test.vcxproj">
+      <Project>{FE13A085-B99C-3533-8FA0-B1C143AD5E2C}</Project>
+      <Name>kwiml_test</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\PseudoMemcheck\memcheck_fail.vcxproj">
+      <Project>{49B0424E-3796-3141-AF93-C1C5665A76BA}</Project>
+      <Name>memcheck_fail</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\RunCMake\print_stdin.vcxproj">
+      <Project>{7F15FFE3-1058-39CD-9B4D-9B2664E7203A}</Project>
+      <Name>print_stdin</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\PseudoMemcheck\pseudo_BC.vcxproj">
+      <Project>{EE5F0B5D-32C6-30F2-B938-DC1180C32E95}</Project>
+      <Name>pseudo_BC</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\RunCMake\pseudo_emulator.vcxproj">
+      <Project>{B567FBA9-2850-3475-8B6F-CFC269909F95}</Project>
+      <Name>pseudo_emulator</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\RunCMake\pseudo_emulator_custom_command.vcxproj">
+      <Project>{6A91182D-628B-37A0-B4AE-9879141C64DC}</Project>
+      <Name>pseudo_emulator_custom_command</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\RunCMake\pseudo_emulator_custom_command_arg.vcxproj">
+      <Project>{1012D45D-A09E-3342-9B5E-403FDBFB01FB}</Project>
+      <Name>pseudo_emulator_custom_command_arg</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\PseudoMemcheck\pseudo_purify.vcxproj">
+      <Project>{D4629701-A693-3471-9247-B6B4601AB371}</Project>
+      <Name>pseudo_purify</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\PseudoMemcheck\pseudo_valgrind.vcxproj">
+      <Project>{BC36C763-D6A3-3857-A525-86BFBB1D1494}</Project>
+      <Name>pseudo_valgrind</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\PseudoMemcheck\NoLog\pseudonl_BC.vcxproj">
+      <Project>{5BC89611-342A-367A-B766-48474740605E}</Project>
+      <Name>pseudonl_BC</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\PseudoMemcheck\NoLog\pseudonl_purify.vcxproj">
+      <Project>{94EF2572-8C3C-3B3E-9990-379831F6B6D3}</Project>
+      <Name>pseudonl_purify</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\PseudoMemcheck\NoLog\pseudonl_valgrind.vcxproj">
+      <Project>{F40389A0-3BD7-3419-AB21-A61A7108B63E}</Project>
+      <Name>pseudonl_valgrind</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\testAffinity.vcxproj">
+      <Project>{A7F04201-C74A-33E3-B365-F77C6A023AF9}</Project>
+      <Name>testAffinity</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\testConsoleBufChild.vcxproj">
+      <Project>{4A6F606C-C6B3-3E7F-9810-E2B5FBB1FFE5}</Project>
+      <Name>testConsoleBufChild</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\testEncoding.vcxproj">
+      <Project>{D3996C73-C63E-3007-B51F-04C243F28674}</Project>
+      <Name>testEncoding</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Tests\CMakeLib\testUVProcessChainHelper.vcxproj">
+      <Project>{5D15D273-364F-3F79-A4A9-404020C68598}</Project>
+      <Name>testUVProcessChainHelper</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

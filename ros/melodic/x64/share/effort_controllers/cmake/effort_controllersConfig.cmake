@@ -67,8 +67,8 @@ set(effort_controllers_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(effort_controllers_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_controllers/effort_controllers)
-  set(effort_controllers_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/effort_controllers)
+  set(effort_controllers_SOURCE_PREFIX C:/catkin_ws/src/ros_controllers/effort_controllers)
+  set(effort_controllers_DEVEL_PREFIX C:/catkin_ws/devel_isolated/effort_controllers)
   set(effort_controllers_INSTALL_PREFIX "")
   set(effort_controllers_PREFIX ${effort_controllers_DEVEL_PREFIX})
 else()

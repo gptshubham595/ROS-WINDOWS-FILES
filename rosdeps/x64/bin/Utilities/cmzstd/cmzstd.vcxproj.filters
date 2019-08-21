@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\common\entropy_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\common\error_private.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\common\fse_decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\common\pool.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\common\threading.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\common\xxhash.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\common\zstd_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\compress\fse_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\compress\hist.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\compress\huf_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\compress\zstd_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\compress\zstd_double_fast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\compress\zstd_fast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\compress\zstd_lazy.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\compress\zstd_ldm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\compress\zstdmt_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\compress\zstd_opt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\decompress\huf_decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\decompress\zstd_ddict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\decompress\zstd_decompress_block.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\decompress\zstd_decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\deprecated\zbuff_common.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\deprecated\zbuff_compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\deprecated\zbuff_decompress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\dictBuilder\cover.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\dictBuilder\divsufsort.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\dictBuilder\fastcover.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\lib\dictBuilder\zdict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Download\cmake-3.15.2\Utilities\cmzstd\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DBFAA463-4871-3D25-9963-4797A38FDEC9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

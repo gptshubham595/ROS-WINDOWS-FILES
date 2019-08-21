@@ -67,8 +67,8 @@ set(qwt_dependency_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(qwt_dependency_SOURCE_PREFIX D:/a/1/a/_ws/src/qwt_dependency)
-  set(qwt_dependency_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/qwt_dependency)
+  set(qwt_dependency_SOURCE_PREFIX C:/catkin_ws/src/qwt_dependency)
+  set(qwt_dependency_DEVEL_PREFIX C:/catkin_ws/devel_isolated/qwt_dependency)
   set(qwt_dependency_INSTALL_PREFIX "")
   set(qwt_dependency_PREFIX ${qwt_dependency_DEVEL_PREFIX})
 else()

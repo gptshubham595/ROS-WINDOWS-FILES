@@ -67,8 +67,8 @@ set(roscpp_serialization_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(roscpp_serialization_SOURCE_PREFIX D:/a/1/a/_ws/src/roscpp_core/roscpp_serialization)
-  set(roscpp_serialization_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/roscpp_serialization)
+  set(roscpp_serialization_SOURCE_PREFIX C:/catkin_ws/src/roscpp_core/roscpp_serialization)
+  set(roscpp_serialization_DEVEL_PREFIX C:/catkin_ws/devel_isolated/roscpp_serialization)
   set(roscpp_serialization_INSTALL_PREFIX "")
   set(roscpp_serialization_PREFIX ${roscpp_serialization_DEVEL_PREFIX})
 else()

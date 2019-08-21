@@ -67,8 +67,8 @@ set(roscpp_traits_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(roscpp_traits_SOURCE_PREFIX D:/a/1/a/_ws/src/roscpp_core/roscpp_traits)
-  set(roscpp_traits_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/roscpp_traits)
+  set(roscpp_traits_SOURCE_PREFIX C:/catkin_ws/src/roscpp_core/roscpp_traits)
+  set(roscpp_traits_DEVEL_PREFIX C:/catkin_ws/devel_isolated/roscpp_traits)
   set(roscpp_traits_INSTALL_PREFIX "")
   set(roscpp_traits_PREFIX ${roscpp_traits_DEVEL_PREFIX})
 else()

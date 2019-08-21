@@ -67,8 +67,8 @@ set(rosclean_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosclean_SOURCE_PREFIX D:/a/1/a/_ws/src/ros/tools/rosclean)
-  set(rosclean_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosclean)
+  set(rosclean_SOURCE_PREFIX C:/catkin_ws/src/ros/tools/rosclean)
+  set(rosclean_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosclean)
   set(rosclean_INSTALL_PREFIX "")
   set(rosclean_PREFIX ${rosclean_DEVEL_PREFIX})
 else()

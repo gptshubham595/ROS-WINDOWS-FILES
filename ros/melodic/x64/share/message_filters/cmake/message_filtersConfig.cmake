@@ -67,8 +67,8 @@ set(message_filters_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(message_filters_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/utilities/message_filters)
-  set(message_filters_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/message_filters)
+  set(message_filters_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/utilities/message_filters)
+  set(message_filters_DEVEL_PREFIX C:/catkin_ws/devel_isolated/message_filters)
   set(message_filters_INSTALL_PREFIX "")
   set(message_filters_PREFIX ${message_filters_DEVEL_PREFIX})
 else()

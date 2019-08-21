@@ -69,7 +69,7 @@ namespace move_base
         field(a_f)
       {}
 
-      T (MoveBaseConfig::* field);
+      T MoveBaseConfig::* field;
 
       virtual void clamp(MoveBaseConfig &config, const MoveBaseConfig &max, const MoveBaseConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace move_base
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<MoveBaseConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

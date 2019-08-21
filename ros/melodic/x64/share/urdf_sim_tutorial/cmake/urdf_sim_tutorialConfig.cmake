@@ -67,8 +67,8 @@ set(urdf_sim_tutorial_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(urdf_sim_tutorial_SOURCE_PREFIX D:/a/1/a/_ws/src/urdf_sim_tutorial)
-  set(urdf_sim_tutorial_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/urdf_sim_tutorial)
+  set(urdf_sim_tutorial_SOURCE_PREFIX C:/catkin_ws/src/urdf_sim_tutorial)
+  set(urdf_sim_tutorial_DEVEL_PREFIX C:/catkin_ws/devel_isolated/urdf_sim_tutorial)
   set(urdf_sim_tutorial_INSTALL_PREFIX "")
   set(urdf_sim_tutorial_PREFIX ${urdf_sim_tutorial_DEVEL_PREFIX})
 else()

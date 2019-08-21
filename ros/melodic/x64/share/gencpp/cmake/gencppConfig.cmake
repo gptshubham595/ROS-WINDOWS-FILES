@@ -67,8 +67,8 @@ set(gencpp_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gencpp_SOURCE_PREFIX D:/a/1/a/_ws/src/gencpp)
-  set(gencpp_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/gencpp)
+  set(gencpp_SOURCE_PREFIX C:/catkin_ws/src/gencpp)
+  set(gencpp_DEVEL_PREFIX C:/catkin_ws/devel_isolated/gencpp)
   set(gencpp_INSTALL_PREFIX "")
   set(gencpp_PREFIX ${gencpp_DEVEL_PREFIX})
 else()

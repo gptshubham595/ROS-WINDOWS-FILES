@@ -67,8 +67,8 @@ set(nodelet_topic_tools_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(nodelet_topic_tools_SOURCE_PREFIX D:/a/1/a/_ws/src/nodelet_core/nodelet_topic_tools)
-  set(nodelet_topic_tools_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/nodelet_topic_tools)
+  set(nodelet_topic_tools_SOURCE_PREFIX C:/catkin_ws/src/nodelet_core/nodelet_topic_tools)
+  set(nodelet_topic_tools_DEVEL_PREFIX C:/catkin_ws/devel_isolated/nodelet_topic_tools)
   set(nodelet_topic_tools_INSTALL_PREFIX "")
   set(nodelet_topic_tools_PREFIX ${nodelet_topic_tools_DEVEL_PREFIX})
 else()

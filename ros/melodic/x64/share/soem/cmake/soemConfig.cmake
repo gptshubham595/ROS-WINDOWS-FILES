@@ -67,8 +67,8 @@ set(soem_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(soem_SOURCE_PREFIX D:/a/1/a/_ws/src/soem)
-  set(soem_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/soem)
+  set(soem_SOURCE_PREFIX C:/catkin_ws/src/soem)
+  set(soem_DEVEL_PREFIX C:/catkin_ws/devel_isolated/soem)
   set(soem_INSTALL_PREFIX "")
   set(soem_PREFIX ${soem_DEVEL_PREFIX})
 else()

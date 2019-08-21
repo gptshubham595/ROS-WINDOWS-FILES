@@ -67,8 +67,8 @@ set(joint_state_publisher_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(joint_state_publisher_SOURCE_PREFIX D:/a/1/a/_ws/src/joint_state_publisher/joint_state_publisher)
-  set(joint_state_publisher_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/joint_state_publisher)
+  set(joint_state_publisher_SOURCE_PREFIX C:/catkin_ws/src/joint_state_publisher/joint_state_publisher)
+  set(joint_state_publisher_DEVEL_PREFIX C:/catkin_ws/devel_isolated/joint_state_publisher)
   set(joint_state_publisher_INSTALL_PREFIX "")
   set(joint_state_publisher_PREFIX ${joint_state_publisher_DEVEL_PREFIX})
 else()

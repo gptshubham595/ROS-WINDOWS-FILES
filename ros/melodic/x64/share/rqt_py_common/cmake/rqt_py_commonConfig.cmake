@@ -67,8 +67,8 @@ set(rqt_py_common_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_py_common_SOURCE_PREFIX D:/a/1/a/_ws/src/rqt/rqt_py_common)
-  set(rqt_py_common_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_py_common)
+  set(rqt_py_common_SOURCE_PREFIX C:/catkin_ws/src/rqt/rqt_py_common)
+  set(rqt_py_common_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_py_common)
   set(rqt_py_common_INSTALL_PREFIX "")
   set(rqt_py_common_PREFIX ${rqt_py_common_DEVEL_PREFIX})
 else()

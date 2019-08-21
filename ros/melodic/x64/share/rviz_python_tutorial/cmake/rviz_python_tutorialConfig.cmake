@@ -67,8 +67,8 @@ set(rviz_python_tutorial_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_python_tutorial_SOURCE_PREFIX D:/a/1/a/_ws/src/visualization_tutorials/rviz_python_tutorial)
-  set(rviz_python_tutorial_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rviz_python_tutorial)
+  set(rviz_python_tutorial_SOURCE_PREFIX C:/catkin_ws/src/visualization_tutorials/rviz_python_tutorial)
+  set(rviz_python_tutorial_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rviz_python_tutorial)
   set(rviz_python_tutorial_INSTALL_PREFIX "")
   set(rviz_python_tutorial_PREFIX ${rviz_python_tutorial_DEVEL_PREFIX})
 else()

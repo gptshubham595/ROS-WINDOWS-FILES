@@ -69,7 +69,7 @@ namespace control_toolbox
         field(a_f)
       {}
 
-      T (ParametersConfig::* field);
+      T ParametersConfig::* field;
 
       virtual void clamp(ParametersConfig &config, const ParametersConfig &max, const ParametersConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace control_toolbox
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<ParametersConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

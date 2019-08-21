@@ -67,8 +67,8 @@ set(control_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(control_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/control_msgs/control_msgs)
-  set(control_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/control_msgs)
+  set(control_msgs_SOURCE_PREFIX C:/catkin_ws/src/control_msgs/control_msgs)
+  set(control_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/control_msgs)
   set(control_msgs_INSTALL_PREFIX "")
   set(control_msgs_PREFIX ${control_msgs_DEVEL_PREFIX})
 else()

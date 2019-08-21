@@ -69,7 +69,7 @@ namespace nodelet_topic_tools
         field(a_f)
       {}
 
-      T (NodeletThrottleConfig::* field);
+      T NodeletThrottleConfig::* field;
 
       virtual void clamp(NodeletThrottleConfig &config, const NodeletThrottleConfig &max, const NodeletThrottleConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace nodelet_topic_tools
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<NodeletThrottleConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

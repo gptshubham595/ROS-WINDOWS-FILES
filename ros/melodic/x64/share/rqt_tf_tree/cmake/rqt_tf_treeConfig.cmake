@@ -67,8 +67,8 @@ set(rqt_tf_tree_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_tf_tree_SOURCE_PREFIX D:/a/1/a/_ws/src/rqt_tf_tree)
-  set(rqt_tf_tree_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_tf_tree)
+  set(rqt_tf_tree_SOURCE_PREFIX C:/catkin_ws/src/rqt_tf_tree)
+  set(rqt_tf_tree_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_tf_tree)
   set(rqt_tf_tree_INSTALL_PREFIX "")
   set(rqt_tf_tree_PREFIX ${rqt_tf_tree_DEVEL_PREFIX})
 else()

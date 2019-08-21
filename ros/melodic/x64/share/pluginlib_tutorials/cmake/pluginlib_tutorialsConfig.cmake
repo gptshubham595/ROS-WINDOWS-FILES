@@ -67,8 +67,8 @@ set(pluginlib_tutorials_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(pluginlib_tutorials_SOURCE_PREFIX D:/a/1/a/_ws/src/common_tutorials/pluginlib_tutorials)
-  set(pluginlib_tutorials_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/pluginlib_tutorials)
+  set(pluginlib_tutorials_SOURCE_PREFIX C:/catkin_ws/src/common_tutorials/pluginlib_tutorials)
+  set(pluginlib_tutorials_DEVEL_PREFIX C:/catkin_ws/devel_isolated/pluginlib_tutorials)
   set(pluginlib_tutorials_INSTALL_PREFIX "")
   set(pluginlib_tutorials_PREFIX ${pluginlib_tutorials_DEVEL_PREFIX})
 else()

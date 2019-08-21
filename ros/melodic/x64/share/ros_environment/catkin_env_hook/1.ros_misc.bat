@@ -4,7 +4,9 @@ setlocal
 set qt5dir=
 for /f "tokens=* USEBACKQ" %%f in (`where qt5core.dll 2^>NUL`) do (
     set qt5dir=%%f
+    goto :break
 )
+:break
 
 if not defined qt5dir (
     goto :eof

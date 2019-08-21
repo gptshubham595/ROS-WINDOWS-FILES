@@ -2,7 +2,7 @@ prefix=C:/opt/ros/melodic/x64
 
 Name: catkin
 Description: Description of catkin
-Version: 0.7.14
+Version: 0.7.18
 Cflags: 
 Libs: -LC:/opt/ros/melodic/x64/lib 
 Requires: 

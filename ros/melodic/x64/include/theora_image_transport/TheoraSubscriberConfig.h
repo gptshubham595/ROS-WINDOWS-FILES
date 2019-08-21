@@ -69,7 +69,7 @@ namespace theora_image_transport
         field(a_f)
       {}
 
-      T (TheoraSubscriberConfig::* field);
+      T TheoraSubscriberConfig::* field;
 
       virtual void clamp(TheoraSubscriberConfig &config, const TheoraSubscriberConfig &max, const TheoraSubscriberConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace theora_image_transport
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<TheoraSubscriberConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

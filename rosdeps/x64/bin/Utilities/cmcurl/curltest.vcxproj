@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{033E1501-D7C0-37DB-A9A8-B3883E349C1B}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>curltest</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\rosdeps\x64\bin\Utilities\cmcurl\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">curltest.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">curltest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\rosdeps\x64\bin\Utilities\cmcurl\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">curltest.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">curltest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\rosdeps\x64\bin\Utilities\cmcurl\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">curltest.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">curltest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\rosdeps\x64\bin\Utilities\cmcurl\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">curltest.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">curltest</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;CURL_STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;CURL_STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Debug\cmcurl.lib;winmm.lib;ws2_32.lib;advapi32.lib;crypt32.lib;..\cmzlib\Debug\cmzlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 -stack:10000000</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opt/rosdeps/x64/bin/Utilities/cmcurl/Debug/curltest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opt/rosdeps/x64/bin/Utilities/cmcurl/Debug/curltest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;CURL_STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;CURL_STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\Release\cmcurl.lib;winmm.lib;ws2_32.lib;advapi32.lib;crypt32.lib;..\cmzlib\Release\cmzlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 -stack:10000000</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opt/rosdeps/x64/bin/Utilities/cmcurl/Release/curltest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opt/rosdeps/x64/bin/Utilities/cmcurl/Release/curltest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;CURL_STATICLIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;CURL_STATICLIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\MinSizeRel\cmcurl.lib;winmm.lib;ws2_32.lib;advapi32.lib;crypt32.lib;..\cmzlib\MinSizeRel\cmzlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 -stack:10000000</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opt/rosdeps/x64/bin/Utilities/cmcurl/MinSizeRel/curltest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opt/rosdeps/x64/bin/Utilities/cmcurl/MinSizeRel/curltest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;CURL_STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;CURL_EMBED_MANIFEST;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_WIN32_WINNT=0x0600;HAVE_CONFIG_H;CURL_STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;D:\Download\cmake-3.15.2\Utilities\cmcurl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>lib\RelWithDebInfo\cmcurl.lib;winmm.lib;ws2_32.lib;advapi32.lib;crypt32.lib;..\cmzlib\RelWithDebInfo\cmzlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 -stack:10000000</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/opt/rosdeps/x64/bin/Utilities/cmcurl/RelWithDebInfo/curltest.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/opt/rosdeps/x64/bin/Utilities/cmcurl/RelWithDebInfo/curltest.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Download\cmake-3.15.2\Utilities\cmcurl\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Utilities/cmcurl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Utilities/cmcurl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDDEF_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\CurlTests.c;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Macros.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\OtherTests.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Platforms\WindowsCache.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Utilities.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeConfigurableFile.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\rosdeps\x64\bin\Utilities\cmcurl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Utilities/cmcurl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Utilities/cmcurl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDDEF_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\CurlTests.c;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Macros.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\OtherTests.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Platforms\WindowsCache.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Utilities.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeConfigurableFile.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\rosdeps\x64\bin\Utilities\cmcurl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Utilities/cmcurl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Utilities/cmcurl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDDEF_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\CurlTests.c;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Macros.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\OtherTests.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Platforms\WindowsCache.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Utilities.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeConfigurableFile.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\rosdeps\x64\bin\Utilities\cmcurl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Utilities/cmcurl/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Utilities/cmcurl/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ARPA_TFTP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ASSERT_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_CRYPTO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_DES_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ERRNO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_ERR_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_IDN2_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_IFADDRS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_KRB_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_LIBGEN_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_LOCALE_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_NETINET_TCP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_PEM_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_POLL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_RSA_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SSL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDBOOL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDDEF_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STDIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_STROPTS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_FILIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_IOCTL_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_RESOURCE_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UIO_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UN_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_UTSNAME_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_SYS_XATTR_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINDOWS_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK2_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WINSOCK_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckIncludeFiles\HAVE_WS2TCPIP_H.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_CURL_OFF_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SIG_ATOMIC_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_STRUCT_SOCKADDR_STORAGE.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF_TIME_T.c;C:\opt\rosdeps\x64\bin\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\CurlTests.c;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Macros.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\OtherTests.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Platforms\WindowsCache.cmake;D:\Download\cmake-3.15.2\Utilities\cmcurl\CMake\Utilities.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeConfigurableFile.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeDependentOption.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCCompilerFlag.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceRuns.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckFunctionExists.c;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckFunctionExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\rosdeps\x64\bin\Utilities\cmcurl\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Utilities\cmcurl\curltest.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\ZERO_CHECK.vcxproj">
+      <Project>{A7AD871A-68E9-33CE-8FFD-5A99778320D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmcurl\lib\cmcurl.vcxproj">
+      <Project>{44BD8580-2880-37B7-AEA9-BBAA5F15BBF7}</Project>
+      <Name>cmcurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmzlib\cmzlib.vcxproj">
+      <Project>{8B0AF198-ED19-39E0-9DB6-2758EFFEB549}</Project>
+      <Name>cmzlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

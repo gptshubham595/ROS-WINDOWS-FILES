@@ -67,8 +67,8 @@ set(robotiq_modbus_rtu_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robotiq_modbus_rtu_SOURCE_PREFIX D:/a/1/a/_ws/src/robotiq/robotiq_modbus_rtu)
-  set(robotiq_modbus_rtu_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/robotiq_modbus_rtu)
+  set(robotiq_modbus_rtu_SOURCE_PREFIX C:/catkin_ws/src/robotiq/robotiq_modbus_rtu)
+  set(robotiq_modbus_rtu_DEVEL_PREFIX C:/catkin_ws/devel_isolated/robotiq_modbus_rtu)
   set(robotiq_modbus_rtu_INSTALL_PREFIX "")
   set(robotiq_modbus_rtu_PREFIX ${robotiq_modbus_rtu_DEVEL_PREFIX})
 else()

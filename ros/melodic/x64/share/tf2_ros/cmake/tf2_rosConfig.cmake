@@ -67,8 +67,8 @@ set(tf2_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf2_ros_SOURCE_PREFIX D:/a/1/a/_ws/src/geometry2/tf2_ros)
-  set(tf2_ros_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/tf2_ros)
+  set(tf2_ros_SOURCE_PREFIX C:/catkin_ws/src/geometry2/tf2_ros)
+  set(tf2_ros_DEVEL_PREFIX C:/catkin_ws/devel_isolated/tf2_ros)
   set(tf2_ros_INSTALL_PREFIX "")
   set(tf2_ros_PREFIX ${tf2_ros_DEVEL_PREFIX})
 else()

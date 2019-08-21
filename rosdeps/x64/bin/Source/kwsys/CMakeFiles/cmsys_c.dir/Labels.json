@@ -1,0 +1,58 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Download/cmake-3.15.2/Source/kwsys/ProcessWin32.c"
+		},
+		{
+			"file" : "D:/Download/cmake-3.15.2/Source/kwsys/Base64.c"
+		},
+		{
+			"file" : "D:/Download/cmake-3.15.2/Source/kwsys/EncodingC.c"
+		},
+		{
+			"file" : "D:/Download/cmake-3.15.2/Source/kwsys/MD5.c"
+		},
+		{
+			"file" : "D:/Download/cmake-3.15.2/Source/kwsys/Terminal.c"
+		},
+		{
+			"file" : "D:/Download/cmake-3.15.2/Source/kwsys/System.c"
+		},
+		{
+			"file" : "D:/Download/cmake-3.15.2/Source/kwsys/String.c"
+		},
+		{
+			"file" : "C:/opt/rosdeps/x64/bin/Source/cmsys/Configure.h"
+		},
+		{
+			"file" : "C:/opt/rosdeps/x64/bin/Source/cmsys/SharedForward.h"
+		},
+		{
+			"file" : "C:/opt/rosdeps/x64/bin/Source/cmsys/Process.h"
+		},
+		{
+			"file" : "C:/opt/rosdeps/x64/bin/Source/cmsys/Base64.h"
+		},
+		{
+			"file" : "C:/opt/rosdeps/x64/bin/Source/cmsys/Encoding.h"
+		},
+		{
+			"file" : "C:/opt/rosdeps/x64/bin/Source/cmsys/MD5.h"
+		},
+		{
+			"file" : "C:/opt/rosdeps/x64/bin/Source/cmsys/Terminal.h"
+		},
+		{
+			"file" : "C:/opt/rosdeps/x64/bin/Source/cmsys/System.h"
+		},
+		{
+			"file" : "C:/opt/rosdeps/x64/bin/Source/cmsys/String.h"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [],
+		"name" : "cmsys_c"
+	}
+}

@@ -67,8 +67,8 @@ set(laser_filters_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(laser_filters_SOURCE_PREFIX D:/a/1/a/_ws/src/laser_filters)
-  set(laser_filters_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/laser_filters)
+  set(laser_filters_SOURCE_PREFIX C:/catkin_ws/src/laser_filters)
+  set(laser_filters_DEVEL_PREFIX C:/catkin_ws/devel_isolated/laser_filters)
   set(laser_filters_INSTALL_PREFIX "")
   set(laser_filters_PREFIX ${laser_filters_DEVEL_PREFIX})
 else()

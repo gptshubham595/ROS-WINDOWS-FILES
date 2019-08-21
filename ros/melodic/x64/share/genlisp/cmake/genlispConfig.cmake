@@ -67,8 +67,8 @@ set(genlisp_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(genlisp_SOURCE_PREFIX D:/a/1/a/_ws/src/genlisp)
-  set(genlisp_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/genlisp)
+  set(genlisp_SOURCE_PREFIX C:/catkin_ws/src/genlisp)
+  set(genlisp_DEVEL_PREFIX C:/catkin_ws/devel_isolated/genlisp)
   set(genlisp_INSTALL_PREFIX "")
   set(genlisp_PREFIX ${genlisp_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(rosout_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosout_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/tools/rosout)
-  set(rosout_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosout)
+  set(rosout_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/tools/rosout)
+  set(rosout_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosout)
   set(rosout_INSTALL_PREFIX "")
   set(rosout_PREFIX ${rosout_DEVEL_PREFIX})
 else()

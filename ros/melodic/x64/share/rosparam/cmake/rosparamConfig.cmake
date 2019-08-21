@@ -67,8 +67,8 @@ set(rosparam_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosparam_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/tools/rosparam)
-  set(rosparam_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosparam)
+  set(rosparam_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/tools/rosparam)
+  set(rosparam_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosparam)
   set(rosparam_INSTALL_PREFIX "")
   set(rosparam_PREFIX ${rosparam_DEVEL_PREFIX})
 else()

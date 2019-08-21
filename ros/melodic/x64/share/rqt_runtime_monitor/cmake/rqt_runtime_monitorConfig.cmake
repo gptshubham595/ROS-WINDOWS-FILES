@@ -67,8 +67,8 @@ set(rqt_runtime_monitor_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_runtime_monitor_SOURCE_PREFIX D:/a/1/a/_ws/src/rqt_runtime_monitor)
-  set(rqt_runtime_monitor_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_runtime_monitor)
+  set(rqt_runtime_monitor_SOURCE_PREFIX C:/catkin_ws/src/rqt_runtime_monitor)
+  set(rqt_runtime_monitor_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_runtime_monitor)
   set(rqt_runtime_monitor_INSTALL_PREFIX "")
   set(rqt_runtime_monitor_PREFIX ${rqt_runtime_monitor_DEVEL_PREFIX})
 else()

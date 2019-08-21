@@ -67,8 +67,8 @@ set(rostest_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rostest_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/tools/rostest)
-  set(rostest_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rostest)
+  set(rostest_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/tools/rostest)
+  set(rostest_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rostest)
   set(rostest_INSTALL_PREFIX "")
   set(rostest_PREFIX ${rostest_DEVEL_PREFIX})
 else()

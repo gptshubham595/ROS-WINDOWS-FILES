@@ -67,8 +67,8 @@ set(tf2_eigen_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf2_eigen_SOURCE_PREFIX D:/a/1/a/_ws/src/geometry2/tf2_eigen)
-  set(tf2_eigen_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/tf2_eigen)
+  set(tf2_eigen_SOURCE_PREFIX C:/catkin_ws/src/geometry2/tf2_eigen)
+  set(tf2_eigen_DEVEL_PREFIX C:/catkin_ws/devel_isolated/tf2_eigen)
   set(tf2_eigen_INSTALL_PREFIX "")
   set(tf2_eigen_PREFIX ${tf2_eigen_DEVEL_PREFIX})
 else()

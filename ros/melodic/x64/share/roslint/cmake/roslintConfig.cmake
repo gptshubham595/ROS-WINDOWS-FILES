@@ -67,8 +67,8 @@ set(roslint_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(roslint_SOURCE_PREFIX D:/a/1/a/_ws/src/roslint)
-  set(roslint_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/roslint)
+  set(roslint_SOURCE_PREFIX C:/catkin_ws/src/roslint)
+  set(roslint_DEVEL_PREFIX C:/catkin_ws/devel_isolated/roslint)
   set(roslint_INSTALL_PREFIX "")
   set(roslint_PREFIX ${roslint_DEVEL_PREFIX})
 else()

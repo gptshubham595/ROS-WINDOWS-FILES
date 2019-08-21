@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2EB9B30A-E418-3C58-9C74-0F62397D2DDC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Source;C:\opt\rosdeps\x64\bin\Source\kwsys;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Source;C:\opt\rosdeps\x64\bin\Source\kwsys;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Source;C:\opt\rosdeps\x64\bin\Source\kwsys;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Source;C:\opt\rosdeps\x64\bin\Source\kwsys;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Download\cmake-3.15.2\Source\kwsys\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/kwsys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/kwsys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Download\cmake-3.15.2\Source\kwsys\Base64.h.in;D:\Download\cmake-3.15.2\Source\kwsys\CTestCustom.cmake.in;D:\Download\cmake-3.15.2\Source\kwsys\CommandLineArguments.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Configure.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Configure.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\ConsoleBuf.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Directory.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\DynamicLoader.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Encoding.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Encoding.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\FStream.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Glob.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\IOStream.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\MD5.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Process.h.in;D:\Download\cmake-3.15.2\Source\kwsys\RegularExpression.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\SharedForward.h.in;D:\Download\cmake-3.15.2\Source\kwsys\String.h.in;D:\Download\cmake-3.15.2\Source\kwsys\String.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\System.h.in;D:\Download\cmake-3.15.2\Source\kwsys\SystemInformation.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\SystemTools.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Terminal.h.in;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPlatformTests.cmake;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPlatformTestsCXX.cxx;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPrivate.h;D:\Download\cmake-3.15.2\Source\kwsys\testSharedForward.c.in;D:\Download\cmake-3.15.2\Source\kwsys\testSystemTools.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\TestDriver.cxx.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\rosdeps\x64\bin\Source\kwsys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/kwsys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/kwsys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Download\cmake-3.15.2\Source\kwsys\Base64.h.in;D:\Download\cmake-3.15.2\Source\kwsys\CTestCustom.cmake.in;D:\Download\cmake-3.15.2\Source\kwsys\CommandLineArguments.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Configure.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Configure.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\ConsoleBuf.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Directory.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\DynamicLoader.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Encoding.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Encoding.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\FStream.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Glob.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\IOStream.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\MD5.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Process.h.in;D:\Download\cmake-3.15.2\Source\kwsys\RegularExpression.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\SharedForward.h.in;D:\Download\cmake-3.15.2\Source\kwsys\String.h.in;D:\Download\cmake-3.15.2\Source\kwsys\String.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\System.h.in;D:\Download\cmake-3.15.2\Source\kwsys\SystemInformation.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\SystemTools.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Terminal.h.in;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPlatformTests.cmake;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPlatformTestsCXX.cxx;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPrivate.h;D:\Download\cmake-3.15.2\Source\kwsys\testSharedForward.c.in;D:\Download\cmake-3.15.2\Source\kwsys\testSystemTools.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\TestDriver.cxx.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\rosdeps\x64\bin\Source\kwsys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/kwsys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/kwsys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Download\cmake-3.15.2\Source\kwsys\Base64.h.in;D:\Download\cmake-3.15.2\Source\kwsys\CTestCustom.cmake.in;D:\Download\cmake-3.15.2\Source\kwsys\CommandLineArguments.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Configure.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Configure.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\ConsoleBuf.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Directory.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\DynamicLoader.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Encoding.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Encoding.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\FStream.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Glob.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\IOStream.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\MD5.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Process.h.in;D:\Download\cmake-3.15.2\Source\kwsys\RegularExpression.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\SharedForward.h.in;D:\Download\cmake-3.15.2\Source\kwsys\String.h.in;D:\Download\cmake-3.15.2\Source\kwsys\String.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\System.h.in;D:\Download\cmake-3.15.2\Source\kwsys\SystemInformation.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\SystemTools.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Terminal.h.in;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPlatformTests.cmake;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPlatformTestsCXX.cxx;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPrivate.h;D:\Download\cmake-3.15.2\Source\kwsys\testSharedForward.c.in;D:\Download\cmake-3.15.2\Source\kwsys\testSystemTools.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\TestDriver.cxx.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\rosdeps\x64\bin\Source\kwsys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/kwsys/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/kwsys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Download\cmake-3.15.2\Source\kwsys\Base64.h.in;D:\Download\cmake-3.15.2\Source\kwsys\CTestCustom.cmake.in;D:\Download\cmake-3.15.2\Source\kwsys\CommandLineArguments.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Configure.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Configure.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\ConsoleBuf.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Directory.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\DynamicLoader.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Encoding.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Encoding.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\FStream.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Glob.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\IOStream.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\MD5.h.in;D:\Download\cmake-3.15.2\Source\kwsys\Process.h.in;D:\Download\cmake-3.15.2\Source\kwsys\RegularExpression.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\SharedForward.h.in;D:\Download\cmake-3.15.2\Source\kwsys\String.h.in;D:\Download\cmake-3.15.2\Source\kwsys\String.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\System.h.in;D:\Download\cmake-3.15.2\Source\kwsys\SystemInformation.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\SystemTools.hxx.in;D:\Download\cmake-3.15.2\Source\kwsys\Terminal.h.in;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPlatformTests.cmake;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPlatformTestsCXX.cxx;D:\Download\cmake-3.15.2\Source\kwsys\kwsysPrivate.h;D:\Download\cmake-3.15.2\Source\kwsys\testSharedForward.c.in;D:\Download\cmake-3.15.2\Source\kwsys\testSystemTools.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckSymbolExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckTypeSize.cmake;D:\Program Files\CMake\share\cmake-3.15\Templates\TestDriver.cxx.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\rosdeps\x64\bin\Source\kwsys\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\ZERO_CHECK.vcxproj">
+      <Project>{A7AD871A-68E9-33CE-8FFD-5A99778320D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsys.vcxproj">
+      <Project>{9EFA7CEA-2D09-31D7-866F-9B8086F1C907}</Project>
+      <Name>cmsys</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestDynload.vcxproj">
+      <Project>{BD600920-9C27-364B-A3A7-FA596535AD74}</Project>
+      <Name>cmsysTestDynload</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestDynloadImpl.vcxproj">
+      <Project>{E4D9AE51-44E7-369D-8C79-1F3E38E973CD}</Project>
+      <Name>cmsysTestDynloadImpl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestDynloadUse.vcxproj">
+      <Project>{FFE622CA-729E-366F-A5E6-1B058957144D}</Project>
+      <Name>cmsysTestDynloadUse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestProcess.vcxproj">
+      <Project>{75E5102F-991F-352B-B44D-C10D24BDF1E1}</Project>
+      <Name>cmsysTestProcess</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestSharedForward.vcxproj">
+      <Project>{106D5B7C-B507-3D08-A42A-CCFEF07A7FDF}</Project>
+      <Name>cmsysTestSharedForward</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestsC.vcxproj">
+      <Project>{1F619B88-3E3A-3B14-B343-39ED096AE7C3}</Project>
+      <Name>cmsysTestsC</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsysTestsCxx.vcxproj">
+      <Project>{F793EC4B-CCE4-3692-A7D0-B70A452AF0B5}</Project>
+      <Name>cmsysTestsCxx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsys_c.vcxproj">
+      <Project>{DB12D3BF-9A75-3661-99C0-546410B27E5B}</Project>
+      <Name>cmsys_c</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\testConsoleBufChild.vcxproj">
+      <Project>{4A6F606C-C6B3-3E7F-9810-E2B5FBB1FFE5}</Project>
+      <Name>testConsoleBufChild</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

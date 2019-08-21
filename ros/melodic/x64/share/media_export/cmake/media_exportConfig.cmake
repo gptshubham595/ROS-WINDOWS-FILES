@@ -67,8 +67,8 @@ set(media_export_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(media_export_SOURCE_PREFIX D:/a/1/a/_ws/src/media_export)
-  set(media_export_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/media_export)
+  set(media_export_SOURCE_PREFIX C:/catkin_ws/src/media_export)
+  set(media_export_DEVEL_PREFIX C:/catkin_ws/devel_isolated/media_export)
   set(media_export_INSTALL_PREFIX "")
   set(media_export_PREFIX ${media_export_DEVEL_PREFIX})
 else()

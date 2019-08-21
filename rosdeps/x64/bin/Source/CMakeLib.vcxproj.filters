@@ -1,0 +1,1868 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentLexer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaLexer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprLexer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranLexer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmListFileLexer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAffinity.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmArchiveWrite.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmArgumentParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmBase32.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCacheManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCLocaleEnvironmentScope.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCommandArgumentParserHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCommonTargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmComputeComponentGraph.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmComputeLinkDepends.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmComputeLinkInformation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmComputeTargetDepends.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCPackPropertiesGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCryptoHash.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCurl.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCustomCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCustomCommandGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDefinitions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDepends.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDependsC.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDependsFortran.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDependsJava.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDependsJavaParserHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDocumentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDocumentationFormatter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDocumentationSection.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDynamicLoader.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExprParserHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportBuildAndroidMKGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportBuildFileGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportFileGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportInstallAndroidMKGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportInstallFileGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportTryCompileFileGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportSet.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportSetMap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExternalMakefileProjectGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExtraCodeBlocksGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExtraCodeLiteGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExtraEclipseCDT4Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExtraKateGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExtraSublimeTextGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileAPI.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileAPICache.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileAPICodemodel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileAPICMakeFiles.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileCopier.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileInstaller.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileLock.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileLockPool.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileLockResult.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFilePathChecksum.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileTime.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileTimeCache.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileTimes.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFortranParserImpl.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFSPermissions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratedFileStream.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionContext.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionDAGChecker.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionEvaluationFile.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionEvaluator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionLexer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionNode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpression.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGeneratorTarget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetPipes.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalCommonGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalUnixMakefileGenerator3.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobVerificationManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGraphVizWriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallExportGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstalledFile.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallFilesGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallScriptGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallSubdirectoryGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallTargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallDirectoryGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLinkItem.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLinkLineComputer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLinkLineDeviceComputer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmListFileCache.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalCommonGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmRulePlaceholderExpander.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalUnixMakefileGenerator3.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakefile.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakefileTargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakefileExecutableTargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakefileLibraryTargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakefileUtilityTargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMessenger.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMSVC60LinkLineComputer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmOSXBundleGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmOutputConverter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNewLineStyle.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmOrderDirectories.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmPolicies.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmProcessOutput.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmProcessTools.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmProperty.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmPropertyDefinition.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmPropertyDefinitionMap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmPropertyMap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGen.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenGlobalInitializer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenInitializer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoMocUic.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQtAutoRcc.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmRST.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmScriptGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSourceFile.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSourceFileLocation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSourceGroup.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmState.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmStateDirectory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmStateSnapshot.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSystemTools.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTarget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetPropertyComputer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTest.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTestGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUuid.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUVHandlePtr.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUVProcessChain.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVariableWatch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVersion.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmWorkerPool.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmWorkingDirectory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmXMLParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmXMLSafe.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmXMLWriter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmake.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cm_string_view.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCommands.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddCompileDefinitionsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddCompileOptionsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddLinkOptionsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddCustomCommandCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddCustomTargetCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddDefinitionsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddDependenciesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddExecutableCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddLibraryCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddSubDirectoryCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAddTestCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmAuxSourceDirectoryCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmBreakCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmBuildCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmBuildNameCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCMakeHostSystemInformationCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCMakeMinimumRequired.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCMakePolicyCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmConditionEvaluator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmConfigureFileCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmContinueCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCoreTryCompile.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCreateTestSourceList.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDefinePropertyCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDisallowedCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmEnableLanguageCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmEnableTestingCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExecProgramCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExecuteProcessCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExpandedCommandArgument.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmExportLibraryDependenciesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFLTKWrapUICommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFileCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindBase.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindCommon.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindFileCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindLibraryCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindPackageCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindPathCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFindProgramCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmForEachCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmFunctionCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetCMakePropertyCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetDirectoryPropertyCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetFilenameComponentCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetPropertyCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetSourceFilePropertyCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetTargetPropertyCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGetTestPropertyCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmHexFileConverter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIfCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIncludeCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIncludeDirectoryCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIncludeExternalMSProjectCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIncludeGuardCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIncludeRegularExpressionCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallCommandArguments.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallFilesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallProgramsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmInstallTargetsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLinkDirectoriesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLinkLibrariesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmListCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLoadCacheCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLoadCommandCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMacroCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMakeDirectoryCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMarkAsAdvancedCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMathCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmMessageCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmOptionCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmOutputRequiredFilesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmParseArgumentsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmPathLabel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmProjectCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQTWrapCPPCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmQTWrapUICommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmRemoveCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmRemoveDefinitionsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmReturnCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSearchPath.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSeparateArgumentsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetDirectoryPropertiesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetPropertyCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetSourceFilesPropertiesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetTargetPropertiesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSetTestsPropertiesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSiteNameCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSourceGroupCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmString.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmStringReplaceHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmStringCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSubdirCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmSubdirDependsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileDefinitionsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileFeaturesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileOptionsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetIncludeDirectoriesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkOptionsCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkDirectoriesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkLibrariesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetPropCommandBase.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTargetSourcesCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTimestamp.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTryCompileCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmTryRunCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUnexpectedCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUnsetCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUseMangledMesaCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmUtilitySourceCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVariableRequiresCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVariableWatchCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmWhileCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmWriteFileCommand.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cm_get_date.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cm_utf8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cm_codecvt.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmDuration.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCallVisualStudioMacro.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\bindexplib.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalBorlandMakefileGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalMSYSMakefileGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalMinGWMakefileGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalNMakeMakefileGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalJOMMakefileGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio71Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio7Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio8Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio9Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioGeneratorOptions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudio10TargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudio10ToolsetOptions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudio10Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio10Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio11Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio12Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio14Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudioGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudioVersionedGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmIDEOptions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudio7Generator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudioGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioSlnData.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioSlnParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioWCEPlatformParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmVSSetupHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalWatcomWMakeGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalGhsMultiGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalGhsMultiGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGhsMultiTargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGhsMultiGpj.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmGlobalNinjaGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmLocalNinjaGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNinjaTargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNinjaNormalTargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNinjaUtilityTargetGenerator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNinjaLinkLineComputer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmNinjaLinkLineDeviceComputer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentLexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentParserTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaLexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaParserTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprLexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprParserTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranLexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranParserTokens.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAffinity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmArgumentParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCacheManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCLocaleEnvironmentScope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCommonTargetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmComputeComponentGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmComputeLinkDepends.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmComputeLinkInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmComputeTargetDepends.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCPackPropertiesGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCryptoHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCurl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCustomCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCustomCommandGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDepends.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDependsC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDependsFortran.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDependsJava.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDependsJavaParserHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDynamicLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportBuildAndroidMKGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportBuildFileGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportFileGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportInstallAndroidMKGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportInstallFileGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportTryCompileFileGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportSetMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExternalMakefileProjectGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExtraCodeBlocksGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExtraCodeLiteGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExtraEclipseCDT4Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExtraKateGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExtraSublimeTextGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileAPICache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileAPICodemodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileAPICMakeFiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileCopier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileInstaller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileLockPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileLockResult.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFilePathChecksum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileTimeCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileTimes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFSPermissions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionDAGChecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionEvaluationFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionEvaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionLexer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpressionParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorExpression.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGeneratorTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetPipes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalCommonGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalGeneratorFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalUnixMakefileGenerator3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobVerificationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGraphAdjacencyList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGraphVizWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstalledFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallFilesGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallScriptGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallSubdirectoryGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallTargetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallDirectoryGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkedTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkLineComputer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkLineDeviceComputer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmListFileCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalCommonGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmRulePlaceholderExpander.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMakefile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMessageType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMessenger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMSVC60LinkLineComputer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmOSXBundleGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmOutputConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNewLineStyle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmOrderDirectories.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmPolicies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmProcessOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmProcessTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmPropertyDefinition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmPropertyDefinitionMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmPropertyMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenGlobalInitializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoGenInitializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoMocUic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQtAutoRcc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmRST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmScriptGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSourceFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSourceFileLocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSourceFileLocationKind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSourceGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmStateDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmStateSnapshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmStateTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSystemTools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetPropertyComputer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetExport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTestGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUVHandlePtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUVProcessChain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUVStreambuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUVSignalHackRAII.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVariableWatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmWorkerPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmWorkingDirectory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmXMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmXMLSafe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmXMLWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_string_view.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_static_string_view.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCommands.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddCompileDefinitionsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddCompileOptionsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddLinkOptionsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddCustomCommandCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddCustomTargetCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddDefinitionsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddDependenciesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddExecutableCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddLibraryCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddSubDirectoryCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAddTestCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmAuxSourceDirectoryCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmBreakCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmBuildCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmBuildNameCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCMakeHostSystemInformationCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCMakeMinimumRequired.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCMakePolicyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmConditionEvaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmConfigureFileCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmContinueCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCoreTryCompile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCreateTestSourceList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDefinePropertyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDisallowedCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmEnableLanguageCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmEnableTestingCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExecProgramCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExecuteProcessCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExpandedCommandArgument.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmExportLibraryDependenciesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFLTKWrapUICommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFileCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindFileCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindLibraryCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindPackageCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindPathCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFindProgramCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmForEachCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmFunctionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetCMakePropertyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetDirectoryPropertyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetFilenameComponentCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetPropertyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetSourceFilePropertyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetTargetPropertyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGetTestPropertyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmHexFileConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIfCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIncludeCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIncludeDirectoryCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIncludeExternalMSProjectCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIncludeGuardCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIncludeRegularExpressionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallCommandArguments.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallFilesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallProgramsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmInstallTargetsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkDirectoriesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLinkLibrariesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmListCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLoadCacheCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLoadCommandCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMacroCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMakeDirectoryCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMarkAsAdvancedCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMathCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmMessageCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmOptionCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmOutputRequiredFilesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmParseArgumentsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmPathLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmProjectCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQTWrapCPPCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmQTWrapUICommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmRemoveCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmRemoveDefinitionsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmReturnCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSearchPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSeparateArgumentsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetDirectoryPropertiesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetPropertyCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetSourceFilesPropertiesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetTargetPropertiesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSetTestsPropertiesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSiteNameCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSourceGroupCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmString.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmStringCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSubdirCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmSubdirDependsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileDefinitionsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileFeaturesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetCompileOptionsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetIncludeDirectoriesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkOptionsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkDirectoriesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetLinkLibrariesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetPropCommandBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTargetSourcesCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTimestamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTryCompileCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmTryRunCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUnexpectedCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUnsetCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUseMangledMesaCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmUtilitySourceCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVariableRequiresCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVariableWatchCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmWhileCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmWriteFileCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_get_date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_utf8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_codecvt.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cm_thread.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmDuration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmCallVisualStudioMacro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalBorlandMakefileGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalNMakeMakefileGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalJOMMakefileGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio71Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio7Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio8Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio9Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioGeneratorOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudio10TargetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudio10ToolsetOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudio10Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio10Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio11Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio12Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudio14Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudioGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalVisualStudioVersionedGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIDEFlagTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmIDEOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudio7Generator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalVisualStudioGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioSlnData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioSlnParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVisualStudioWCEPlatformParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmVSSetupHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalWatcomWMakeGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalGhsMultiGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalGhsMultiGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGhsMultiTargetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGhsMultiGpj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmGlobalNinjaGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmLocalNinjaGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaTargetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaNormalTargetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaUtilityTargetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaLinkLineComputer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\cmNinjaLinkLineDeviceComputer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Download\cmake-3.15.2\Source\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentLexer.in.l" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmCommandArgumentParser.y" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaLexer.in.l" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmDependsJavaParser.y" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprLexer.in.l" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmExprParser.y" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranLexer.in.l" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmFortranParser.y" />
+    <None Include="D:\Download\cmake-3.15.2\Source\LexerParser\cmListFileLexer.in.l" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{E58F3C70-0840-3861-B5B2-7B2CE354943B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{DBFAA463-4871-3D25-9963-4797A38FDEC9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

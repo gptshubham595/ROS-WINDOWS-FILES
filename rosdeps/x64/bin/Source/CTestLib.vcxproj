@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E932F98C-4B9E-3B8A-A1E9-6299837E6A86}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>CTestLib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\rosdeps\x64\bin\Source\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CTestLib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CTestLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\rosdeps\x64\bin\Source\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CTestLib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CTestLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\rosdeps\x64\bin\Source\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CTestLib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CTestLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\rosdeps\x64\bin\Source\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CTestLib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CTestLib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;LIBARCHIVE_STATIC;UNICODE;_UNICODE;WIN32_LEAN_AND_MEAN;CMAKE_BUILD_WITH_CMAKE;CURL_STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\opt\rosdeps\x64\bin\Utilities;D:\Download\cmake-3.15.2\Utilities;C:\opt\rosdeps\x64\bin\Source;D:\Download\cmake-3.15.2\Source;D:\Download\cmake-3.15.2\Source\LexerParser;D:\Download\cmake-3.15.2\Source\CTest;D:\Download\cmake-3.15.2\Source\CPack;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Download\cmake-3.15.2\Source\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Download\cmake-3.15.2\Source\CMakeSourceDir.txt.in;D:\Download\cmake-3.15.2\Source\CMakeVersion.rc.in;D:\Download\cmake-3.15.2\Source\CPack\cmCPackConfigure.h.in;D:\Download\cmake-3.15.2\Source\cmConfigure.cmake.h.in;D:\Download\cmake-3.15.2\Source\cmVersionConfig.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\opt\rosdeps\x64\bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Download\cmake-3.15.2\Source\CMakeSourceDir.txt.in;D:\Download\cmake-3.15.2\Source\CMakeVersion.rc.in;D:\Download\cmake-3.15.2\Source\CPack\cmCPackConfigure.h.in;D:\Download\cmake-3.15.2\Source\cmConfigure.cmake.h.in;D:\Download\cmake-3.15.2\Source\cmVersionConfig.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\opt\rosdeps\x64\bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Download\cmake-3.15.2\Source\CMakeSourceDir.txt.in;D:\Download\cmake-3.15.2\Source\CMakeVersion.rc.in;D:\Download\cmake-3.15.2\Source\CPack\cmCPackConfigure.h.in;D:\Download\cmake-3.15.2\Source\cmConfigure.cmake.h.in;D:\Download\cmake-3.15.2\Source\cmVersionConfig.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\opt\rosdeps\x64\bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Download/cmake-3.15.2/Source/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/Download/cmake-3.15.2 -BC:/opt/rosdeps/x64/bin --check-stamp-file C:/opt/rosdeps/x64/bin/Source/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Download\cmake-3.15.2\Source\CMakeSourceDir.txt.in;D:\Download\cmake-3.15.2\Source\CMakeVersion.rc.in;D:\Download\cmake-3.15.2\Source\CPack\cmCPackConfigure.h.in;D:\Download\cmake-3.15.2\Source\cmConfigure.cmake.h.in;D:\Download\cmake-3.15.2\Source\cmVersionConfig.h.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.c.in;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\opt\rosdeps\x64\bin\Source\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\cmCTest.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmProcess.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestBuildAndTestHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestBuildCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestBuildHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestConfigureCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestConfigureHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestCoverageCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestCoverageHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestCurl.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmParseMumpsCoverage.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmParseCacheCoverage.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmParseGTMCoverage.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmParseJacocoCoverage.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmParseBlanketJSCoverage.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmParsePHPCoverage.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmParseCoberturaCoverage.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmParseDelphiCoverage.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestEmptyBinaryDirectoryCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestGenericHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestHandlerCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestLaunch.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestMemCheckCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestMemCheckHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestMultiProcessHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestReadCustomFilesCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestRunScriptCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestRunTest.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestScriptHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestSleepCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestStartCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestSubmitCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestSubmitHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestTestCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestTestHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestUpdateCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestUpdateHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestUploadCommand.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestUploadHandler.cxx" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestVC.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestVC.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestGlobalVC.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestGlobalVC.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestCVS.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestCVS.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestSVN.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestSVN.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestBZR.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestBZR.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestGIT.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestGIT.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestHG.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestHG.h" />
+    <ClCompile Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestP4.cxx" />
+    <ClInclude Include="D:\Download\cmake-3.15.2\Source\CTest\cmCTestP4.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\ZERO_CHECK.vcxproj">
+      <Project>{A7AD871A-68E9-33CE-8FFD-5A99778320D5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\CMakeLib.vcxproj">
+      <Project>{E3990380-8658-3E7B-97A2-03DC0FC67D17}</Project>
+      <Name>CMakeLib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmbzip2\cmbzip2.vcxproj">
+      <Project>{2DE395E1-0DE9-3AC6-80B0-30AC722CFB9D}</Project>
+      <Name>cmbzip2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmcurl\lib\cmcurl.vcxproj">
+      <Project>{44BD8580-2880-37B7-AEA9-BBAA5F15BBF7}</Project>
+      <Name>cmcurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmexpat\cmexpat.vcxproj">
+      <Project>{395E8946-24B8-3CEF-A520-8411F92358CE}</Project>
+      <Name>cmexpat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmjsoncpp\cmjsoncpp.vcxproj">
+      <Project>{4AE387E3-2CE3-3FC5-888B-325DE548A9FC}</Project>
+      <Name>cmjsoncpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmlibarchive\libarchive\cmlibarchive.vcxproj">
+      <Project>{584DB4D6-C182-349E-A275-E029562D6C66}</Project>
+      <Name>cmlibarchive</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmliblzma\cmliblzma.vcxproj">
+      <Project>{51E4EBA4-09BA-3271-A784-9DFA66E47E66}</Project>
+      <Name>cmliblzma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmlibrhash\cmlibrhash.vcxproj">
+      <Project>{E80FAADE-4D99-33E1-B377-F47ED3489C0E}</Project>
+      <Name>cmlibrhash</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmlibuv\cmlibuv.vcxproj">
+      <Project>{36C01794-D983-37CE-A981-E200BAADC24B}</Project>
+      <Name>cmlibuv</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Source\kwsys\cmsys.vcxproj">
+      <Project>{9EFA7CEA-2D09-31D7-866F-9B8086F1C907}</Project>
+      <Name>cmsys</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmzlib\cmzlib.vcxproj">
+      <Project>{8B0AF198-ED19-39E0-9DB6-2758EFFEB549}</Project>
+      <Name>cmzlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\opt\rosdeps\x64\bin\Utilities\cmzstd\cmzstd.vcxproj">
+      <Project>{7F55F82B-D2CF-3910-94FA-1F724710B45B}</Project>
+      <Name>cmzstd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

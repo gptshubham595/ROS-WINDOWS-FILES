@@ -67,8 +67,8 @@ set(rosserial_python_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosserial_python_SOURCE_PREFIX D:/a/1/a/_ws/src/rosserial/rosserial_python)
-  set(rosserial_python_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosserial_python)
+  set(rosserial_python_SOURCE_PREFIX C:/catkin_ws/src/rosserial/rosserial_python)
+  set(rosserial_python_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosserial_python)
   set(rosserial_python_INSTALL_PREFIX "")
   set(rosserial_python_PREFIX ${rosserial_python_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(teleop_twist_joy_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(teleop_twist_joy_SOURCE_PREFIX D:/a/1/a/_ws/src/teleop_twist_joy)
-  set(teleop_twist_joy_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/teleop_twist_joy)
+  set(teleop_twist_joy_SOURCE_PREFIX C:/catkin_ws/src/teleop_twist_joy)
+  set(teleop_twist_joy_DEVEL_PREFIX C:/catkin_ws/devel_isolated/teleop_twist_joy)
   set(teleop_twist_joy_INSTALL_PREFIX "")
   set(teleop_twist_joy_PREFIX ${teleop_twist_joy_DEVEL_PREFIX})
 else()

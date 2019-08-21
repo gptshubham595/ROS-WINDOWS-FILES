@@ -67,8 +67,8 @@ set(voxel_grid_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(voxel_grid_SOURCE_PREFIX D:/a/1/a/_ws/src/navigation/voxel_grid)
-  set(voxel_grid_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/voxel_grid)
+  set(voxel_grid_SOURCE_PREFIX C:/catkin_ws/src/navigation/voxel_grid)
+  set(voxel_grid_DEVEL_PREFIX C:/catkin_ws/devel_isolated/voxel_grid)
   set(voxel_grid_INSTALL_PREFIX "")
   set(voxel_grid_PREFIX ${voxel_grid_DEVEL_PREFIX})
 else()

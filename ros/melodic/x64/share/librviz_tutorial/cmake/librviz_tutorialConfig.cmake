@@ -67,8 +67,8 @@ set(librviz_tutorial_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(librviz_tutorial_SOURCE_PREFIX D:/a/1/a/_ws/src/visualization_tutorials/librviz_tutorial)
-  set(librviz_tutorial_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/librviz_tutorial)
+  set(librviz_tutorial_SOURCE_PREFIX C:/catkin_ws/src/visualization_tutorials/librviz_tutorial)
+  set(librviz_tutorial_DEVEL_PREFIX C:/catkin_ws/devel_isolated/librviz_tutorial)
   set(librviz_tutorial_INSTALL_PREFIX "")
   set(librviz_tutorial_PREFIX ${librviz_tutorial_DEVEL_PREFIX})
 else()

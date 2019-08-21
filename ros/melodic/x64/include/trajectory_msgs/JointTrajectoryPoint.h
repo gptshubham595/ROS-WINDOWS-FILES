@@ -91,7 +91,7 @@ namespace message_traits
 
 
 // BOOLTRAITS {'IsFixedSize': False, 'IsMessage': True, 'HasHeader': False}
-// {'geometry_msgs': ['C:/opt/ros/melodic/x64/share/geometry_msgs/cmake/../msg'], 'trajectory_msgs': ['D:/a/1/a/_ws/src/common_msgs/trajectory_msgs/msg'], 'std_msgs': ['C:/opt/ros/melodic/x64/share/std_msgs/cmake/../msg']}
+// {'geometry_msgs': ['C:/opt/ros/melodic/x64/share/geometry_msgs/cmake/../msg'], 'trajectory_msgs': ['C:/catkin_ws/src/common_msgs/trajectory_msgs/msg'], 'std_msgs': ['C:/opt/ros/melodic/x64/share/std_msgs/cmake/../msg']}
 
 // !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 

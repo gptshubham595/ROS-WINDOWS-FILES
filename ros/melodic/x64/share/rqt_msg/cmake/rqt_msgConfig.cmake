@@ -67,8 +67,8 @@ set(rqt_msg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_msg_SOURCE_PREFIX D:/a/1/a/_ws/src/rqt_msg)
-  set(rqt_msg_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_msg)
+  set(rqt_msg_SOURCE_PREFIX C:/catkin_ws/src/rqt_msg)
+  set(rqt_msg_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_msg)
   set(rqt_msg_INSTALL_PREFIX "")
   set(rqt_msg_PREFIX ${rqt_msg_DEVEL_PREFIX})
 else()

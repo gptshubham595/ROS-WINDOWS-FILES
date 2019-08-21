@@ -67,8 +67,8 @@ set(hardware_interface_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(hardware_interface_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_control/hardware_interface)
-  set(hardware_interface_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/hardware_interface)
+  set(hardware_interface_SOURCE_PREFIX C:/catkin_ws/src/ros_control/hardware_interface)
+  set(hardware_interface_DEVEL_PREFIX C:/catkin_ws/devel_isolated/hardware_interface)
   set(hardware_interface_INSTALL_PREFIX "")
   set(hardware_interface_PREFIX ${hardware_interface_DEVEL_PREFIX})
 else()

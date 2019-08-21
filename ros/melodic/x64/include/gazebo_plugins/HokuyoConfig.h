@@ -69,7 +69,7 @@ namespace gazebo_plugins
         field(a_f)
       {}
 
-      T (HokuyoConfig::* field);
+      T HokuyoConfig::* field;
 
       virtual void clamp(HokuyoConfig &config, const HokuyoConfig &max, const HokuyoConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace gazebo_plugins
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<HokuyoConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

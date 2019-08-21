@@ -67,8 +67,8 @@ set(xmlrpcpp_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(xmlrpcpp_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/utilities/xmlrpcpp)
-  set(xmlrpcpp_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/xmlrpcpp)
+  set(xmlrpcpp_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/utilities/xmlrpcpp)
+  set(xmlrpcpp_DEVEL_PREFIX C:/catkin_ws/devel_isolated/xmlrpcpp)
   set(xmlrpcpp_INSTALL_PREFIX "")
   set(xmlrpcpp_PREFIX ${xmlrpcpp_DEVEL_PREFIX})
 else()

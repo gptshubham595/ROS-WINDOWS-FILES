@@ -67,8 +67,8 @@ set(clear_costmap_recovery_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(clear_costmap_recovery_SOURCE_PREFIX D:/a/1/a/_ws/src/navigation/clear_costmap_recovery)
-  set(clear_costmap_recovery_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/clear_costmap_recovery)
+  set(clear_costmap_recovery_SOURCE_PREFIX C:/catkin_ws/src/navigation/clear_costmap_recovery)
+  set(clear_costmap_recovery_DEVEL_PREFIX C:/catkin_ws/devel_isolated/clear_costmap_recovery)
   set(clear_costmap_recovery_INSTALL_PREFIX "")
   set(clear_costmap_recovery_PREFIX ${clear_costmap_recovery_DEVEL_PREFIX})
 else()

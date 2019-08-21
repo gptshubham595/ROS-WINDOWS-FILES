@@ -69,7 +69,7 @@ namespace base_local_planner
         field(a_f)
       {}
 
-      T (BaseLocalPlannerConfig::* field);
+      T BaseLocalPlannerConfig::* field;
 
       virtual void clamp(BaseLocalPlannerConfig &config, const BaseLocalPlannerConfig &max, const BaseLocalPlannerConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace base_local_planner
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<BaseLocalPlannerConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

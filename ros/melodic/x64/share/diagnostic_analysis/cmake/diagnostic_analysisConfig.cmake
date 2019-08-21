@@ -67,8 +67,8 @@ set(diagnostic_analysis_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(diagnostic_analysis_SOURCE_PREFIX D:/a/1/a/_ws/src/diagnostics/diagnostic_analysis)
-  set(diagnostic_analysis_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/diagnostic_analysis)
+  set(diagnostic_analysis_SOURCE_PREFIX C:/catkin_ws/src/diagnostics/diagnostic_analysis)
+  set(diagnostic_analysis_DEVEL_PREFIX C:/catkin_ws/devel_isolated/diagnostic_analysis)
   set(diagnostic_analysis_INSTALL_PREFIX "")
   set(diagnostic_analysis_PREFIX ${diagnostic_analysis_DEVEL_PREFIX})
 else()

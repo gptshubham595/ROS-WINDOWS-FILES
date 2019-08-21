@@ -67,8 +67,8 @@ set(kdl_parser_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kdl_parser_SOURCE_PREFIX D:/a/1/a/_ws/src/kdl_parser/kdl_parser)
-  set(kdl_parser_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/kdl_parser)
+  set(kdl_parser_SOURCE_PREFIX C:/catkin_ws/src/kdl_parser/kdl_parser)
+  set(kdl_parser_DEVEL_PREFIX C:/catkin_ws/devel_isolated/kdl_parser)
   set(kdl_parser_INSTALL_PREFIX "")
   set(kdl_parser_PREFIX ${kdl_parser_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(stereo_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(stereo_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/common_msgs/stereo_msgs)
-  set(stereo_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/stereo_msgs)
+  set(stereo_msgs_SOURCE_PREFIX C:/catkin_ws/src/common_msgs/stereo_msgs)
+  set(stereo_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/stereo_msgs)
   set(stereo_msgs_INSTALL_PREFIX "")
   set(stereo_msgs_PREFIX ${stereo_msgs_DEVEL_PREFIX})
 else()

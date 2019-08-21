@@ -67,8 +67,8 @@ set(move_base_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(move_base_SOURCE_PREFIX D:/a/1/a/_ws/src/navigation/move_base)
-  set(move_base_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/move_base)
+  set(move_base_SOURCE_PREFIX C:/catkin_ws/src/navigation/move_base)
+  set(move_base_DEVEL_PREFIX C:/catkin_ws/devel_isolated/move_base)
   set(move_base_INSTALL_PREFIX "")
   set(move_base_PREFIX ${move_base_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(urdfdom_py_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(urdfdom_py_SOURCE_PREFIX D:/a/1/a/_ws/src/urdfdom_py)
-  set(urdfdom_py_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/urdfdom_py)
+  set(urdfdom_py_SOURCE_PREFIX C:/catkin_ws/src/urdfdom_py)
+  set(urdfdom_py_DEVEL_PREFIX C:/catkin_ws/devel_isolated/urdfdom_py)
   set(urdfdom_py_INSTALL_PREFIX "")
   set(urdfdom_py_PREFIX ${urdfdom_py_DEVEL_PREFIX})
 else()

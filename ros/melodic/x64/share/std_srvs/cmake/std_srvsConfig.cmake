@@ -67,8 +67,8 @@ set(std_srvs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(std_srvs_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm_msgs/std_srvs)
-  set(std_srvs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/std_srvs)
+  set(std_srvs_SOURCE_PREFIX C:/catkin_ws/src/ros_comm_msgs/std_srvs)
+  set(std_srvs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/std_srvs)
   set(std_srvs_INSTALL_PREFIX "")
   set(std_srvs_PREFIX ${std_srvs_DEVEL_PREFIX})
 else()

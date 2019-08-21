@@ -67,8 +67,8 @@ set(rosboost_cfg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosboost_cfg_SOURCE_PREFIX D:/a/1/a/_ws/src/ros/tools/rosboost_cfg)
-  set(rosboost_cfg_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosboost_cfg)
+  set(rosboost_cfg_SOURCE_PREFIX C:/catkin_ws/src/ros/tools/rosboost_cfg)
+  set(rosboost_cfg_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosboost_cfg)
   set(rosboost_cfg_INSTALL_PREFIX "")
   set(rosboost_cfg_PREFIX ${rosboost_cfg_DEVEL_PREFIX})
 else()

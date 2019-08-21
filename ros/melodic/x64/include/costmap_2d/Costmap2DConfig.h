@@ -69,7 +69,7 @@ namespace costmap_2d
         field(a_f)
       {}
 
-      T (Costmap2DConfig::* field);
+      T Costmap2DConfig::* field;
 
       virtual void clamp(Costmap2DConfig &config, const Costmap2DConfig &max, const Costmap2DConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace costmap_2d
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<Costmap2DConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

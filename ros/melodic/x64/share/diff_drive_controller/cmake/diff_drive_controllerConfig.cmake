@@ -67,8 +67,8 @@ set(diff_drive_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(diff_drive_controller_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_controllers/diff_drive_controller)
-  set(diff_drive_controller_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/diff_drive_controller)
+  set(diff_drive_controller_SOURCE_PREFIX C:/catkin_ws/src/ros_controllers/diff_drive_controller)
+  set(diff_drive_controller_DEVEL_PREFIX C:/catkin_ws/devel_isolated/diff_drive_controller)
   set(diff_drive_controller_INSTALL_PREFIX "")
   set(diff_drive_controller_PREFIX ${diff_drive_controller_DEVEL_PREFIX})
 else()

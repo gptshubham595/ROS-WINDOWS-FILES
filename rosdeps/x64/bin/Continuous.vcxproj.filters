@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\opt\rosdeps\x64\bin\CMakeFiles\5a8429f3fb95232ef193dac0ae6469f3\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Download\cmake-3.15.2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\opt\rosdeps\x64\bin\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{47432EEE-3EE7-3CD9-A55D-5B871A78413B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

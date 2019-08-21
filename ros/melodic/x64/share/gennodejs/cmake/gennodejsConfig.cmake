@@ -67,8 +67,8 @@ set(gennodejs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gennodejs_SOURCE_PREFIX D:/a/1/a/_ws/src/gennodejs)
-  set(gennodejs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/gennodejs)
+  set(gennodejs_SOURCE_PREFIX C:/catkin_ws/src/gennodejs)
+  set(gennodejs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/gennodejs)
   set(gennodejs_INSTALL_PREFIX "")
   set(gennodejs_PREFIX ${gennodejs_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(xacro_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(xacro_SOURCE_PREFIX D:/a/1/a/_ws/src/xacro)
-  set(xacro_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/xacro)
+  set(xacro_SOURCE_PREFIX C:/catkin_ws/src/xacro)
+  set(xacro_DEVEL_PREFIX C:/catkin_ws/devel_isolated/xacro)
   set(xacro_INSTALL_PREFIX "")
   set(xacro_PREFIX ${xacro_DEVEL_PREFIX})
 else()

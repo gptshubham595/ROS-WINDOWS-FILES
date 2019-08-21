@@ -67,8 +67,8 @@ set(rosbash_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosbash_SOURCE_PREFIX D:/a/1/a/_ws/src/ros/tools/rosbash)
-  set(rosbash_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosbash)
+  set(rosbash_SOURCE_PREFIX C:/catkin_ws/src/ros/tools/rosbash)
+  set(rosbash_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosbash)
   set(rosbash_INSTALL_PREFIX "")
   set(rosbash_PREFIX ${rosbash_DEVEL_PREFIX})
 else()

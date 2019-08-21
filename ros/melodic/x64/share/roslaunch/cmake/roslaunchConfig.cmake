@@ -67,8 +67,8 @@ set(roslaunch_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(roslaunch_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/tools/roslaunch)
-  set(roslaunch_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/roslaunch)
+  set(roslaunch_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/tools/roslaunch)
+  set(roslaunch_DEVEL_PREFIX C:/catkin_ws/devel_isolated/roslaunch)
   set(roslaunch_INSTALL_PREFIX "")
   set(roslaunch_PREFIX ${roslaunch_DEVEL_PREFIX})
 else()

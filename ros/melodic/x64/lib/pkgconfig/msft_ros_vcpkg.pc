@@ -1,0 +1,8 @@
+prefix=C:/opt/ros/melodic/x64
+
+Name: msft_ros_vcpkg
+Description: Description of msft_ros_vcpkg
+Version: 0.0.1
+Cflags: 
+Libs: -LC:/opt/ros/melodic/x64/lib 
+Requires: 

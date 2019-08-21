@@ -67,8 +67,8 @@ set(qt_gui_py_common_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(qt_gui_py_common_SOURCE_PREFIX D:/a/1/a/_ws/src/qt_gui_core/qt_gui_py_common)
-  set(qt_gui_py_common_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/qt_gui_py_common)
+  set(qt_gui_py_common_SOURCE_PREFIX C:/catkin_ws/src/qt_gui_core/qt_gui_py_common)
+  set(qt_gui_py_common_DEVEL_PREFIX C:/catkin_ws/devel_isolated/qt_gui_py_common)
   set(qt_gui_py_common_INSTALL_PREFIX "")
   set(qt_gui_py_common_PREFIX ${qt_gui_py_common_DEVEL_PREFIX})
 else()

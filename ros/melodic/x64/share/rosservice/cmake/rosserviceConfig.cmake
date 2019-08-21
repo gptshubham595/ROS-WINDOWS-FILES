@@ -67,8 +67,8 @@ set(rosservice_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosservice_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/tools/rosservice)
-  set(rosservice_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosservice)
+  set(rosservice_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/tools/rosservice)
+  set(rosservice_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosservice)
   set(rosservice_INSTALL_PREFIX "")
   set(rosservice_PREFIX ${rosservice_DEVEL_PREFIX})
 else()

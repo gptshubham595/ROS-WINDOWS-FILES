@@ -67,8 +67,8 @@ set(genpy_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(genpy_SOURCE_PREFIX D:/a/1/a/_ws/src/genpy)
-  set(genpy_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/genpy)
+  set(genpy_SOURCE_PREFIX C:/catkin_ws/src/genpy)
+  set(genpy_DEVEL_PREFIX C:/catkin_ws/devel_isolated/genpy)
   set(genpy_INSTALL_PREFIX "")
   set(genpy_PREFIX ${genpy_DEVEL_PREFIX})
 else()

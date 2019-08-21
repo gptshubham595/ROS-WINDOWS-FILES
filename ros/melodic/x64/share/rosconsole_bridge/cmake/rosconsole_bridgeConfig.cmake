@@ -67,8 +67,8 @@ set(rosconsole_bridge_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosconsole_bridge_SOURCE_PREFIX D:/a/1/a/_ws/src/rosconsole_bridge)
-  set(rosconsole_bridge_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosconsole_bridge)
+  set(rosconsole_bridge_SOURCE_PREFIX C:/catkin_ws/src/rosconsole_bridge)
+  set(rosconsole_bridge_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosconsole_bridge)
   set(rosconsole_bridge_INSTALL_PREFIX "")
   set(rosconsole_bridge_PREFIX ${rosconsole_bridge_DEVEL_PREFIX})
 else()

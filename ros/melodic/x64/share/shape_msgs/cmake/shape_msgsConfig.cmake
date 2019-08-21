@@ -67,8 +67,8 @@ set(shape_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(shape_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/common_msgs/shape_msgs)
-  set(shape_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/shape_msgs)
+  set(shape_msgs_SOURCE_PREFIX C:/catkin_ws/src/common_msgs/shape_msgs)
+  set(shape_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/shape_msgs)
   set(shape_msgs_INSTALL_PREFIX "")
   set(shape_msgs_PREFIX ${shape_msgs_DEVEL_PREFIX})
 else()

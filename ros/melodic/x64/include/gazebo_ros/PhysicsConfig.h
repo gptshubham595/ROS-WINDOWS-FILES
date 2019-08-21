@@ -69,7 +69,7 @@ namespace gazebo_ros
         field(a_f)
       {}
 
-      T (PhysicsConfig::* field);
+      T PhysicsConfig::* field;
 
       virtual void clamp(PhysicsConfig &config, const PhysicsConfig &max, const PhysicsConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace gazebo_ros
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<PhysicsConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

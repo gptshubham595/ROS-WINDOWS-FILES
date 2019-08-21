@@ -69,7 +69,7 @@ namespace diff_drive_controller
         field(a_f)
       {}
 
-      T (DiffDriveControllerConfig::* field);
+      T DiffDriveControllerConfig::* field;
 
       virtual void clamp(DiffDriveControllerConfig &config, const DiffDriveControllerConfig &max, const DiffDriveControllerConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace diff_drive_controller
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<DiffDriveControllerConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

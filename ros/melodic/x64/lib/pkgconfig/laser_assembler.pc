@@ -2,7 +2,7 @@ prefix=C:/opt/ros/melodic/x64
 
 Name: laser_assembler
 Description: Description of laser_assembler
-Version: 1.7.6
+Version: 1.7.7
 Cflags: -IC:/opt/ros/melodic/x64/include
 Libs: -LC:/opt/ros/melodic/x64/lib 
 Requires: tf sensor_msgs message_filters roscpp laser_geometry filters message_runtime

@@ -67,8 +67,8 @@ set(rospy_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rospy_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/clients/rospy)
-  set(rospy_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rospy)
+  set(rospy_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/clients/rospy)
+  set(rospy_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rospy)
   set(rospy_INSTALL_PREFIX "")
   set(rospy_PREFIX ${rospy_DEVEL_PREFIX})
 else()

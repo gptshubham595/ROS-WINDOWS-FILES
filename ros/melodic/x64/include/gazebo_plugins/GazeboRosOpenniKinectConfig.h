@@ -69,7 +69,7 @@ namespace gazebo_plugins
         field(a_f)
       {}
 
-      T (GazeboRosOpenniKinectConfig::* field);
+      T GazeboRosOpenniKinectConfig::* field;
 
       virtual void clamp(GazeboRosOpenniKinectConfig &config, const GazeboRosOpenniKinectConfig &max, const GazeboRosOpenniKinectConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace gazebo_plugins
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<GazeboRosOpenniKinectConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 

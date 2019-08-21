@@ -69,7 +69,7 @@ namespace compressed_image_transport
         field(a_f)
       {}
 
-      T (CompressedPublisherConfig::* field);
+      T CompressedPublisherConfig::* field;
 
       virtual void clamp(CompressedPublisherConfig &config, const CompressedPublisherConfig &max, const CompressedPublisherConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace compressed_image_transport
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<CompressedPublisherConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 
@@ -238,12 +238,18 @@ class DEFAULT
 
         if("format"==(*_i)->name){format = boost::any_cast<std::string>(val);}
         if("jpeg_quality"==(*_i)->name){jpeg_quality = boost::any_cast<int>(val);}
+        if("jpeg_progressive"==(*_i)->name){jpeg_progressive = boost::any_cast<bool>(val);}
+        if("jpeg_optimize"==(*_i)->name){jpeg_optimize = boost::any_cast<bool>(val);}
+        if("jpeg_restart_interval"==(*_i)->name){jpeg_restart_interval = boost::any_cast<int>(val);}
         if("png_level"==(*_i)->name){png_level = boost::any_cast<int>(val);}
       }
     }
 
     std::string format;
 int jpeg_quality;
+bool jpeg_progressive;
+bool jpeg_optimize;
+int jpeg_restart_interval;
 int png_level;
 
     bool state;
@@ -258,6 +264,12 @@ int png_level;
       std::string format;
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       int jpeg_quality;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      bool jpeg_progressive;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      bool jpeg_optimize;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      int jpeg_restart_interval;
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       int png_level;
 //#line 228 "C:/opt/ros/melodic/x64/share/dynamic_reconfigure/cmake/..\\templates\\ConfigType.h.template"
@@ -405,9 +417,9 @@ CompressedPublisherConfig::GroupDescription<CompressedPublisherConfig::DEFAULT, 
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       __default__.format = "jpeg";
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<std::string>("format", "str", 0, "Compression format", "{'enum_description': 'Enum to set the compression format', 'enum': [{'srcline': 9, 'description': 'JPEG lossy compression', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg', 'cconsttype': 'const char * const', 'value': 'jpeg', 'ctype': 'std::string', 'type': 'str', 'name': 'jpeg'}, {'srcline': 10, 'description': 'PNG lossless compression', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg', 'cconsttype': 'const char * const', 'value': 'png', 'ctype': 'std::string', 'type': 'str', 'name': 'png'}]}", &CompressedPublisherConfig::format)));
+      Default.abstract_parameters.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<std::string>("format", "str", 0, "Compression format", "{'enum_description': 'Enum to set the compression format', 'enum': [{'srcline': 9, 'description': 'JPEG lossy compression', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg', 'cconsttype': 'const char * const', 'value': 'jpeg', 'ctype': 'std::string', 'type': 'str', 'name': 'jpeg'}, {'srcline': 10, 'description': 'PNG lossless compression', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg', 'cconsttype': 'const char * const', 'value': 'png', 'ctype': 'std::string', 'type': 'str', 'name': 'png'}]}", &CompressedPublisherConfig::format)));
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
-      __param_descriptions__.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<std::string>("format", "str", 0, "Compression format", "{'enum_description': 'Enum to set the compression format', 'enum': [{'srcline': 9, 'description': 'JPEG lossy compression', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg', 'cconsttype': 'const char * const', 'value': 'jpeg', 'ctype': 'std::string', 'type': 'str', 'name': 'jpeg'}, {'srcline': 10, 'description': 'PNG lossless compression', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg', 'cconsttype': 'const char * const', 'value': 'png', 'ctype': 'std::string', 'type': 'str', 'name': 'png'}]}", &CompressedPublisherConfig::format)));
+      __param_descriptions__.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<std::string>("format", "str", 0, "Compression format", "{'enum_description': 'Enum to set the compression format', 'enum': [{'srcline': 9, 'description': 'JPEG lossy compression', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg', 'cconsttype': 'const char * const', 'value': 'jpeg', 'ctype': 'std::string', 'type': 'str', 'name': 'jpeg'}, {'srcline': 10, 'description': 'PNG lossless compression', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg', 'cconsttype': 'const char * const', 'value': 'png', 'ctype': 'std::string', 'type': 'str', 'name': 'png'}]}", &CompressedPublisherConfig::format)));
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       __min__.jpeg_quality = 1;
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
@@ -418,6 +430,36 @@ CompressedPublisherConfig::GroupDescription<CompressedPublisherConfig::DEFAULT, 
       Default.abstract_parameters.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<int>("jpeg_quality", "int", 0, "JPEG quality percentile", "", &CompressedPublisherConfig::jpeg_quality)));
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       __param_descriptions__.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<int>("jpeg_quality", "int", 0, "JPEG quality percentile", "", &CompressedPublisherConfig::jpeg_quality)));
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __min__.jpeg_progressive = 0;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __max__.jpeg_progressive = 1;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __default__.jpeg_progressive = 0;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      Default.abstract_parameters.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<bool>("jpeg_progressive", "bool", 0, "Enable compression to progressive JPEG", "", &CompressedPublisherConfig::jpeg_progressive)));
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __param_descriptions__.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<bool>("jpeg_progressive", "bool", 0, "Enable compression to progressive JPEG", "", &CompressedPublisherConfig::jpeg_progressive)));
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __min__.jpeg_optimize = 0;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __max__.jpeg_optimize = 1;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __default__.jpeg_optimize = 0;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      Default.abstract_parameters.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<bool>("jpeg_optimize", "bool", 0, "Enable JPEG compress optimization", "", &CompressedPublisherConfig::jpeg_optimize)));
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __param_descriptions__.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<bool>("jpeg_optimize", "bool", 0, "Enable JPEG compress optimization", "", &CompressedPublisherConfig::jpeg_optimize)));
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __min__.jpeg_restart_interval = 0;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __max__.jpeg_restart_interval = 65535;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __default__.jpeg_restart_interval = 0;
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      Default.abstract_parameters.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<int>("jpeg_restart_interval", "int", 0, "JPEG restart interval", "", &CompressedPublisherConfig::jpeg_restart_interval)));
+//#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
+      __param_descriptions__.push_back(CompressedPublisherConfig::AbstractParamDescriptionConstPtr(new CompressedPublisherConfig::ParamDescription<int>("jpeg_restart_interval", "int", 0, "JPEG restart interval", "", &CompressedPublisherConfig::jpeg_restart_interval)));
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       __min__.png_level = 1;
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
@@ -507,9 +549,9 @@ CompressedPublisherConfig::GroupDescription<CompressedPublisherConfig::DEFAULT, 
     return statics;
   }
 
-//#line 9 "D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg"
+//#line 9 "C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg"
       const char * const CompressedPublisher_jpeg = "jpeg";
-//#line 10 "D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg"
+//#line 10 "C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedPublisher.cfg"
       const char * const CompressedPublisher_png = "png";
 }
 

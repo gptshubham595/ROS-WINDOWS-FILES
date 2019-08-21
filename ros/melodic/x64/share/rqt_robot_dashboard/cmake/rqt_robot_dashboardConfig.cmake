@@ -67,8 +67,8 @@ set(rqt_robot_dashboard_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_robot_dashboard_SOURCE_PREFIX D:/a/1/a/_ws/src/rqt_robot_dashboard)
-  set(rqt_robot_dashboard_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_robot_dashboard)
+  set(rqt_robot_dashboard_SOURCE_PREFIX C:/catkin_ws/src/rqt_robot_dashboard)
+  set(rqt_robot_dashboard_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_robot_dashboard)
   set(rqt_robot_dashboard_INSTALL_PREFIX "")
   set(rqt_robot_dashboard_PREFIX ${rqt_robot_dashboard_DEVEL_PREFIX})
 else()

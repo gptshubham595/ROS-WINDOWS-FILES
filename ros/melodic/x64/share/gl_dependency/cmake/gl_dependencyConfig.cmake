@@ -67,8 +67,8 @@ set(gl_dependency_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gl_dependency_SOURCE_PREFIX D:/a/1/a/_ws/src/gl_dependency)
-  set(gl_dependency_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/gl_dependency)
+  set(gl_dependency_SOURCE_PREFIX C:/catkin_ws/src/gl_dependency)
+  set(gl_dependency_DEVEL_PREFIX C:/catkin_ws/devel_isolated/gl_dependency)
   set(gl_dependency_INSTALL_PREFIX "")
   set(gl_dependency_PREFIX ${gl_dependency_DEVEL_PREFIX})
 else()

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\opt\rosdeps\x64\bin\CMakeFiles\7de499bf952916430aad3f061a06f460\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{47432EEE-3EE7-3CD9-A55D-5B871A78413B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

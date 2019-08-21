@@ -67,8 +67,8 @@ set(rospack_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rospack_SOURCE_PREFIX D:/a/1/a/_ws/src/rospack)
-  set(rospack_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rospack)
+  set(rospack_SOURCE_PREFIX C:/catkin_ws/src/rospack)
+  set(rospack_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rospack)
   set(rospack_INSTALL_PREFIX "")
   set(rospack_PREFIX ${rospack_DEVEL_PREFIX})
 else()

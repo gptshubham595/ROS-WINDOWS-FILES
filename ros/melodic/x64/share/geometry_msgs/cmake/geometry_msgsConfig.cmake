@@ -67,8 +67,8 @@ set(geometry_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(geometry_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/common_msgs/geometry_msgs)
-  set(geometry_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/geometry_msgs)
+  set(geometry_msgs_SOURCE_PREFIX C:/catkin_ws/src/common_msgs/geometry_msgs)
+  set(geometry_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/geometry_msgs)
   set(geometry_msgs_INSTALL_PREFIX "")
   set(geometry_msgs_PREFIX ${geometry_msgs_DEVEL_PREFIX})
 else()

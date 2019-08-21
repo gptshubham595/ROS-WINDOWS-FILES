@@ -67,8 +67,8 @@ set(rosbag_storage_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosbag_storage_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_comm/tools/rosbag_storage)
-  set(rosbag_storage_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosbag_storage)
+  set(rosbag_storage_SOURCE_PREFIX C:/catkin_ws/src/ros_comm/tools/rosbag_storage)
+  set(rosbag_storage_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosbag_storage)
   set(rosbag_storage_INSTALL_PREFIX "")
   set(rosbag_storage_PREFIX ${rosbag_storage_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(qt_gui_cpp_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(qt_gui_cpp_SOURCE_PREFIX D:/a/1/a/_ws/src/qt_gui_core/qt_gui_cpp)
-  set(qt_gui_cpp_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/qt_gui_cpp)
+  set(qt_gui_cpp_SOURCE_PREFIX C:/catkin_ws/src/qt_gui_core/qt_gui_cpp)
+  set(qt_gui_cpp_DEVEL_PREFIX C:/catkin_ws/devel_isolated/qt_gui_cpp)
   set(qt_gui_cpp_INSTALL_PREFIX "")
   set(qt_gui_cpp_PREFIX ${qt_gui_cpp_DEVEL_PREFIX})
 else()

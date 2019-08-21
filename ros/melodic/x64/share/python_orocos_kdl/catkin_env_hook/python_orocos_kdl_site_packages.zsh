@@ -1,1 +1,1 @@
-export PYTHONPATH=C:/opt/ros/melodic/x64/Lib\site-packages:$PYTHONPATH
+python_orocos_kdl_site_packages.sh.in

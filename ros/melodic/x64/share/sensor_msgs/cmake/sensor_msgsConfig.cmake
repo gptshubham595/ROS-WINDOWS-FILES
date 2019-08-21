@@ -67,8 +67,8 @@ set(sensor_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(sensor_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/common_msgs/sensor_msgs)
-  set(sensor_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/sensor_msgs)
+  set(sensor_msgs_SOURCE_PREFIX C:/catkin_ws/src/common_msgs/sensor_msgs)
+  set(sensor_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/sensor_msgs)
   set(sensor_msgs_INSTALL_PREFIX "")
   set(sensor_msgs_PREFIX ${sensor_msgs_DEVEL_PREFIX})
 else()

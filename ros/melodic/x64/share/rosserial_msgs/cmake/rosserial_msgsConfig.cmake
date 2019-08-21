@@ -67,8 +67,8 @@ set(rosserial_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosserial_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/rosserial/rosserial_msgs)
-  set(rosserial_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosserial_msgs)
+  set(rosserial_msgs_SOURCE_PREFIX C:/catkin_ws/src/rosserial/rosserial_msgs)
+  set(rosserial_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosserial_msgs)
   set(rosserial_msgs_INSTALL_PREFIX "")
   set(rosserial_msgs_PREFIX ${rosserial_msgs_DEVEL_PREFIX})
 else()

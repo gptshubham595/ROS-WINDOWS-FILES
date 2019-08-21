@@ -67,8 +67,8 @@ set(kdl_parser_py_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kdl_parser_py_SOURCE_PREFIX D:/a/1/a/_ws/src/kdl_parser/kdl_parser_py)
-  set(kdl_parser_py_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/kdl_parser_py)
+  set(kdl_parser_py_SOURCE_PREFIX C:/catkin_ws/src/kdl_parser/kdl_parser_py)
+  set(kdl_parser_py_DEVEL_PREFIX C:/catkin_ws/devel_isolated/kdl_parser_py)
   set(kdl_parser_py_INSTALL_PREFIX "")
   set(kdl_parser_py_PREFIX ${kdl_parser_py_DEVEL_PREFIX})
 else()

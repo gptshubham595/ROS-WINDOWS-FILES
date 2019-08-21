@@ -67,8 +67,8 @@ set(python_qt_binding_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(python_qt_binding_SOURCE_PREFIX D:/a/1/a/_ws/src/python_qt_binding)
-  set(python_qt_binding_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/python_qt_binding)
+  set(python_qt_binding_SOURCE_PREFIX C:/catkin_ws/src/python_qt_binding)
+  set(python_qt_binding_DEVEL_PREFIX C:/catkin_ws/devel_isolated/python_qt_binding)
   set(python_qt_binding_INSTALL_PREFIX "")
   set(python_qt_binding_PREFIX ${python_qt_binding_DEVEL_PREFIX})
 else()

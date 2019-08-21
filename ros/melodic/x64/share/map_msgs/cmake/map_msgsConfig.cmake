@@ -67,8 +67,8 @@ set(map_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(map_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/navigation_msgs/map_msgs)
-  set(map_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/map_msgs)
+  set(map_msgs_SOURCE_PREFIX C:/catkin_ws/src/navigation_msgs/map_msgs)
+  set(map_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/map_msgs)
   set(map_msgs_INSTALL_PREFIX "")
   set(map_msgs_PREFIX ${map_msgs_DEVEL_PREFIX})
 else()

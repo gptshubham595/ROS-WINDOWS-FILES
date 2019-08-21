@@ -67,8 +67,8 @@ set(trajectory_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(trajectory_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/common_msgs/trajectory_msgs)
-  set(trajectory_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/trajectory_msgs)
+  set(trajectory_msgs_SOURCE_PREFIX C:/catkin_ws/src/common_msgs/trajectory_msgs)
+  set(trajectory_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/trajectory_msgs)
   set(trajectory_msgs_INSTALL_PREFIX "")
   set(trajectory_msgs_PREFIX ${trajectory_msgs_DEVEL_PREFIX})
 else()

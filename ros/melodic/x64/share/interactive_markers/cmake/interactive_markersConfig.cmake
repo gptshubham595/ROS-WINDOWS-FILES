@@ -67,8 +67,8 @@ set(interactive_markers_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(interactive_markers_SOURCE_PREFIX D:/a/1/a/_ws/src/interactive_markers)
-  set(interactive_markers_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/interactive_markers)
+  set(interactive_markers_SOURCE_PREFIX C:/catkin_ws/src/interactive_markers)
+  set(interactive_markers_DEVEL_PREFIX C:/catkin_ws/devel_isolated/interactive_markers)
   set(interactive_markers_INSTALL_PREFIX "")
   set(interactive_markers_PREFIX ${interactive_markers_DEVEL_PREFIX})
 else()

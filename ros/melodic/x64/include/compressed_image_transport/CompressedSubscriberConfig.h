@@ -69,7 +69,7 @@ namespace compressed_image_transport
         field(a_f)
       {}
 
-      T (CompressedSubscriberConfig::* field);
+      T CompressedSubscriberConfig::* field;
 
       virtual void clamp(CompressedSubscriberConfig &config, const CompressedSubscriberConfig &max, const CompressedSubscriberConfig &min) const
       {
@@ -216,7 +216,7 @@ namespace compressed_image_transport
         }
       }
 
-      T (PT::* field);
+      T PT::* field;
       std::vector<CompressedSubscriberConfig::AbstractGroupDescriptionConstPtr> groups;
     };
 
@@ -397,9 +397,9 @@ CompressedSubscriberConfig::GroupDescription<CompressedSubscriberConfig::DEFAULT
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       __default__.mode = "unchanged";
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
-      Default.abstract_parameters.push_back(CompressedSubscriberConfig::AbstractParamDescriptionConstPtr(new CompressedSubscriberConfig::ParamDescription<std::string>("mode", "str", 0, "Color Mode", "{'enum_description': 'Enum to set the decompression color mode', 'enum': [{'srcline': 9, 'description': 'keep image encoding', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'unchanged', 'ctype': 'std::string', 'type': 'str', 'name': 'unchanged'}, {'srcline': 10, 'description': 'decode to gray', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'gray', 'ctype': 'std::string', 'type': 'str', 'name': 'gray'}, {'srcline': 11, 'description': 'decode to color', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'color', 'ctype': 'std::string', 'type': 'str', 'name': 'color'}]}", &CompressedSubscriberConfig::mode)));
+      Default.abstract_parameters.push_back(CompressedSubscriberConfig::AbstractParamDescriptionConstPtr(new CompressedSubscriberConfig::ParamDescription<std::string>("mode", "str", 0, "Color Mode", "{'enum_description': 'Enum to set the decompression color mode', 'enum': [{'srcline': 9, 'description': 'keep image encoding', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'unchanged', 'ctype': 'std::string', 'type': 'str', 'name': 'unchanged'}, {'srcline': 10, 'description': 'decode to gray', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'gray', 'ctype': 'std::string', 'type': 'str', 'name': 'gray'}, {'srcline': 11, 'description': 'decode to color', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'color', 'ctype': 'std::string', 'type': 'str', 'name': 'color'}]}", &CompressedSubscriberConfig::mode)));
 //#line 291 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
-      __param_descriptions__.push_back(CompressedSubscriberConfig::AbstractParamDescriptionConstPtr(new CompressedSubscriberConfig::ParamDescription<std::string>("mode", "str", 0, "Color Mode", "{'enum_description': 'Enum to set the decompression color mode', 'enum': [{'srcline': 9, 'description': 'keep image encoding', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'unchanged', 'ctype': 'std::string', 'type': 'str', 'name': 'unchanged'}, {'srcline': 10, 'description': 'decode to gray', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'gray', 'ctype': 'std::string', 'type': 'str', 'name': 'gray'}, {'srcline': 11, 'description': 'decode to color', 'srcfile': 'D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'color', 'ctype': 'std::string', 'type': 'str', 'name': 'color'}]}", &CompressedSubscriberConfig::mode)));
+      __param_descriptions__.push_back(CompressedSubscriberConfig::AbstractParamDescriptionConstPtr(new CompressedSubscriberConfig::ParamDescription<std::string>("mode", "str", 0, "Color Mode", "{'enum_description': 'Enum to set the decompression color mode', 'enum': [{'srcline': 9, 'description': 'keep image encoding', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'unchanged', 'ctype': 'std::string', 'type': 'str', 'name': 'unchanged'}, {'srcline': 10, 'description': 'decode to gray', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'gray', 'ctype': 'std::string', 'type': 'str', 'name': 'gray'}, {'srcline': 11, 'description': 'decode to color', 'srcfile': 'C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg', 'cconsttype': 'const char * const', 'value': 'color', 'ctype': 'std::string', 'type': 'str', 'name': 'color'}]}", &CompressedSubscriberConfig::mode)));
 //#line 246 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
       Default.convertParams();
 //#line 246 "C:\opt\ros\melodic\x64\lib\site-packages\dynamic_reconfigure\parameter_generator_catkin.py"
@@ -479,11 +479,11 @@ CompressedSubscriberConfig::GroupDescription<CompressedSubscriberConfig::DEFAULT
     return statics;
   }
 
-//#line 9 "D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg"
+//#line 9 "C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg"
       const char * const CompressedSubscriber_unchanged = "unchanged";
-//#line 10 "D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg"
+//#line 10 "C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg"
       const char * const CompressedSubscriber_gray = "gray";
-//#line 11 "D:/a/1/a/_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg"
+//#line 11 "C:/catkin_ws/src/image_transport_plugins/compressed_image_transport/cfg/CompressedSubscriber.cfg"
       const char * const CompressedSubscriber_color = "color";
 }
 

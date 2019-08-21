@@ -67,8 +67,8 @@ set(mk_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(mk_SOURCE_PREFIX D:/a/1/a/_ws/src/ros/core/mk)
-  set(mk_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/mk)
+  set(mk_SOURCE_PREFIX C:/catkin_ws/src/ros/core/mk)
+  set(mk_DEVEL_PREFIX C:/catkin_ws/devel_isolated/mk)
   set(mk_INSTALL_PREFIX "")
   set(mk_PREFIX ${mk_DEVEL_PREFIX})
 else()

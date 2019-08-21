@@ -67,8 +67,8 @@ set(turtlesim_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(turtlesim_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_tutorials/turtlesim)
-  set(turtlesim_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/turtlesim)
+  set(turtlesim_SOURCE_PREFIX C:/catkin_ws/src/ros_tutorials/turtlesim)
+  set(turtlesim_DEVEL_PREFIX C:/catkin_ws/devel_isolated/turtlesim)
   set(turtlesim_INSTALL_PREFIX "")
   set(turtlesim_PREFIX ${turtlesim_DEVEL_PREFIX})
 else()

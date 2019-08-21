@@ -67,8 +67,8 @@ set(smclib_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(smclib_SOURCE_PREFIX D:/a/1/a/_ws/src/bond_core/smclib)
-  set(smclib_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/smclib)
+  set(smclib_SOURCE_PREFIX C:/catkin_ws/src/bond_core/smclib)
+  set(smclib_DEVEL_PREFIX C:/catkin_ws/devel_isolated/smclib)
   set(smclib_INSTALL_PREFIX "")
   set(smclib_PREFIX ${smclib_DEVEL_PREFIX})
 else()

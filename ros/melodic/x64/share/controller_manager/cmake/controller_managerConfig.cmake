@@ -67,8 +67,8 @@ set(controller_manager_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(controller_manager_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_control/controller_manager)
-  set(controller_manager_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/controller_manager)
+  set(controller_manager_SOURCE_PREFIX C:/catkin_ws/src/ros_control/controller_manager)
+  set(controller_manager_DEVEL_PREFIX C:/catkin_ws/devel_isolated/controller_manager)
   set(controller_manager_INSTALL_PREFIX "")
   set(controller_manager_PREFIX ${controller_manager_DEVEL_PREFIX})
 else()

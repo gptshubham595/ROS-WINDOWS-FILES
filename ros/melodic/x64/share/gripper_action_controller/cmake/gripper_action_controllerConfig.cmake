@@ -67,8 +67,8 @@ set(gripper_action_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(gripper_action_controller_SOURCE_PREFIX D:/a/1/a/_ws/src/ros_controllers/gripper_action_controller)
-  set(gripper_action_controller_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/gripper_action_controller)
+  set(gripper_action_controller_SOURCE_PREFIX C:/catkin_ws/src/ros_controllers/gripper_action_controller)
+  set(gripper_action_controller_DEVEL_PREFIX C:/catkin_ws/devel_isolated/gripper_action_controller)
   set(gripper_action_controller_INSTALL_PREFIX "")
   set(gripper_action_controller_PREFIX ${gripper_action_controller_DEVEL_PREFIX})
 else()

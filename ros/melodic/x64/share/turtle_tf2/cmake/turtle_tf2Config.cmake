@@ -67,8 +67,8 @@ set(turtle_tf2_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(turtle_tf2_SOURCE_PREFIX D:/a/1/a/_ws/src/geometry_tutorials/turtle_tf2)
-  set(turtle_tf2_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/turtle_tf2)
+  set(turtle_tf2_SOURCE_PREFIX C:/catkin_ws/src/geometry_tutorials/turtle_tf2)
+  set(turtle_tf2_DEVEL_PREFIX C:/catkin_ws/devel_isolated/turtle_tf2)
   set(turtle_tf2_INSTALL_PREFIX "")
   set(turtle_tf2_PREFIX ${turtle_tf2_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(dynamic_reconfigure_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(dynamic_reconfigure_SOURCE_PREFIX D:/a/1/a/_ws/src/dynamic_reconfigure)
-  set(dynamic_reconfigure_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/dynamic_reconfigure)
+  set(dynamic_reconfigure_SOURCE_PREFIX C:/catkin_ws/src/dynamic_reconfigure)
+  set(dynamic_reconfigure_DEVEL_PREFIX C:/catkin_ws/devel_isolated/dynamic_reconfigure)
   set(dynamic_reconfigure_INSTALL_PREFIX "")
   set(dynamic_reconfigure_PREFIX ${dynamic_reconfigure_DEVEL_PREFIX})
 else()

@@ -67,8 +67,8 @@ set(visualization_marker_tutorials_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(visualization_marker_tutorials_SOURCE_PREFIX D:/a/1/a/_ws/src/visualization_tutorials/visualization_marker_tutorials)
-  set(visualization_marker_tutorials_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/visualization_marker_tutorials)
+  set(visualization_marker_tutorials_SOURCE_PREFIX C:/catkin_ws/src/visualization_tutorials/visualization_marker_tutorials)
+  set(visualization_marker_tutorials_DEVEL_PREFIX C:/catkin_ws/devel_isolated/visualization_marker_tutorials)
   set(visualization_marker_tutorials_INSTALL_PREFIX "")
   set(visualization_marker_tutorials_PREFIX ${visualization_marker_tutorials_DEVEL_PREFIX})
 else()

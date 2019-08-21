@@ -67,8 +67,8 @@ set(nav_core_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(nav_core_SOURCE_PREFIX D:/a/1/a/_ws/src/navigation/nav_core)
-  set(nav_core_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/nav_core)
+  set(nav_core_SOURCE_PREFIX C:/catkin_ws/src/navigation/nav_core)
+  set(nav_core_DEVEL_PREFIX C:/catkin_ws/devel_isolated/nav_core)
   set(nav_core_INSTALL_PREFIX "")
   set(nav_core_PREFIX ${nav_core_DEVEL_PREFIX})
 else()

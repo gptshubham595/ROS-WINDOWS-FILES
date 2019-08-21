@@ -541,7 +541,11 @@ class SerialClient(object):
                     except KeyError:
                         rospy.logerr("Tried to publish before configured, topic id %d" % topic_id)
                         self.requestTopics()
-                    rospy.sleep(0.001)
+
+                    # Windows is using blocking readson the serial port, so no need to sleep; sleep causes the thread
+                    # to get rescheduled. This can cause the board to lose sync and the publishing to be slow
+                    if sys.platform != 'win32':
+                        rospy.sleep(0.001)
                 else:
                     rospy.loginfo("wrong checksum for topic id and msg")
 

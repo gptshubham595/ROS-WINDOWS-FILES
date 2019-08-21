@@ -67,8 +67,8 @@ set(class_loader_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(class_loader_SOURCE_PREFIX D:/a/1/a/_ws/src/class_loader)
-  set(class_loader_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/class_loader)
+  set(class_loader_SOURCE_PREFIX C:/catkin_ws/src/class_loader)
+  set(class_loader_DEVEL_PREFIX C:/catkin_ws/devel_isolated/class_loader)
   set(class_loader_INSTALL_PREFIX "")
   set(class_loader_PREFIX ${class_loader_DEVEL_PREFIX})
 else()

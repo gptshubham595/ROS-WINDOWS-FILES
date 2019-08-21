@@ -67,8 +67,8 @@ set(qt_dotgraph_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(qt_dotgraph_SOURCE_PREFIX D:/a/1/a/_ws/src/qt_gui_core/qt_dotgraph)
-  set(qt_dotgraph_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/qt_dotgraph)
+  set(qt_dotgraph_SOURCE_PREFIX C:/catkin_ws/src/qt_gui_core/qt_dotgraph)
+  set(qt_dotgraph_DEVEL_PREFIX C:/catkin_ws/devel_isolated/qt_dotgraph)
   set(qt_dotgraph_INSTALL_PREFIX "")
   set(qt_dotgraph_PREFIX ${qt_dotgraph_DEVEL_PREFIX})
 else()

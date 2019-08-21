@@ -67,8 +67,8 @@ set(interactive_marker_tutorials_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(interactive_marker_tutorials_SOURCE_PREFIX D:/a/1/a/_ws/src/visualization_tutorials/interactive_marker_tutorials)
-  set(interactive_marker_tutorials_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/interactive_marker_tutorials)
+  set(interactive_marker_tutorials_SOURCE_PREFIX C:/catkin_ws/src/visualization_tutorials/interactive_marker_tutorials)
+  set(interactive_marker_tutorials_DEVEL_PREFIX C:/catkin_ws/devel_isolated/interactive_marker_tutorials)
   set(interactive_marker_tutorials_INSTALL_PREFIX "")
   set(interactive_marker_tutorials_PREFIX ${interactive_marker_tutorials_DEVEL_PREFIX})
 else()

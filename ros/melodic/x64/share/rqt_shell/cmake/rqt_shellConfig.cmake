@@ -67,8 +67,8 @@ set(rqt_shell_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rqt_shell_SOURCE_PREFIX D:/a/1/a/_ws/src/rqt_shell)
-  set(rqt_shell_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rqt_shell)
+  set(rqt_shell_SOURCE_PREFIX C:/catkin_ws/src/rqt_shell)
+  set(rqt_shell_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rqt_shell)
   set(rqt_shell_INSTALL_PREFIX "")
   set(rqt_shell_PREFIX ${rqt_shell_DEVEL_PREFIX})
 else()

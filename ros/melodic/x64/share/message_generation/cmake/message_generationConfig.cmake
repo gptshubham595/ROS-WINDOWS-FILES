@@ -67,8 +67,8 @@ set(message_generation_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(message_generation_SOURCE_PREFIX D:/a/1/a/_ws/src/message_generation)
-  set(message_generation_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/message_generation)
+  set(message_generation_SOURCE_PREFIX C:/catkin_ws/src/message_generation)
+  set(message_generation_DEVEL_PREFIX C:/catkin_ws/devel_isolated/message_generation)
   set(message_generation_INSTALL_PREFIX "")
   set(message_generation_PREFIX ${message_generation_DEVEL_PREFIX})
 else()

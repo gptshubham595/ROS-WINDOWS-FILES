@@ -67,8 +67,8 @@ set(roslib_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(roslib_SOURCE_PREFIX D:/a/1/a/_ws/src/ros/core/roslib)
-  set(roslib_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/roslib)
+  set(roslib_SOURCE_PREFIX C:/catkin_ws/src/ros/core/roslib)
+  set(roslib_DEVEL_PREFIX C:/catkin_ws/devel_isolated/roslib)
   set(roslib_INSTALL_PREFIX "")
   set(roslib_PREFIX ${roslib_DEVEL_PREFIX})
 else()

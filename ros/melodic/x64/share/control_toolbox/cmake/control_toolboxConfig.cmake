@@ -67,8 +67,8 @@ set(control_toolbox_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(control_toolbox_SOURCE_PREFIX D:/a/1/a/_ws/src/control_toolbox)
-  set(control_toolbox_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/control_toolbox)
+  set(control_toolbox_SOURCE_PREFIX C:/catkin_ws/src/control_toolbox)
+  set(control_toolbox_DEVEL_PREFIX C:/catkin_ws/devel_isolated/control_toolbox)
   set(control_toolbox_INSTALL_PREFIX "")
   set(control_toolbox_PREFIX ${control_toolbox_DEVEL_PREFIX})
 else()

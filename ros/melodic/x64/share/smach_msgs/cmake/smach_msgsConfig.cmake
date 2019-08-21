@@ -67,8 +67,8 @@ set(smach_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(smach_msgs_SOURCE_PREFIX D:/a/1/a/_ws/src/executive_smach/smach_msgs)
-  set(smach_msgs_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/smach_msgs)
+  set(smach_msgs_SOURCE_PREFIX C:/catkin_ws/src/executive_smach/smach_msgs)
+  set(smach_msgs_DEVEL_PREFIX C:/catkin_ws/devel_isolated/smach_msgs)
   set(smach_msgs_INSTALL_PREFIX "")
   set(smach_msgs_PREFIX ${smach_msgs_DEVEL_PREFIX})
 else()

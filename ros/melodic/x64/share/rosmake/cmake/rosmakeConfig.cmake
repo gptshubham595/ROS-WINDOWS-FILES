@@ -67,8 +67,8 @@ set(rosmake_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosmake_SOURCE_PREFIX D:/a/1/a/_ws/src/ros/tools/rosmake)
-  set(rosmake_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosmake)
+  set(rosmake_SOURCE_PREFIX C:/catkin_ws/src/ros/tools/rosmake)
+  set(rosmake_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosmake)
   set(rosmake_INSTALL_PREFIX "")
   set(rosmake_PREFIX ${rosmake_DEVEL_PREFIX})
 else()

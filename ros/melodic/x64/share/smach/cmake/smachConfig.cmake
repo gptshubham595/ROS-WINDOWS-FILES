@@ -67,8 +67,8 @@ set(smach_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(smach_SOURCE_PREFIX D:/a/1/a/_ws/src/executive_smach/smach)
-  set(smach_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/smach)
+  set(smach_SOURCE_PREFIX C:/catkin_ws/src/executive_smach/smach)
+  set(smach_DEVEL_PREFIX C:/catkin_ws/devel_isolated/smach)
   set(smach_INSTALL_PREFIX "")
   set(smach_PREFIX ${smach_DEVEL_PREFIX})
 else()

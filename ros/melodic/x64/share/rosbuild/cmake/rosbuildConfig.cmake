@@ -67,8 +67,8 @@ set(rosbuild_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rosbuild_SOURCE_PREFIX D:/a/1/a/_ws/src/ros/core/rosbuild)
-  set(rosbuild_DEVEL_PREFIX D:/a/1/a/_output/devel_isolated/rosbuild)
+  set(rosbuild_SOURCE_PREFIX C:/catkin_ws/src/ros/core/rosbuild)
+  set(rosbuild_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rosbuild)
   set(rosbuild_INSTALL_PREFIX "")
   set(rosbuild_PREFIX ${rosbuild_DEVEL_PREFIX})
 else()
