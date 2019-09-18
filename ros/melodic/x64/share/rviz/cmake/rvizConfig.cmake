@@ -67,14 +67,14 @@ set(rviz_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rviz_SOURCE_PREFIX C:/catkin_ws/src/rviz)
-  set(rviz_DEVEL_PREFIX C:/catkin_ws/devel_isolated/rviz)
+  set(rviz_SOURCE_PREFIX D:/catkin_ws/src/rviz)
+  set(rviz_DEVEL_PREFIX D:/catkin_ws/devel_isolated/rviz)
   set(rviz_INSTALL_PREFIX "")
   set(rviz_PREFIX ${rviz_DEVEL_PREFIX})
 else()
   set(rviz_SOURCE_PREFIX "")
   set(rviz_DEVEL_PREFIX "")
-  set(rviz_INSTALL_PREFIX C:/opt/ros/melodic/x64)
+  set(rviz_INSTALL_PREFIX D:/opt/ros/melodic/x64)
   set(rviz_PREFIX ${rviz_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(rviz_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;C:/opt/rosdeps/x64/include/eigen3;C:/opt/rosdeps/x64/include/OGRE/Overlay;C:/opt/rosdeps/x64/include;C:/opt/rosdeps/x64/include/OGRE " STREQUAL " ")
+if(NOT "include;D:/opt/rosdeps/x64/include/eigen3;D:/opt/rosdeps/x64/include/OGRE/Overlay;D:/opt/rosdeps/x64/include;D:/opt/rosdeps/x64/include/OGRE " STREQUAL " ")
   set(rviz_INCLUDE_DIRS "")
-  set(_include_dirs "include;C:/opt/rosdeps/x64/include/eigen3;C:/opt/rosdeps/x64/include/OGRE/Overlay;C:/opt/rosdeps/x64/include;C:/opt/rosdeps/x64/include/OGRE")
+  set(_include_dirs "include;D:/opt/rosdeps/x64/include/eigen3;D:/opt/rosdeps/x64/include/OGRE/Overlay;D:/opt/rosdeps/x64/include;D:/opt/rosdeps/x64/include/OGRE")
   if(NOT "https://github.com/ros-visualization/rviz/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ros-visualization/rviz/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/rviz " STREQUAL " ")
@@ -110,13 +110,13 @@ if(NOT "include;C:/opt/rosdeps/x64/include/eigen3;C:/opt/rosdeps/x64/include/OGR
         message(FATAL_ERROR "Project 'rviz' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'rviz' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'C:/opt/ros/melodic/x64/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'rviz' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'D:/opt/ros/melodic/x64/${idir}'.  ${_report}")
     endif()
     _list_append_unique(rviz_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "rviz;C:/opt/rosdeps/x64/lib/OgreOverlay.lib;C:/opt/rosdeps/x64/lib/OgreMain.lib;opengl32;glu32")
+set(libraries "rviz;D:/opt/rosdeps/x64/lib/OgreOverlay.lib;D:/opt/rosdeps/x64/lib/OgreMain.lib;opengl32;glu32")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -131,7 +131,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path C:/opt/ros/melodic/x64/lib;C:/opt/ros/melodic/x64/lib)
+    foreach(path D:/opt/ros/melodic/x64/lib;D:/opt/ros/melodic/x64/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

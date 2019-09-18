@@ -7,7 +7,7 @@ REM Supported command line options:
 REM --extend: skips the undoing of changes from a previously sourced setup file
 REM --local: only considers this workspace but not the chained ones
 
-set _SETUP_UTIL=C:/opt/ros/melodic/x64/_setup_util.py
+set _SETUP_UTIL=D:/opt/ros/melodic/x64/_setup_util.py
 
 if NOT EXIST "%_SETUP_UTIL%" (
   echo "Missing Python script: %_SETUP_UTIL%"
@@ -15,7 +15,7 @@ if NOT EXIST "%_SETUP_UTIL%" (
 )
 
 REM set the Python executable
-set _PYTHON="C:/opt/python27amd64/python.exe"
+set _PYTHON="D:/opt/python27amd64/python.exe"
 
 REM compute Python home and normalize Python executable path
 set PYTHONHOME=

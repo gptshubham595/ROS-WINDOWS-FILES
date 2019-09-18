@@ -1,4 +1,4 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 libdir=${prefix}/lib
 includedir=${prefix}/include
 
@@ -7,5 +7,5 @@ Description: The Orocos Kinematics and Dynamics Library
 Requires: 
 Version: 1.4.0
 Libs: -L${libdir} -lorocos-kdl
-Cflags: -I${includedir}  -IC:/opt/rosdeps/x64/include/eigen3
+Cflags: -I${includedir}  -ID:/opt/rosdeps/x64/include/eigen3
 

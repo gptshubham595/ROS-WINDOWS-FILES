@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: tf_conversions
 Description: Description of tf_conversions
 Version: 1.12.0
-Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/eigen3 -IC:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include
-Libs: -LC:/opt/ros/melodic/x64/lib -ltf_conversions C:/opt/ros/melodic/x64/lib/orocos-kdl.lib
+Cflags: -ID:/opt/ros/melodic/x64/include -ID:/opt/rosdeps/x64/include/eigen3 -ID:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include
+Libs: -LD:/opt/ros/melodic/x64/lib -ltf_conversions D:/opt/ros/melodic/x64/lib/orocos-kdl.lib
 Requires: geometry_msgs kdl_conversions tf

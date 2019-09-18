@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: rqt_tf_tree
 Description: Description of rqt_tf_tree
 Version: 0.6.0
 Cflags: 
-Libs: -LC:/opt/ros/melodic/x64/lib 
+Libs: -LD:/opt/ros/melodic/x64/lib 
 Requires: 

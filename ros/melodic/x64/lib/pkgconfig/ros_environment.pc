@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: ros_environment
 Description: Description of ros_environment
 Version: 1.2.1
 Cflags: 
-Libs: -LC:/opt/ros/melodic/x64/lib 
+Libs: -LD:/opt/ros/melodic/x64/lib 
 Requires: 

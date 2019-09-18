@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: clear_costmap_recovery
 Description: Description of clear_costmap_recovery
 Version: 1.16.2
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -lclear_costmap_recovery
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -lclear_costmap_recovery
 Requires: costmap_2d nav_core pluginlib roscpp tf2_ros

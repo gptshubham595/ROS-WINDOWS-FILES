@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: rviz_plugin_tutorials
 Description: Description of rviz_plugin_tutorials
 Version: 0.10.3
 Cflags: 
-Libs: -LC:/opt/ros/melodic/x64/lib 
+Libs: -LD:/opt/ros/melodic/x64/lib 
 Requires: 

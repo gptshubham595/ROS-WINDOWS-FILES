@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: tf2_eigen
 Description: Description of tf2_eigen
 Version: 0.6.5
-Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/eigen3
-Libs: -LC:/opt/ros/melodic/x64/lib 
+Cflags: -ID:/opt/ros/melodic/x64/include -ID:/opt/rosdeps/x64/include/eigen3
+Libs: -LD:/opt/ros/melodic/x64/lib 
 Requires: 

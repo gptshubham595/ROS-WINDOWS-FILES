@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: urdf
 Description: Description of urdf
 Version: 1.13.1
-Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include -IC:/opt/rosdeps/x64/include/boost-1_66
-Libs: -LC:/opt/ros/melodic/x64/lib -lurdf C:/opt/rosdeps/x64/lib/urdfdom_sensor.lib C:/opt/rosdeps/x64/lib/urdfdom_model_state.lib C:/opt/rosdeps/x64/lib/urdfdom_model.lib C:/opt/rosdeps/x64/lib/urdfdom_world.lib C:/opt/rosdeps/x64/lib/console_bridge.lib C:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/tinyxml.lib C:/opt/rosdeps/x64/lib/tinyxml2.lib
+Cflags: -ID:/opt/ros/melodic/x64/include -ID:/opt/rosdeps/x64/include -ID:/opt/rosdeps/x64/include/boost-1_66
+Libs: -LD:/opt/ros/melodic/x64/lib -lurdf D:/opt/rosdeps/x64/lib/urdfdom_sensor.lib D:/opt/rosdeps/x64/lib/urdfdom_model_state.lib D:/opt/rosdeps/x64/lib/urdfdom_model.lib D:/opt/rosdeps/x64/lib/urdfdom_world.lib D:/opt/rosdeps/x64/lib/console_bridge.lib D:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/tinyxml.lib D:/opt/rosdeps/x64/lib/tinyxml2.lib
 Requires: pluginlib rosconsole_bridge roscpp

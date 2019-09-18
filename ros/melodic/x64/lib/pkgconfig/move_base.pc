@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: move_base
 Description: Description of move_base
 Version: 1.16.2
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib 
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib 
 Requires: dynamic_reconfigure geometry_msgs move_base_msgs nav_msgs roscpp

@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: rqt_plot
 Description: Description of rqt_plot
 Version: 0.4.9
 Cflags: 
-Libs: -LC:/opt/ros/melodic/x64/lib 
+Libs: -LD:/opt/ros/melodic/x64/lib 
 Requires: 

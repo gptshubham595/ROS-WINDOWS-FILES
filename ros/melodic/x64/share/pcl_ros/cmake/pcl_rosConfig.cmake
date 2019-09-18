@@ -67,14 +67,14 @@ set(pcl_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(pcl_ros_SOURCE_PREFIX C:/catkin_ws/src/perception_pcl/pcl_ros)
-  set(pcl_ros_DEVEL_PREFIX C:/catkin_ws/devel_isolated/pcl_ros)
+  set(pcl_ros_SOURCE_PREFIX D:/catkin_ws/src/perception_pcl/pcl_ros)
+  set(pcl_ros_DEVEL_PREFIX D:/catkin_ws/devel_isolated/pcl_ros)
   set(pcl_ros_INSTALL_PREFIX "")
   set(pcl_ros_PREFIX ${pcl_ros_DEVEL_PREFIX})
 else()
   set(pcl_ros_SOURCE_PREFIX "")
   set(pcl_ros_DEVEL_PREFIX "")
-  set(pcl_ros_INSTALL_PREFIX C:/opt/ros/melodic/x64)
+  set(pcl_ros_INSTALL_PREFIX D:/opt/ros/melodic/x64)
   set(pcl_ros_PREFIX ${pcl_ros_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(pcl_ros_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;C:/opt/rosdeps/x64/include/boost-1_66;C:/opt/rosdeps/x64/include/eigen3;C:/opt/rosdeps/x64/include/pcl-1.8;C:/opt/rosdeps/x64/include " STREQUAL " ")
+if(NOT "include;D:/opt/rosdeps/x64/include/boost-1_66;D:/opt/rosdeps/x64/include/eigen3;D:/opt/rosdeps/x64/include/pcl-1.8;D:/opt/rosdeps/x64/include " STREQUAL " ")
   set(pcl_ros_INCLUDE_DIRS "")
-  set(_include_dirs "include;C:/opt/rosdeps/x64/include/boost-1_66;C:/opt/rosdeps/x64/include/eigen3;C:/opt/rosdeps/x64/include/pcl-1.8;C:/opt/rosdeps/x64/include")
+  set(_include_dirs "include;D:/opt/rosdeps/x64/include/boost-1_66;D:/opt/rosdeps/x64/include/eigen3;D:/opt/rosdeps/x64/include/pcl-1.8;D:/opt/rosdeps/x64/include")
   if(NOT "https://github.com/ros-perception/perception_pcl/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ros-perception/perception_pcl/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/perception_pcl " STREQUAL " ")
@@ -110,13 +110,13 @@ if(NOT "include;C:/opt/rosdeps/x64/include/boost-1_66;C:/opt/rosdeps/x64/include
         message(FATAL_ERROR "Project 'pcl_ros' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'pcl_ros' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'C:/opt/ros/melodic/x64/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'pcl_ros' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'D:/opt/ros/melodic/x64/${idir}'.  ${_report}")
     endif()
     _list_append_unique(pcl_ros_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "pcl_ros_filter;pcl_ros_tf;optimized;C:/opt/rosdeps/x64/lib/pcl_common_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_common_debug.lib;optimized;C:/opt/rosdeps/x64/lib/pcl_kdtree_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_kdtree_debug.lib;optimized;C:/opt/rosdeps/x64/lib/pcl_octree_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_octree_debug.lib;optimized;C:/opt/rosdeps/x64/lib/pcl_search_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_search_debug.lib;optimized;C:/opt/rosdeps/x64/lib/pcl_features_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_features_debug.lib;optimized;C:/opt/rosdeps/x64/lib/pcl_sample_consensus_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_sample_consensus_debug.lib;optimized;C:/opt/rosdeps/x64/lib/pcl_filters_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_filters_debug.lib;optimized;C:/opt/rosdeps/x64/lib/pcl_io_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_io_debug.lib;optimized;C:/opt/rosdeps/x64/lib/pcl_ml_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_ml_debug.lib;optimized;C:/opt/rosdeps/x64/lib/pcl_segmentation_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_segmentation_debug.lib;optimized;C:/opt/rosdeps/x64/lib/pcl_surface_release.lib;debug;C:/opt/rosdeps/x64/lib/pcl_surface_debug.lib;optimized;C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_iostreams-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_iostreams-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_serialization-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_serialization-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_regex-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_regex-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/flann_cpp_s.lib;debug;C:/opt/rosdeps/x64/lib/flann_cpp_s-gd.lib")
+set(libraries "pcl_ros_filter;pcl_ros_tf;optimized;D:/opt/rosdeps/x64/lib/pcl_common_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_common_debug.lib;optimized;D:/opt/rosdeps/x64/lib/pcl_kdtree_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_kdtree_debug.lib;optimized;D:/opt/rosdeps/x64/lib/pcl_octree_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_octree_debug.lib;optimized;D:/opt/rosdeps/x64/lib/pcl_search_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_search_debug.lib;optimized;D:/opt/rosdeps/x64/lib/pcl_features_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_features_debug.lib;optimized;D:/opt/rosdeps/x64/lib/pcl_sample_consensus_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_sample_consensus_debug.lib;optimized;D:/opt/rosdeps/x64/lib/pcl_filters_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_filters_debug.lib;optimized;D:/opt/rosdeps/x64/lib/pcl_io_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_io_debug.lib;optimized;D:/opt/rosdeps/x64/lib/pcl_ml_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_ml_debug.lib;optimized;D:/opt/rosdeps/x64/lib/pcl_segmentation_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_segmentation_debug.lib;optimized;D:/opt/rosdeps/x64/lib/pcl_surface_release.lib;debug;D:/opt/rosdeps/x64/lib/pcl_surface_debug.lib;optimized;D:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_system-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_iostreams-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_iostreams-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_serialization-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_serialization-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_regex-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_regex-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/flann_cpp_s.lib;debug;D:/opt/rosdeps/x64/lib/flann_cpp_s-gd.lib")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -131,7 +131,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path C:/opt/ros/melodic/x64/lib;C:/opt/ros/melodic/x64/lib)
+    foreach(path D:/opt/ros/melodic/x64/lib;D:/opt/ros/melodic/x64/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

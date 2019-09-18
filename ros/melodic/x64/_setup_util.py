@@ -1,4 +1,4 @@
-#!C:/opt/python27amd64/python.exe
+#!D:/opt/python27amd64/python.exe
 # -*- coding: utf-8 -*-
 
 # Software License Agreement (BSD License)
@@ -270,7 +270,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = 'C:/opt/ros/melodic/x64;C:/opt/rosdeps/x64'.split(';')
+            CMAKE_PREFIX_PATH = 'D:/opt/ros/melodic/x64;D:/opt/rosdeps/x64'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

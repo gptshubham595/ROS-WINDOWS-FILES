@@ -67,14 +67,14 @@ set(kdl_parser_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kdl_parser_SOURCE_PREFIX C:/catkin_ws/src/kdl_parser/kdl_parser)
-  set(kdl_parser_DEVEL_PREFIX C:/catkin_ws/devel_isolated/kdl_parser)
+  set(kdl_parser_SOURCE_PREFIX D:/catkin_ws/src/kdl_parser/kdl_parser)
+  set(kdl_parser_DEVEL_PREFIX D:/catkin_ws/devel_isolated/kdl_parser)
   set(kdl_parser_INSTALL_PREFIX "")
   set(kdl_parser_PREFIX ${kdl_parser_DEVEL_PREFIX})
 else()
   set(kdl_parser_SOURCE_PREFIX "")
   set(kdl_parser_DEVEL_PREFIX "")
-  set(kdl_parser_INSTALL_PREFIX C:/opt/ros/melodic/x64)
+  set(kdl_parser_INSTALL_PREFIX D:/opt/ros/melodic/x64)
   set(kdl_parser_PREFIX ${kdl_parser_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(kdl_parser_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;C:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include;C:/opt/rosdeps/x64/include/eigen3;C:/opt/rosdeps/x64/include " STREQUAL " ")
+if(NOT "include;D:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include;D:/opt/rosdeps/x64/include/eigen3;D:/opt/rosdeps/x64/include " STREQUAL " ")
   set(kdl_parser_INCLUDE_DIRS "")
-  set(_include_dirs "include;C:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include;C:/opt/rosdeps/x64/include/eigen3;C:/opt/rosdeps/x64/include")
+  set(_include_dirs "include;D:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include;D:/opt/rosdeps/x64/include/eigen3;D:/opt/rosdeps/x64/include")
   if(NOT "https://github.com/ros/kdl_parser/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ros/kdl_parser/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/kdl_parser " STREQUAL " ")
@@ -110,13 +110,13 @@ if(NOT "include;C:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include;C
         message(FATAL_ERROR "Project 'kdl_parser' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'kdl_parser' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'C:/opt/ros/melodic/x64/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'kdl_parser' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'D:/opt/ros/melodic/x64/${idir}'.  ${_report}")
     endif()
     _list_append_unique(kdl_parser_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "kdl_parser;C:/opt/ros/melodic/x64/lib/orocos-kdl.lib;C:/opt/rosdeps/x64/lib/tinyxml.lib;C:/opt/rosdeps/x64/lib/tinyxml2.lib")
+set(libraries "kdl_parser;D:/opt/ros/melodic/x64/lib/orocos-kdl.lib;D:/opt/rosdeps/x64/lib/tinyxml.lib;D:/opt/rosdeps/x64/lib/tinyxml2.lib")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -131,7 +131,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path C:/opt/ros/melodic/x64/lib;C:/opt/ros/melodic/x64/lib)
+    foreach(path D:/opt/ros/melodic/x64/lib;D:/opt/ros/melodic/x64/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

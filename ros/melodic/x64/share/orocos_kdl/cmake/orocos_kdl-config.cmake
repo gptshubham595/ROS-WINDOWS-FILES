@@ -5,7 +5,7 @@
 #  orocos_kdl_PKGCONFIG_DIR - directory containing the .pc pkgconfig files
 
 # Compute paths
-set(orocos_kdl_INCLUDE_DIRS "${CMAKE_CURRENT_LIST_DIR}/../../../include;;C:/opt/rosdeps/x64/include/eigen3")
+set(orocos_kdl_INCLUDE_DIRS "${CMAKE_CURRENT_LIST_DIR}/../../../include;;D:/opt/rosdeps/x64/include/eigen3")
 
 if(NOT TARGET orocos-kdl)
   include("${CMAKE_CURRENT_LIST_DIR}/OrocosKDLTargets.cmake")

@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: xmlrpcpp
 Description: Description of xmlrpcpp
 Version: 1.14.3
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -lxmlrpcpp
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -lxmlrpcpp
 Requires: cpp_common rostime

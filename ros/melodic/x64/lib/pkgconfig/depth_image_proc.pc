@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: depth_image_proc
 Description: Description of depth_image_proc
 Version: 1.12.23
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -ldepth_image_proc
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -ldepth_image_proc
 Requires: 

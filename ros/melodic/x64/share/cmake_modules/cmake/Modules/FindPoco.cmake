@@ -13,7 +13,7 @@
 # In the following comments, it is assumed that <Your Path>
 # points to the root directory of the include directory of Poco. e.g
 # If you have put poco in C:\development\Poco then <Your Path> is
-# "C:/development/Poco" and in this directory there will be two
+# "D:/development/Poco" and in this directory there will be two
 # directories called "include" and "lib".
 # 1) After CMake runs, set Poco_INCLUDE_DIR to <Your Path>/poco<-version>
 # 2) Use CMAKE_INCLUDE_PATH to set a path to <Your Path>/poco<-version>. This will allow FIND_PATH()
@@ -58,10 +58,10 @@ ENDIF(POCO_DIR_SEARCH)
 IF(WIN32)
   SET(POCO_DIR_SEARCH
     ${POCO_DIR_SEARCH}
-    C:/poco
     D:/poco
-    "C:/Program Files/poco"
-    "C:/Programme/poco"
+    D:/poco
+    "D:/Program Files/poco"
+    "D:/Programme/poco"
     "D:/Program Files/poco"
     "D:/Programme/poco"
   )

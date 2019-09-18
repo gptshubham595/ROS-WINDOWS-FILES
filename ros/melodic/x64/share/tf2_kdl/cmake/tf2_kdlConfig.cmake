@@ -67,14 +67,14 @@ set(tf2_kdl_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf2_kdl_SOURCE_PREFIX C:/catkin_ws/src/geometry2/tf2_kdl)
-  set(tf2_kdl_DEVEL_PREFIX C:/catkin_ws/devel_isolated/tf2_kdl)
+  set(tf2_kdl_SOURCE_PREFIX D:/catkin_ws/src/geometry2/tf2_kdl)
+  set(tf2_kdl_DEVEL_PREFIX D:/catkin_ws/devel_isolated/tf2_kdl)
   set(tf2_kdl_INSTALL_PREFIX "")
   set(tf2_kdl_PREFIX ${tf2_kdl_DEVEL_PREFIX})
 else()
   set(tf2_kdl_SOURCE_PREFIX "")
   set(tf2_kdl_DEVEL_PREFIX "")
-  set(tf2_kdl_INSTALL_PREFIX C:/opt/ros/melodic/x64)
+  set(tf2_kdl_INSTALL_PREFIX D:/opt/ros/melodic/x64)
   set(tf2_kdl_PREFIX ${tf2_kdl_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(tf2_kdl_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;C:/opt/rosdeps/x64/include/eigen3;C:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include " STREQUAL " ")
+if(NOT "include;D:/opt/rosdeps/x64/include/eigen3;D:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include " STREQUAL " ")
   set(tf2_kdl_INCLUDE_DIRS "")
-  set(_include_dirs "include;C:/opt/rosdeps/x64/include/eigen3;C:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include")
+  set(_include_dirs "include;D:/opt/rosdeps/x64/include/eigen3;D:/opt/ros/melodic/x64/share/orocos_kdl/cmake/../../../include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/tf2 " STREQUAL " ")
@@ -110,13 +110,13 @@ if(NOT "include;C:/opt/rosdeps/x64/include/eigen3;C:/opt/ros/melodic/x64/share/o
         message(FATAL_ERROR "Project 'tf2_kdl' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'tf2_kdl' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'C:/opt/ros/melodic/x64/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'tf2_kdl' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'D:/opt/ros/melodic/x64/${idir}'.  ${_report}")
     endif()
     _list_append_unique(tf2_kdl_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "C:/opt/ros/melodic/x64/lib/orocos-kdl.lib")
+set(libraries "D:/opt/ros/melodic/x64/lib/orocos-kdl.lib")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -131,7 +131,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path C:/opt/ros/melodic/x64/lib;C:/opt/ros/melodic/x64/lib)
+    foreach(path D:/opt/ros/melodic/x64/lib;D:/opt/ros/melodic/x64/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

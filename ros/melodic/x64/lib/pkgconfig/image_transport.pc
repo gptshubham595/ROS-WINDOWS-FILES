@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: image_transport
 Description: Description of image_transport
 Version: 1.11.13
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -limage_transport
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -limage_transport
 Requires: message_filters pluginlib rosconsole roscpp roslib sensor_msgs

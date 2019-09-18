@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: interactive_markers
 Description: Description of interactive_markers
 Version: 1.11.4
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -linteractive_markers
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -linteractive_markers
 Requires: roscpp rosconsole rospy tf visualization_msgs

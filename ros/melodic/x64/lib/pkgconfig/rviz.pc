@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: rviz
 Description: Description of rviz
 Version: 1.13.3
-Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/eigen3 -IC:/opt/rosdeps/x64/include/OGRE/Overlay -IC:/opt/rosdeps/x64/include -IC:/opt/rosdeps/x64/include/OGRE
-Libs: -LC:/opt/ros/melodic/x64/lib -lrviz C:/opt/rosdeps/x64/lib/OgreOverlay.lib C:/opt/rosdeps/x64/lib/OgreMain.lib -lopengl32 -lglu32
+Cflags: -ID:/opt/ros/melodic/x64/include -ID:/opt/rosdeps/x64/include/eigen3 -ID:/opt/rosdeps/x64/include/OGRE/Overlay -ID:/opt/rosdeps/x64/include -ID:/opt/rosdeps/x64/include/OGRE
+Libs: -LD:/opt/ros/melodic/x64/lib -lrviz D:/opt/rosdeps/x64/lib/OgreOverlay.lib D:/opt/rosdeps/x64/lib/OgreMain.lib -lopengl32 -lglu32
 Requires: geometry_msgs image_transport interactive_markers laser_geometry map_msgs message_filters nav_msgs pluginlib resource_retriever roscpp roslib sensor_msgs std_msgs tf urdf visualization_msgs

@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: dynamic_reconfigure
 Description: Description of dynamic_reconfigure
 Version: 1.6.0
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -ldynamic_reconfigure_config_init_mutex
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -ldynamic_reconfigure_config_init_mutex
 Requires: message_runtime std_msgs

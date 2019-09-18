@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: effort_controllers
 Description: Description of effort_controllers
 Version: 0.15.0
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -leffort_controllers
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -leffort_controllers
 Requires: angles controller_interface control_msgs control_toolbox forward_command_controller realtime_tools urdf

@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: bondcpp
 Description: Description of bondcpp
 Version: 1.8.3
-Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/boost-1_66
-Libs: -LC:/opt/ros/melodic/x64/lib -lbondcpp
+Cflags: -ID:/opt/ros/melodic/x64/include -ID:/opt/rosdeps/x64/include/boost-1_66
+Libs: -LD:/opt/ros/melodic/x64/lib -lbondcpp
 Requires: bond roscpp smclib

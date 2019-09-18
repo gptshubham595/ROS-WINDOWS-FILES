@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: filters
 Description: Description of filters
 Version: 1.8.1
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -lmean -lparams -lincrement -lmedian -ltransfer_function
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -lmean -lparams -lincrement -lmedian -ltransfer_function
 Requires: roslib roscpp rosconsole pluginlib

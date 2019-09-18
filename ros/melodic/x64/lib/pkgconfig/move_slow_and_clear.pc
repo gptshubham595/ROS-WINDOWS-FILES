@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: move_slow_and_clear
 Description: Description of move_slow_and_clear
 Version: 1.16.2
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -lmove_slow_and_clear
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -lmove_slow_and_clear
 Requires: geometry_msgs nav_core pluginlib roscpp

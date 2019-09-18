@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: topic_tools
 Description: Description of topic_tools
 Version: 1.14.3
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -ltopic_tools
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -ltopic_tools
 Requires: message_runtime rosconsole roscpp std_msgs xmlrpcpp

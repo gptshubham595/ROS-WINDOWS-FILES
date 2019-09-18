@@ -136,7 +136,7 @@ CMD-LINE-ARGS is the list of command line arguments (defaults to argv minus its 
            
            (setq *tcp-server-port* pub-server-port
                  *broken-socket-streams* (make-hash-table :test #'eq)
-                 *service-uri* (format nil "rosrpc://~a:~a" *tcp-server-hostname* *tcp-server-port*)
+                 *service-uri* (format nil "rosrpD://~a:~a" *tcp-server-hostname* *tcp-server-port*)
                  *xml-rpc-caller-api* (format nil "http://~a:~a" (hostname) xml-rpc-port)
                  *publications* (make-hash-table :test #'equal)
                  *subscriptions* (make-hash-table :test #'equal)

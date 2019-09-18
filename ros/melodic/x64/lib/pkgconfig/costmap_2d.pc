@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: costmap_2d
 Description: Description of costmap_2d
 Version: 1.16.2
-Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/eigen3 -IC:/opt/rosdeps/x64/include/boost-1_66
-Libs: -LC:/opt/ros/melodic/x64/lib -lcostmap_2d -llayers C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib
+Cflags: -ID:/opt/ros/melodic/x64/include -ID:/opt/rosdeps/x64/include/eigen3 -ID:/opt/rosdeps/x64/include/boost-1_66
+Libs: -LD:/opt/ros/melodic/x64/lib -lcostmap_2d -llayers D:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib
 Requires: dynamic_reconfigure geometry_msgs laser_geometry map_msgs message_filters message_runtime nav_msgs pluginlib roscpp sensor_msgs std_msgs tf2_ros visualization_msgs voxel_grid

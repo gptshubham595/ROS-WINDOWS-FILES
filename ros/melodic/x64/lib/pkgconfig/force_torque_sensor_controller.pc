@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: force_torque_sensor_controller
 Description: Description of force_torque_sensor_controller
 Version: 0.15.0
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -lforce_torque_sensor_controller
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -lforce_torque_sensor_controller
 Requires: controller_interface geometry_msgs hardware_interface pluginlib realtime_tools roscpp

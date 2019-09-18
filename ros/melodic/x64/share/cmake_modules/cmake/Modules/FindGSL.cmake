@@ -34,7 +34,7 @@ $ENV{GSL_DIR}
 $ENV{GSL_HOME}
 $ENV{EXTERN_LIBS_DIR}/gsl
 $ENV{EXTRA}
-# "C:/home/jw/source2/gsl-1.8"
+# "D:/home/jw/source2/gsl-1.8"
 )
 FIND_PATH(GSL_INCLUDE_DIRS
 NAMES gsl/gsl_cdf.h gsl/gsl_randist.h

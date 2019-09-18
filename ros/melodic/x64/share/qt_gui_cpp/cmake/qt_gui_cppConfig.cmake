@@ -67,14 +67,14 @@ set(qt_gui_cpp_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(qt_gui_cpp_SOURCE_PREFIX C:/catkin_ws/src/qt_gui_core/qt_gui_cpp)
-  set(qt_gui_cpp_DEVEL_PREFIX C:/catkin_ws/devel_isolated/qt_gui_cpp)
+  set(qt_gui_cpp_SOURCE_PREFIX D:/catkin_ws/src/qt_gui_core/qt_gui_cpp)
+  set(qt_gui_cpp_DEVEL_PREFIX D:/catkin_ws/devel_isolated/qt_gui_cpp)
   set(qt_gui_cpp_INSTALL_PREFIX "")
   set(qt_gui_cpp_PREFIX ${qt_gui_cpp_DEVEL_PREFIX})
 else()
   set(qt_gui_cpp_SOURCE_PREFIX "")
   set(qt_gui_cpp_DEVEL_PREFIX "")
-  set(qt_gui_cpp_INSTALL_PREFIX C:/opt/ros/melodic/x64)
+  set(qt_gui_cpp_INSTALL_PREFIX D:/opt/ros/melodic/x64)
   set(qt_gui_cpp_PREFIX ${qt_gui_cpp_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(qt_gui_cpp_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;C:/opt/rosdeps/x64/include/boost-1_66;C:/opt/rosdeps/x64/include " STREQUAL " ")
+if(NOT "include;D:/opt/rosdeps/x64/include/boost-1_66;D:/opt/rosdeps/x64/include " STREQUAL " ")
   set(qt_gui_cpp_INCLUDE_DIRS "")
-  set(_include_dirs "include;C:/opt/rosdeps/x64/include/boost-1_66;C:/opt/rosdeps/x64/include")
+  set(_include_dirs "include;D:/opt/rosdeps/x64/include/boost-1_66;D:/opt/rosdeps/x64/include")
   if(NOT "https://github.com/ros-visualization/qt_gui_core/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ros-visualization/qt_gui_core/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/qt_gui_cpp " STREQUAL " ")
@@ -110,13 +110,13 @@ if(NOT "include;C:/opt/rosdeps/x64/include/boost-1_66;C:/opt/rosdeps/x64/include
         message(FATAL_ERROR "Project 'qt_gui_cpp' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'qt_gui_cpp' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'C:/opt/ros/melodic/x64/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'qt_gui_cpp' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'D:/opt/ros/melodic/x64/${idir}'.  ${_report}")
     endif()
     _list_append_unique(qt_gui_cpp_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "qt_gui_cpp;optimized;C:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-gd-x64-1_66.lib;C:/opt/rosdeps/x64/lib/tinyxml.lib")
+set(libraries "qt_gui_cpp;optimized;D:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_system-vc141-mt-gd-x64-1_66.lib;D:/opt/rosdeps/x64/lib/tinyxml.lib")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -131,7 +131,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path C:/opt/ros/melodic/x64/lib;C:/opt/ros/melodic/x64/lib)
+    foreach(path D:/opt/ros/melodic/x64/lib;D:/opt/ros/melodic/x64/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

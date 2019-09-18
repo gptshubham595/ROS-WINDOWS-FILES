@@ -67,14 +67,14 @@ set(compressed_image_transport_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(compressed_image_transport_SOURCE_PREFIX C:/catkin_ws/src/image_transport_plugins/compressed_image_transport)
-  set(compressed_image_transport_DEVEL_PREFIX C:/catkin_ws/devel_isolated/compressed_image_transport)
+  set(compressed_image_transport_SOURCE_PREFIX D:/catkin_ws/src/image_transport_plugins/compressed_image_transport)
+  set(compressed_image_transport_DEVEL_PREFIX D:/catkin_ws/devel_isolated/compressed_image_transport)
   set(compressed_image_transport_INSTALL_PREFIX "")
   set(compressed_image_transport_PREFIX ${compressed_image_transport_DEVEL_PREFIX})
 else()
   set(compressed_image_transport_SOURCE_PREFIX "")
   set(compressed_image_transport_DEVEL_PREFIX "")
-  set(compressed_image_transport_INSTALL_PREFIX C:/opt/ros/melodic/x64)
+  set(compressed_image_transport_INSTALL_PREFIX D:/opt/ros/melodic/x64)
   set(compressed_image_transport_PREFIX ${compressed_image_transport_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(compressed_image_transport_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;C:/opt/rosdeps/x64/include;C:/opt/rosdeps/x64/include/opencv " STREQUAL " ")
+if(NOT "include;D:/opt/rosdeps/x64/include;D:/opt/rosdeps/x64/include/opencv " STREQUAL " ")
   set(compressed_image_transport_INCLUDE_DIRS "")
-  set(_include_dirs "include;C:/opt/rosdeps/x64/include;C:/opt/rosdeps/x64/include/opencv")
+  set(_include_dirs "include;D:/opt/rosdeps/x64/include;D:/opt/rosdeps/x64/include/opencv")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.ros.org/wiki/image_transport_plugins " STREQUAL " ")
@@ -110,13 +110,13 @@ if(NOT "include;C:/opt/rosdeps/x64/include;C:/opt/rosdeps/x64/include/opencv " S
         message(FATAL_ERROR "Project 'compressed_image_transport' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'compressed_image_transport' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'C:/opt/ros/melodic/x64/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'compressed_image_transport' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'D:/opt/ros/melodic/x64/${idir}'.  ${_report}")
     endif()
     _list_append_unique(compressed_image_transport_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "compressed_image_transport;C:/opt/rosdeps/x64/lib/opencv_calib3d341.lib;C:/opt/rosdeps/x64/lib/opencv_core341.lib;C:/opt/rosdeps/x64/lib/opencv_dnn341.lib;C:/opt/rosdeps/x64/lib/opencv_features2d341.lib;C:/opt/rosdeps/x64/lib/opencv_flann341.lib;C:/opt/rosdeps/x64/lib/opencv_highgui341.lib;C:/opt/rosdeps/x64/lib/opencv_imgcodecs341.lib;C:/opt/rosdeps/x64/lib/opencv_imgproc341.lib;C:/opt/rosdeps/x64/lib/opencv_ml341.lib;C:/opt/rosdeps/x64/lib/opencv_objdetect341.lib;C:/opt/rosdeps/x64/lib/opencv_photo341.lib;C:/opt/rosdeps/x64/lib/opencv_shape341.lib;C:/opt/rosdeps/x64/lib/opencv_stitching341.lib;C:/opt/rosdeps/x64/lib/opencv_superres341.lib;C:/opt/rosdeps/x64/lib/opencv_video341.lib;C:/opt/rosdeps/x64/lib/opencv_videoio341.lib;C:/opt/rosdeps/x64/lib/opencv_videostab341.lib")
+set(libraries "compressed_image_transport;D:/opt/rosdeps/x64/lib/opencv_calib3d341.lib;D:/opt/rosdeps/x64/lib/opencv_core341.lib;D:/opt/rosdeps/x64/lib/opencv_dnn341.lib;D:/opt/rosdeps/x64/lib/opencv_features2d341.lib;D:/opt/rosdeps/x64/lib/opencv_flann341.lib;D:/opt/rosdeps/x64/lib/opencv_highgui341.lib;D:/opt/rosdeps/x64/lib/opencv_imgcodecs341.lib;D:/opt/rosdeps/x64/lib/opencv_imgproc341.lib;D:/opt/rosdeps/x64/lib/opencv_ml341.lib;D:/opt/rosdeps/x64/lib/opencv_objdetect341.lib;D:/opt/rosdeps/x64/lib/opencv_photo341.lib;D:/opt/rosdeps/x64/lib/opencv_shape341.lib;D:/opt/rosdeps/x64/lib/opencv_stitching341.lib;D:/opt/rosdeps/x64/lib/opencv_superres341.lib;D:/opt/rosdeps/x64/lib/opencv_video341.lib;D:/opt/rosdeps/x64/lib/opencv_videoio341.lib;D:/opt/rosdeps/x64/lib/opencv_videostab341.lib")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -131,7 +131,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path C:/opt/ros/melodic/x64/lib;C:/opt/ros/melodic/x64/lib)
+    foreach(path D:/opt/ros/melodic/x64/lib;D:/opt/ros/melodic/x64/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: rqt_moveit
 Description: Description of rqt_moveit
 Version: 0.5.7
 Cflags: 
-Libs: -LC:/opt/ros/melodic/x64/lib 
+Libs: -LD:/opt/ros/melodic/x64/lib 
 Requires: 

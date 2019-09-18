@@ -67,14 +67,14 @@ set(class_loader_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(class_loader_SOURCE_PREFIX C:/catkin_ws/src/class_loader)
-  set(class_loader_DEVEL_PREFIX C:/catkin_ws/devel_isolated/class_loader)
+  set(class_loader_SOURCE_PREFIX D:/catkin_ws/src/class_loader)
+  set(class_loader_DEVEL_PREFIX D:/catkin_ws/devel_isolated/class_loader)
   set(class_loader_INSTALL_PREFIX "")
   set(class_loader_PREFIX ${class_loader_DEVEL_PREFIX})
 else()
   set(class_loader_SOURCE_PREFIX "")
   set(class_loader_DEVEL_PREFIX "")
-  set(class_loader_INSTALL_PREFIX C:/opt/ros/melodic/x64)
+  set(class_loader_INSTALL_PREFIX D:/opt/ros/melodic/x64)
   set(class_loader_PREFIX ${class_loader_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(class_loader_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "include;C:/opt/rosdeps/x64/include/boost-1_66;C:/opt/rosdeps/x64/include " STREQUAL " ")
+if(NOT "include;D:/opt/rosdeps/x64/include/boost-1_66;D:/opt/rosdeps/x64/include " STREQUAL " ")
   set(class_loader_INCLUDE_DIRS "")
-  set(_include_dirs "include;C:/opt/rosdeps/x64/include/boost-1_66;C:/opt/rosdeps/x64/include")
+  set(_include_dirs "include;D:/opt/rosdeps/x64/include/boost-1_66;D:/opt/rosdeps/x64/include")
   if(NOT "https://github.com/ros/class_loader/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ros/class_loader/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/class_loader " STREQUAL " ")
@@ -110,13 +110,13 @@ if(NOT "include;C:/opt/rosdeps/x64/include/boost-1_66;C:/opt/rosdeps/x64/include
         message(FATAL_ERROR "Project 'class_loader' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'class_loader' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'C:/opt/ros/melodic/x64/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'class_loader' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in 'D:/opt/ros/melodic/x64/${idir}'.  ${_report}")
     endif()
     _list_append_unique(class_loader_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "class_loader;optimized;C:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-gd-x64-1_66.lib;optimized;C:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib;debug;C:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-gd-x64-1_66.lib;C:/opt/rosdeps/x64/lib/PocoFoundation.lib;C:/opt/rosdeps/x64/lib/console_bridge.lib")
+set(libraries "class_loader;optimized;D:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_thread-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_system-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_chrono-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_date_time-vc141-mt-gd-x64-1_66.lib;optimized;D:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-x64-1_66.lib;debug;D:/opt/rosdeps/x64/lib/boost_atomic-vc141-mt-gd-x64-1_66.lib;D:/opt/rosdeps/x64/lib/PocoFoundation.lib;D:/opt/rosdeps/x64/lib/console_bridge.lib")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -131,7 +131,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path C:/opt/ros/melodic/x64/lib;C:/opt/ros/melodic/x64/lib)
+    foreach(path D:/opt/ros/melodic/x64/lib;D:/opt/ros/melodic/x64/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

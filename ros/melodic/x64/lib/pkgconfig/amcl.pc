@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: amcl
 Description: Description of amcl
 Version: 1.16.2
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -lamcl_sensors -lamcl_map -lamcl_pf
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -lamcl_sensors -lamcl_map -lamcl_pf
 Requires: diagnostic_updater dynamic_reconfigure geometry_msgs nav_msgs rosbag roscpp sensor_msgs std_srvs tf2 tf2_msgs tf2_ros

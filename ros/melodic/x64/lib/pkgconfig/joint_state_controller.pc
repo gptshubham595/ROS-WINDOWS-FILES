@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: joint_state_controller
 Description: Description of joint_state_controller
 Version: 0.15.0
-Cflags: -IC:/opt/ros/melodic/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib -ljoint_state_controller
+Cflags: -ID:/opt/ros/melodic/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib -ljoint_state_controller
 Requires: realtime_tools roscpp hardware_interface pluginlib controller_interface sensor_msgs

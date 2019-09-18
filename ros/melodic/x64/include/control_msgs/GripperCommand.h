@@ -76,7 +76,7 @@ namespace message_traits
 
 
 // BOOLTRAITS {'IsFixedSize': True, 'IsMessage': True, 'HasHeader': False}
-// {'std_msgs': ['C:/opt/ros/melodic/x64/share/std_msgs/cmake/../msg'], 'geometry_msgs': ['C:/opt/ros/melodic/x64/share/geometry_msgs/cmake/../msg'], 'actionlib_msgs': ['C:/opt/ros/melodic/x64/share/actionlib_msgs/cmake/../msg'], 'trajectory_msgs': ['C:/opt/ros/melodic/x64/share/trajectory_msgs/cmake/../msg'], 'control_msgs': ['C:/catkin_ws/devel_isolated/control_msgs/share/control_msgs/msg', 'C:/catkin_ws/src/control_msgs/control_msgs/msg']}
+// {'std_msgs': ['D:/opt/ros/melodic/x64/share/std_msgs/cmake/../msg'], 'geometry_msgs': ['D:/opt/ros/melodic/x64/share/geometry_msgs/cmake/../msg'], 'actionlib_msgs': ['D:/opt/ros/melodic/x64/share/actionlib_msgs/cmake/../msg'], 'trajectory_msgs': ['D:/opt/ros/melodic/x64/share/trajectory_msgs/cmake/../msg'], 'control_msgs': ['D:/catkin_ws/devel_isolated/control_msgs/share/control_msgs/msg', 'D:/catkin_ws/src/control_msgs/control_msgs/msg']}
 
 // !!!!!!!!!!! ['__class__', '__delattr__', '__dict__', '__doc__', '__eq__', '__format__', '__getattribute__', '__hash__', '__init__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_parsed_fields', 'constants', 'fields', 'full_name', 'has_header', 'header_present', 'names', 'package', 'parsed_fields', 'short_name', 'text', 'types']
 

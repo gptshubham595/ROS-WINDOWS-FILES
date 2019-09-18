@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: cv_bridge
 Description: Description of cv_bridge
 Version: 1.12.8
-Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include -IC:/opt/rosdeps/x64/include/opencv
-Libs: -LC:/opt/ros/melodic/x64/lib -lcv_bridge C:/opt/rosdeps/x64/lib/opencv_core341.lib C:/opt/rosdeps/x64/lib/opencv_imgproc341.lib C:/opt/rosdeps/x64/lib/opencv_imgcodecs341.lib
+Cflags: -ID:/opt/ros/melodic/x64/include -ID:/opt/rosdeps/x64/include -ID:/opt/rosdeps/x64/include/opencv
+Libs: -LD:/opt/ros/melodic/x64/lib -lcv_bridge D:/opt/rosdeps/x64/lib/opencv_core341.lib D:/opt/rosdeps/x64/lib/opencv_imgproc341.lib D:/opt/rosdeps/x64/lib/opencv_imgcodecs341.lib
 Requires: rosconsole sensor_msgs

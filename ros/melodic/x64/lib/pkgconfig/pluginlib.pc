@@ -1,8 +1,8 @@
-prefix=C:/opt/ros/melodic/x64
+prefix=D:/opt/ros/melodic/x64
 
 Name: pluginlib
 Description: Description of pluginlib
 Version: 1.12.1
-Cflags: -IC:/opt/ros/melodic/x64/include -IC:/opt/rosdeps/x64/include/boost-1_66 -IC:/opt/rosdeps/x64/include
-Libs: -LC:/opt/ros/melodic/x64/lib C:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib C:/opt/rosdeps/x64/lib/tinyxml2.lib
+Cflags: -ID:/opt/ros/melodic/x64/include -ID:/opt/rosdeps/x64/include/boost-1_66 -ID:/opt/rosdeps/x64/include
+Libs: -LD:/opt/ros/melodic/x64/lib D:/opt/rosdeps/x64/lib/boost_filesystem-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/boost_system-vc141-mt-x64-1_66.lib D:/opt/rosdeps/x64/lib/tinyxml2.lib
 Requires: class_loader rosconsole roslib
